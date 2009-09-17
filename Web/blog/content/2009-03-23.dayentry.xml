@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DayEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:newtelligence-com:dasblog:runtime:data">
+  <Date>2009-03-23T13:00:00+13:00</Date>
+  <Entries>
+    <Entry>
+      <Content>&lt;P&gt;Curabitur tellus. Nunc purus. Sed a libero. Nunc a risus. Duis tempus, est ac blandit tempor, elit massa tempor lacus, at varius tortor nisl ac leo. Quisque urna risus, vulputate id, interdum at, blandit ac, justo. Suspendisse enim justo, gravida id, molestie at, pretium a, turpis. Fusce faucibus tempus lorem. Praesent rhoncus adipiscing risus. Morbi at eros. Suspendisse consequat, risus nec placerat vestibulum, risus dui gravida turpis, sit amet viverra odio odio eget sapien. Ut luctus sagittis nulla. Maecenas mauris. Nulla nec lectus vel risus vulputate lobortis. Nulla et odio aliquet orci gravida rutrum. Proin aliquam rutrum ligula. Cras vehicula justo nec justo. Curabitur ornare arcu in elit. Vestibulum viverra mattis velit. Donec pharetra.&lt;/P&gt;</Content>
+      <Created>2009-03-23T17:18:28.976+13:00</Created>
+      <Modified>2009-03-24T10:29:44.6910888+13:00</Modified>
+      <EntryId>a198f0ab-6bf8-4f4b-958e-752b27915684</EntryId>
+      <Description />
+      <Title>Blog Post Header</Title>
+      <Categories>Accessibility;DAISY DTB;RNZFB;Silverlight</Categories>
+      <Author>admin</Author>
+      <IsPublic>true</IsPublic>
+      <Syndicated>true</Syndicated>
+      <ShowOnFrontPage>true</ShowOnFrontPage>
+      <AllowComments>true</AllowComments>
+      <Attachments />
+      <Crossposts />
+      <Latitude xsi:nil="true" />
+      <Longitude xsi:nil="true" />
+    </Entry>
+    <Entry>
+      <Content>&lt;P&gt;Mauris felis libero, varius vel, adipiscing iaculis, tincidunt sit amet, mi. Vivamus pulvinar, mi facilisis tincidunt blandit, dolor risus bibendum turpis, a porta ligula ligula id sapien. Sed molestie semper metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Sed porttitor, sem at congue fringilla, dolor ipsum malesuada metus, vitae vehicula lacus magna a quam. Duis sapien quam, vulputate laoreet, bibendum et, pretium eget, massa. Phasellus placerat. Donec tristique, sapien eget aliquet tincidunt, arcu lacus interdum elit, mollis posuere est odio sed lacus. Vivamus vestibulum. Proin porttitor augue eu augue. Quisque sed felis vel enim mattis blandit. Nunc ac arcu a nisi vulputate iaculis. Integer imperdiet sollicitudin velit. Phasellus at quam. Praesent turpis.&lt;/P&gt;</Content>
+      <Created>2009-03-23T17:17:30.553+13:00</Created>
+      <Modified>2009-03-24T10:30:29.4926138+13:00</Modified>
+      <EntryId>c6f6cae3-d3e3-4e7f-8157-44ddca9bdfff</EntryId>
+      <Description />
+      <Title>Previous Blog Post Header</Title>
+      <Categories>Accessibility;RNZFB</Categories>
+      <Author>admin</Author>
+      <IsPublic>true</IsPublic>
+      <Syndicated>true</Syndicated>
+      <ShowOnFrontPage>true</ShowOnFrontPage>
+      <AllowComments>true</AllowComments>
+      <Attachments />
+      <Crossposts />
+      <Latitude xsi:nil="true" />
+      <Longitude xsi:nil="true" />
+    </Entry>
+    <Entry>
+      <Content>&lt;P&gt;In a turpis. Nulla lobortis egestas mauris. Phasellus interdum turpis quis quam. Duis a leo et ante interdum tincidunt. Nullam nisi diam, lacinia quis, scelerisque eu, egestas vitae, nisi. Sed fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec dapibus libero vel arcu. Mauris vestibulum ante sit amet lacus. In hac habitasse platea dictumst. Integer molestie dapibus nulla. Ut gravida sagittis ligula. &lt;/P&gt;&lt;IMG border=0 src="http://buttercup/blog/content/binary/6.png"&gt;</Content>
+      <Created>2009-03-23T17:09:53.829+13:00</Created>
+      <Modified>2009-03-24T10:44:17.0859156+13:00</Modified>
+      <EntryId>94e5bad8-ac2c-4324-afb1-782215512629</EntryId>
+      <Description />
+      <Title>Blog Post With a Picture!</Title>
+      <Categories>DAISY DTB;Silverlight</Categories>
+      <Author>admin</Author>
+      <IsPublic>true</IsPublic>
+      <Syndicated>true</Syndicated>
+      <ShowOnFrontPage>true</ShowOnFrontPage>
+      <AllowComments>true</AllowComments>
+      <Attachments />
+      <Crossposts />
+      <Latitude xsi:nil="true" />
+      <Longitude xsi:nil="true" />
+    </Entry>
+    <Entry>
+      <Content>&lt;P&gt;Quisque fermentum semper mi. Integer adipiscing. Phasellus iaculis, sem pharetra convallis elementum, urna magna bibendum nisl, nec facilisis mauris nisl accumsan lacus. Aenean a neque vel velit cursus commodo. Ut urna velit, porta id, sollicitudin vel, tempus et, quam. Praesent dignissim interdum nunc. Suspendisse potenti. Etiam porta mattis lacus. Duis justo. Vivamus fringilla. Praesent ut erat iaculis sem faucibus vehicula. Nullam ipsum metus, convallis eget, semper eu, vehicula et, erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam aliquet leo. &lt;/P&gt;</Content>
+      <Created>2009-03-23T17:07:44.006+13:00</Created>
+      <Modified>2009-03-24T10:44:44.6758422+13:00</Modified>
+      <EntryId>2e1fe035-b943-4bfa-b5e8-f11956db33f2</EntryId>
+      <Description />
+      <Title>Blog Post With No Categories :(</Title>
+      <Categories />
+      <Author>admin</Author>
+      <IsPublic>true</IsPublic>
+      <Syndicated>true</Syndicated>
+      <ShowOnFrontPage>true</ShowOnFrontPage>
+      <AllowComments>true</AllowComments>
+      <Attachments />
+      <Crossposts />
+      <Latitude xsi:nil="true" />
+      <Longitude xsi:nil="true" />
+    </Entry>
+  </Entries>
+</DayEntry>

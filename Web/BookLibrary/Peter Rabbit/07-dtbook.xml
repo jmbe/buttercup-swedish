@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<!--     This DAISY Book was generated with odt2dtbook      -->
+<!--     More info at http://odt2dtbook.sourceforge.net     -->
+<!--     © Copyright 1999 - 2008 Vincent Spiewak            -->
+<?xml-stylesheet href='dtbook.2005.basic.css' type='text/css'?>
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3" xml:lang="en-US">
+	<head>
+		<meta name="dc:Language" content="en-US" />
+		<meta name="dc:Identifier" content="dd33a3b8-9573-4f5e-be71-14d5ad9c1f54" />
+		<meta content="The Tale of Peter Rabbit" name="dc:Title" />
+		<meta name="dc:Creator" content="Beatrix Potter" />
+		<meta content="Curtin University Centre for Accessible Technology" name="dc:Publisher" />
+		<meta name="dc:Date" content="2008-09-03" />
+		<meta name="dc:Type" content="Text" />
+		<meta content="ANSI/NISO Z39.86-2005" name="dc:Format" />
+		<meta content="dd33a3b8-9573-4f5e-be71-14d5ad9c1f54" name="dtb:uid" />
+		<meta content="2" name="dtb:revision" />
+		<meta name="dtb:revisionDate" content="2008-09-03" />
+		<meta name="Generator" content="odt2dtbook.xsl" />
+	</head>
+	<book>
+		<frontmatter>
+			<doctitle>
+				<sent id="dtb1" smilref="speechgen0001.smil#tcp1">The Tale of Peter Rabbit</sent>
+			</doctitle>
+			<docauthor>
+				<sent smilref="speechgen0001.smil#tcp2" id="dtb2">Beatrix Potter</sent>
+			</docauthor>
+			<level1>
+				<h1>
+					<sent smilref="speechgen0002.smil#tcp3" id="dtb3">The Tale of Peter Rabbit</sent>
+				</h1>
+				<p>
+					<sent smilref="speechgen0002.smil#tcp4" id="dtb4">Beatrix Potter</sent>
+				</p>
+				<p>
+					<sent id="dtb5" smilref="speechgen0002.smil#tcp5">THE SAALFIELD PUB. </sent>
+					<sent id="dtb6" smilref="speechgen0002.smil#tcp6">Co. 1916</sent>
+				</p>
+				<p>
+					<img src="images/3.png" alt="Book jacket of the first edition showing a rabbit in a blue coat" />
+				</p>
+				<pagenum page="normal" id="p1" smilref="speechgen0004.smil#tcp999">1</pagenum>
+				<level2>
+					<h2>
+						<sent smilref="speechgen0003.smil#tcp7" id="dtb7">Navigation note</sent>
+					</h2>
+					<p>
+						<sent smilref="speechgen0003.smil#tcp8" id="dtb8">This digital talking book is on a single navigation level page numbers are also encoded.</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2>
+						<sent id="dtb9" smilref="speechgen0004.smil#tcp9">Production note</sent>
+					</h2>
+					<p>
+						<sent id="dtb10" smilref="speechgen0004.smil#tcp10">This digital talking book was produced by Greg Kearney for the Curtin University Centre for Accessible Technology, September 2008. </sent>
+						<sent id="dtb11" smilref="speechgen0004.smil#tcp11">Computer-generated voices courtesy of Apple Inc.</sent>
+					</p>
+				</level2>
+				<pagenum smilref="speechgen0004.smil#tcp12" page="normal" id="p2">2</pagenum>
+			</level1>
+		</frontmatter>
+		<bodymatter>
+			<level1>
+				<h1>
+					<sent smilref="speechgen0005.smil#tcp13" id="dtb12">The Tale of Peter Rabbit</sent>
+				</h1>
+				<p>
+					<sent id="dtb13" smilref="speechgen0005.smil#tcp14">Beatrix Potter</sent>
+				</p>
+				<p>
+					<sent id="dtb14" smilref="speechgen0005.smil#tcp15">THE SAALFIELD PUB. </sent>
+					<sent id="dtb15" smilref="speechgen0005.smil#tcp16">Co. 1916</sent>
+				</p>
+				<p>
+					<sent id="dtb16" smilref="speechgen0005.smil#tcp17">Once upon a time there were four little rabbits, and their names were Flopsy, Mopsy, Cotton-tail and Peter.</sent>
+				</p>
+				<p>
+					<sent id="dtb17" smilref="speechgen0005.smil#tcp18">They lived with their mother in a sand-bank, underneath the root of a very big fir tree. </sent>
+					<sent smilref="speechgen0005.smil#tcp19" id="dtb18">"Now, my dears," said old Mrs. </sent>
+					<sent smilref="speechgen0005.smil#tcp20" id="dtb19">Rabbit one morning, "You may</sent>
+				</p>
+				<p>
+					<img alt="Watercolour of a mother rabit and four young rabits" src="images/7.png" />
+				</p>
+				<pagenum page="normal" smilref="speechgen0005.smil#tcp21" id="p3">3</pagenum>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp22" id="dtb20">go into the fields or down the lane, but don't go into Mr. </sent>
+					<sent id="dtb21" smilref="speechgen0005.smil#tcp23">McGregor's garden.</sent>
+				</p>
+				<p>
+					<sent id="dtb22" smilref="speechgen0005.smil#tcp24">Your father had an accident there; he was put in a pie by Mrs. </sent>
+					<sent id="dtb23" smilref="speechgen0005.smil#tcp25">McGregor."</sent>
+				</p>
+				<p>
+					<sent id="dtb24" smilref="speechgen0005.smil#tcp26">Now run along and don't get into mischief. </sent>
+					<sent smilref="speechgen0005.smil#tcp27" id="dtb25">I am going out."</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp28" id="dtb26">Then old Mrs. </sent>
+					<sent smilref="speechgen0005.smil#tcp29" id="dtb27">Rabbit took a basket and her umbrella and went through the wood to the baker's.</sent>
+				</p>
+				<p>
+					<sent id="dtb28" smilref="speechgen0005.smil#tcp30">
+						<img alt="Mrs. Rabbit with a red cape and unbrulla " src="images/2.png" />She bought a loaf of brown bread and five currant buns.
+					</sent>
+				</p>
+				<p>
+					<sent id="dtb29" smilref="speechgen0005.smil#tcp31">Flopsy, Mopsy and Cotton-tail who were good little bunnies went down the lane together</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp32" id="dtb30">To gather blackberries.</sent>
+				</p>
+				<p>
+					<sent id="dtb31" smilref="speechgen0005.smil#tcp33">But Peter who was very naughty, ran straight away to Mr. </sent>
+					<sent id="dtb32" smilref="speechgen0005.smil#tcp34">McGregor's garden and</sent>
+				</p>
+				<pagenum page="normal" smilref="speechgen0005.smil#tcp35" id="p4">4</pagenum>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp36" id="dtb33">Squeezed under the gate!</sent>
+				</p>
+				<p>
+					<sent id="dtb34" smilref="speechgen0005.smil#tcp37">First he ate some lettuces and some French beans</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp38" id="dtb35">
+						<img alt="Peter Rabbit eating a carrot under a tree." src="images/6.png" />And then He Ate Some Radishes
+					</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp39" id="dtb36">And then, feeling rather sick, he went to look for some parsley.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp40" id="dtb37">But round the end of a cucumber frame, whom should he meet but Mr. </sent>
+					<sent smilref="speechgen0005.smil#tcp41" id="dtb38">McGregor!</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp42" id="dtb39">Mr. </sent>
+					<sent id="dtb40" smilref="speechgen0005.smil#tcp43">McGregor was on his hands and knees planting out young cabbages, but he jumped up and ran after Peter, waving a rake and calling out "Stop thief!"</sent>
+				</p>
+				<p>
+					<sent id="dtb41" smilref="speechgen0005.smil#tcp44">Peter was most dreadfully frightened; he rushed all over the garden, for he had forgotten the way back to the gate.</sent>
+				</p>
+				<pagenum id="p5" smilref="speechgen0005.smil#tcp45" page="normal">5</pagenum>
+				<p>
+					<sent id="dtb42" smilref="speechgen0005.smil#tcp46">He lost one shoe among the cabbages, and the other amongst the potatoes.</sent>
+				</p>
+				<p>
+					<sent id="dtb43" smilref="speechgen0005.smil#tcp47">After losing them, he ran on four legs and went faster</sent>
+				</p>
+				<p>
+					<sent id="dtb44" smilref="speechgen0005.smil#tcp48">So that I think he might have got away altogether if he had not unfortunately run into a gooseberry net</sent>
+				</p>
+				<p>
+					<sent id="dtb45" smilref="speechgen0005.smil#tcp49">
+						<img alt="Peter Rabbit caught in a fence" src="images/5.png" />And got caught by the large buttons on his jacket.
+					</sent>
+				</p>
+				<p>
+					<sent id="dtb46" smilref="speechgen0005.smil#tcp50">It was a blue jacket with brass buttons, quite new.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp51" id="dtb47">Peter gave himself up for lost and shed big tears;</sent>
+				</p>
+				<p>
+					<sent id="dtb48" smilref="speechgen0005.smil#tcp52">But his sobs were overheard by some friendly sparrows.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp53" id="dtb49">Who flew to him in great excitement and implored him to exert himself.</sent>
+				</p>
+				<pagenum page="normal" smilref="speechgen0005.smil#tcp54" id="p6">6</pagenum>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp55" id="dtb50">Mr. </sent>
+					<sent smilref="speechgen0005.smil#tcp56" id="dtb51">McGregor came up with a sieve which he intended to pop on the top of Peter, but Peter wriggled out just in time.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp57" id="dtb52">Leaving his jacket behind him.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp58" id="dtb53">He rushed into the tool-shed and—</sent>
+				</p>
+				<p>
+					<sent id="dtb54" smilref="speechgen0005.smil#tcp59">
+						<img src="images/4.png" alt="Peter rabbit in a watering can." />Jumped into a can.
+					</sent>
+				</p>
+				<p>
+					<sent id="dtb55" smilref="speechgen0005.smil#tcp60">It would have been a beautiful thing to hide in, if it had not had so much water in it. </sent>
+					<sent smilref="speechgen0005.smil#tcp61" id="dtb56">Mr. </sent>
+					<sent smilref="speechgen0005.smil#tcp62" id="dtb57">McGregor was quite sure that Peter was somewhere in the tool-shed, perhaps hidden underneath a flower-pot.</sent>
+				</p>
+				<p>
+					<sent id="dtb58" smilref="speechgen0005.smil#tcp63">He began to turn them over carefully, looking under each.</sent>
+				</p>
+				<p>
+					<sent id="dtb59" smilref="speechgen0005.smil#tcp64">Presently Peter sneezed "Kertyschoo!"</sent>
+				</p>
+				<pagenum id="p7" page="normal" smilref="speechgen0005.smil#tcp65">7</pagenum>
+				<p>
+					<sent id="dtb60" smilref="speechgen0005.smil#tcp66">Mr. </sent>
+					<sent id="dtb61" smilref="speechgen0005.smil#tcp67">McGregor was after him in no time, and tried to put his foot upon Peter, who</sent>
+				</p>
+				<p>
+					<sent id="dtb62" smilref="speechgen0005.smil#tcp68">
+						<img src="images/8.png" alt="Peter rabbit upsetting three plants." />Jumped out of a window, upsetting three plants.
+					</sent>
+				</p>
+				<p>
+					<sent id="dtb63" smilref="speechgen0005.smil#tcp69">Peter sat down to rest; he was out of breath and trembling with fright, and he had not the least idea which way to go.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp70" id="dtb64">Also he was very damp with sitting in that can.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp71" id="dtb65">After a time he began to wander about, going lippity—lippity—not very fast and looking all around.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp72" id="dtb66">He found a door in a wall; but it was locked and there was no room for a fat little rabbit to squeeze underneath.</sent>
+				</p>
+				<p>
+					<sent id="dtb67" smilref="speechgen0005.smil#tcp73">An old mouse was running in and out over the stone doorstep, carrying peas and beans to her family in the wood. </sent>
+					<sent id="dtb68" smilref="speechgen0005.smil#tcp74">Peter asked her the way to the gate but she had such a large pea in her mouth she could not answer. </sent>
+					<sent smilref="speechgen0005.smil#tcp75" id="dtb69">She only shook her head at him.</sent>
+				</p>
+				<p>
+					<img alt="Peter Rabbit at the garden gate with a mouse." src="images/1.png" />
+				</p>
+				<pagenum smilref="speechgen0005.smil#tcp76" id="p8" page="normal">8</pagenum>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp77" id="dtb70">Peter began to cry.</sent>
+				</p>
+				<p>
+					<sent id="dtb71" smilref="speechgen0005.smil#tcp78">Then he tried to find his way straight across the garden, but he became more and more puzzled. </sent>
+					<sent smilref="speechgen0005.smil#tcp79" id="dtb72">Presently he came to a pond where Mr. </sent>
+					<sent smilref="speechgen0005.smil#tcp80" id="dtb73">McGregor filled his water-cans. </sent>
+					<sent smilref="speechgen0005.smil#tcp81" id="dtb74">A white cat was staring at some gold-fish; she sat very, very still, but now and then the tip of her tail twitched as if it were alive. </sent>
+					<sent id="dtb75" smilref="speechgen0005.smil#tcp82">Peter thought it best to go away without speaking to her.</sent>
+				</p>
+				<p>
+					<sent id="dtb76" smilref="speechgen0005.smil#tcp83">He had heard about cats from his cousin, little Benjamin Bunny.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp84" id="dtb77">He went back towards the tool-shed, but suddenly, quite close to him, he heard the noise of a hoe—scr-r-ritch, scratch, scratch, scritch.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp85" id="dtb78">Peter scuttered underneath the bushes, but presently as nothing happened, he came out and</sent>
+				</p>
+				<p>
+					<sent id="dtb79" smilref="speechgen0005.smil#tcp86">Climbed upon a wheelbarrow, and peeped over.</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp87" id="dtb80">The first thing he saw was Mr. </sent>
+					<sent smilref="speechgen0005.smil#tcp88" id="dtb81">McGregor hoeing onions. </sent>
+					<sent smilref="speechgen0005.smil#tcp89" id="dtb82">His back was turned towards Peter and beyond him was the gate!</sent>
+				</p>
+				<pagenum id="p9" page="normal" smilref="speechgen0005.smil#tcp90">9</pagenum>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp91" id="dtb83">Peter got down very quietly off the wheel-barrow and started running as fast as he could go, along a straight walk behind some black currant bushes. </sent>
+					<sent smilref="speechgen0005.smil#tcp92" id="dtb84">Mr. </sent>
+					<sent id="dtb85" smilref="speechgen0005.smil#tcp93">McGregor caught sight of him at the corner, but Peter did not care. </sent>
+					<sent id="dtb86" smilref="speechgen0005.smil#tcp94">He slipped underneath the gate and was safe at last in the wood outside the garden.</sent>
+				</p>
+				<p>
+					<sent id="dtb87" smilref="speechgen0005.smil#tcp95">Mr. </sent>
+					<sent smilref="speechgen0005.smil#tcp96" id="dtb88">McGregor hung up the little jacket and the shoes for a scare-crow to frighten the blackbirds.</sent>
+				</p>
+				<p>
+					<sent id="dtb89" smilref="speechgen0005.smil#tcp97">
+						<img alt="Peter Rabbit runing home" src="images/9.png" />Peter never stopped running or looked behind him
+					</sent>
+				</p>
+				<p>
+					<img src="images/0.png" alt="Peter Rabbit resting under a tree." />
+				</p>
+				<pagenum id="p10" smilref="speechgen0005.smil#tcp98" page="normal">10</pagenum>
+				<p>
+					<sent id="dtb90" smilref="speechgen0005.smil#tcp99">Till he got home to the big fir-tree.</sent>
+				</p>
+				<p>
+					<sent id="dtb91" smilref="speechgen0005.smil#tcp100">He was so tired that he flopped down upon the nice soft sand on the floor of the rabbit hole, and shut his eyes. </sent>
+					<sent id="dtb92" smilref="speechgen0005.smil#tcp101">His mother was busy cooking; she wondered what he had done with his clothes.</sent>
+				</p>
+				<p>
+					<sent id="dtb93" smilref="speechgen0005.smil#tcp102">It was the second little jacket and pair of shoes that Peter had lost in a fortnight!</sent>
+				</p>
+				<p>
+					<sent smilref="speechgen0005.smil#tcp103" id="dtb94">I am sorry to say that Peter was not very well during the evening. </sent>
+					<sent smilref="speechgen0005.smil#tcp104" id="dtb95">His mother put him to bed and made some camomile tea; and she gave a dose of it to Peter! </sent>
+					<sent id="dtb96" smilref="speechgen0005.smil#tcp105">"One teaspoonful to be taken at bedtime." </sent>
+				</p>
+				<p>
+					<sent id="dtb97" smilref="speechgen0005.smil#tcp106">But—Flopsy, Mopsy and Cottontail had bread and milk and blackberries for supper.</sent>
+				</p>
+			</level1>
+		</bodymatter>
+	</book>
+</dtbook>

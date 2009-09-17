@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="Buttercup.Control.Search"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:bc="clr-namespace:Buttercup.Control" 
+    >
+    
+    <StackPanel>
+        <TextBlock x:Name="pageNumLabel" AutomationProperties.AccessKey="P">
+            <Run>Go to</Run>
+            <Run TextDecorations="Underline" >P</Run><Run>age:</Run>
+        </TextBlock>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <bc:MediaTextBox x:Name="pageNumTextBox" Grid.Column="0" Style="{StaticResource DefaultTextBox}"
+					KeyDown="pageNumTextBox_KeyDown" KeyUp="pageNumTextBox_KeyUp"
+					GotFocus="pageNumTextBox_GotFocus"
+					Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+					FocusBackground="{Binding Path=DefaultBackground}" FocusForeground="{Binding Path=SelectionBorderBrush}"
+                    SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+					BorderBrush="{Binding Path=DefaultForeground}"
+					MaxLength="8" 
+					AutomationProperties.Name="Go to Page" AutomationProperties.HelpText="Enter the page number you would like to go to" />
+            <bc:MediaButton x:Name="pageNumButton" Grid.Column="1" Click="pageNumButton_Click"
+                    Style="{StaticResource SquareButton}"
+                    AutomationProperties.Name="Go to Page" AutomationProperties.HelpText="Press 'Enter' to go to page"
+					GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+					MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+					Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+					SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+					FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                <ToolTipService.ToolTip>
+                    <bc:ExtendedToolTip Content="Go to Page (P)"></bc:ExtendedToolTip>
+                </ToolTipService.ToolTip>
+                <Path Width="16.8987" Height="17.3894" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 269.282,395.885C 269.287,393.783 270.99,392.08 273.094,392.077C 275.199,392.08 276.899,393.783 276.905,395.885C 276.899,397.989 275.199,399.691 273.094,399.693C 270.99,399.691 269.287,397.989 269.282,395.885 Z M 283.711,406.047L 284.182,405.576L 278.866,400.261L 278.397,400.731L 277.41,399.743C 278.329,398.715 278.905,397.372 278.905,395.885C 278.905,392.677 276.302,390.077 273.094,390.075C 269.886,390.077 267.286,392.677 267.283,395.885C 267.286,399.093 269.886,401.695 273.094,401.695C 274.333,401.695 275.477,401.301 276.419,400.639L 277.453,401.673L 276.981,402.145L 282.298,407.464L 283.135,406.625L 283.713,406.048L 283.711,406.047 Z " />
+            </bc:MediaButton>
+        </Grid>
+        <TextBlock x:Name="searchLabel" AutomationProperties.AccessKey="F">
+            <Run TextDecorations="Underline" >F</Run><Run>ind</Run>
+            <Run>Text:</Run>
+        </TextBlock>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <bc:MediaTextBox x:Name="searchTextBox" Grid.Column="0" Style="{StaticResource DefaultTextBox}"
+					KeyDown="searchTextBox_KeyDown" KeyUp="searchTextBox_KeyUp"
+					GotFocus="searchTextBox_GotFocus" 
+					Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+					FocusBackground="{Binding Path=DefaultBackground}" FocusForeground="{Binding Path=SelectionBorderBrush}"
+                    SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+					BorderBrush="{Binding Path=DefaultForeground}" 
+                    MaxLength="50"
+                    AutomationProperties.Name="Find Text" AutomationProperties.HelpText="Type the text you would like to find in the book" />
+            <bc:MediaButton x:Name="searchButton" Grid.Column="1" Click="searchButton_Click"
+                    Style="{StaticResource SquareButton}"
+                    AutomationProperties.Name="Find Text" AutomationProperties.HelpText="Press 'Enter' to begin search"
+					GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+					MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+					Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+					SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+					FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+
+                <ToolTipService.ToolTip>
+                    <bc:ExtendedToolTip Content="Search (F)"></bc:ExtendedToolTip>
+                </ToolTipService.ToolTip>
+                <Path Width="16.8987" Height="17.3894" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 269.282,395.885C 269.287,393.783 270.99,392.08 273.094,392.077C 275.199,392.08 276.899,393.783 276.905,395.885C 276.899,397.989 275.199,399.691 273.094,399.693C 270.99,399.691 269.287,397.989 269.282,395.885 Z M 283.711,406.047L 284.182,405.576L 278.866,400.261L 278.397,400.731L 277.41,399.743C 278.329,398.715 278.905,397.372 278.905,395.885C 278.905,392.677 276.302,390.077 273.094,390.075C 269.886,390.077 267.286,392.677 267.283,395.885C 267.286,399.093 269.886,401.695 273.094,401.695C 274.333,401.695 275.477,401.301 276.419,400.639L 277.453,401.673L 276.981,402.145L 282.298,407.464L 283.135,406.625L 283.713,406.048L 283.711,406.047 Z " />
+            </bc:MediaButton>
+        </Grid>
+        <TextBlock x:Name="resultsHeader" Text="Results:"/>
+		<bc:MediaListBox x:Name="searchResultsListBox" Grid.Row="1" Style="{StaticResource ScrollingList}"
+				BorderBrush="{Binding Path=DefaultForeground}" Background="{x:Null}"
+				MinHeight="64" TabNavigation="Once" IsTabStop="True"
+				GotFocus="ListBoxGotFocus" LostFocus="ListBoxLostFocus"
+				DisplayMemberPath="Text" SelectionChanged="searchResultsListBox_SelectionChanged" />
+	</StackPanel>
+</UserControl>

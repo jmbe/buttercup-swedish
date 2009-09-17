@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Buttercup - Your online DAISY book reader</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="/Styles/buttercup.css" type="text/css" />
+
+    <script type="text/javascript" src="/Scripts/Silverlight.js"></script>
+
+    <script type="text/javascript" language="javascript" src="/Scripts/xslt.js"></script>
+
+    <script type="text/javascript" language="javascript" src="/Scripts/ButtercupOperations.js"></script>
+
+    <!--[if IE]> 
+		<script type="text/javascript" language="javascript" src="/Scripts/IE.js"></script>
+		<![endif]-->
+    <!-- Consider move this into Silverlight.js-->
+
+    <script type="text/javascript">
+        function onSilverlightError(sender, args) {
+
+            var appSource = "";
+            if (sender != null && sender != 0) {
+                appSource = sender.getHost().Source;
+            }
+            var errorType = args.ErrorType;
+            var iErrorCode = args.ErrorCode;
+
+            var errMsg = "Unhandled Error in Silverlight 2 Application " + appSource + "\n";
+
+            errMsg += "Code: " + iErrorCode + "    \n";
+            errMsg += "Category: " + errorType + "       \n";
+            errMsg += "Message: " + args.ErrorMessage + "     \n";
+
+            if (errorType == "ParserError") {
+                errMsg += "File: " + args.xamlFile + "     \n";
+                errMsg += "Line: " + args.lineNumber + "     \n";
+                errMsg += "Position: " + args.charPosition + "     \n";
+            }
+            else if (errorType == "RuntimeError") {
+                if (args.lineNumber != 0) {
+                    errMsg += "Line: " + args.lineNumber + "     \n";
+                    errMsg += "Position: " + args.charPosition + "     \n";
+                }
+                errMsg += "MethodName: " + args.methodName + "     \n";
+            }
+
+            throw new Error(errMsg);
+        }
+        function createSilverlight() {
+            Silverlight.createObjectEx({
+                source: "ClientBin/ButtercupControl.xap",
+                parentElement: document.getElementById("buttercupHost"),
+                id: "SilverlightControl",
+                properties: {
+                    width: "100%",
+                    height: "100%",
+                    version: "2.0.31005",
+                    enableHtmlAccess: "true"
+                },
+                events: {onError:'onSilverlightError', onLoad:'buttercupPluginLoaded'},
+                initParams: "libraryXML=ClientBin/library.xml,hostName=My Buttercup"
+            });
+        }
+    </script>
+
+</head>
+<body role="application">
+    <div id="buttercupHost">
+     <script type="text/javascript">
+         if (Silverlight.isInstalled("2.0")) { createSilverlight(); } 
+         else {  window.location = "./default.htm"; }
+      </script>
+    </div>
+    
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-8053119-1");
+        pageTracker._trackPageview();
+    } catch (err) { }</script>
+</body>
+</html>

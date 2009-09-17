@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Buttercup.Control.Model.Entities.Audio" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Entities\Audio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buttercup.Control.Model.Entities.TableOfContents">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Entities\TableOfContents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buttercup.Control.Model.Entities.Book">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASEAACIDAAEAAAAAACAAAAAAAAAAAEBAAAAAAAAA=</HashCode>
+      <FileName>Entities\Book.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TableOfContents" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bookmarks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Buttercup.Control.Model.Entities.Bookmark" Collapsed="true">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Bookmark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buttercup.Control.Model.Entities.Heading" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAACQAAAAA=</HashCode>
+      <FileName>Entities\Heading.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Buttercup.Control.Model.Entities.Library" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Library.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buttercup.Control.Model.Entities.Package">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAgBAAQAAAIAABEAAAAECAA=</HashCode>
+      <FileName>Entities\Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Buttercup.Control.Model.ISpeakable" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ISpeakable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

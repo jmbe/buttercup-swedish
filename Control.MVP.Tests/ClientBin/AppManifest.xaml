@@ -1,0 +1,15 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Control.MVP.Tests" EntryPointType="Control.MVP.Tests.App" RuntimeVersion="3.0.40624.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Control.MVP.Tests" Source="Control.MVP.Tests.dll" />
+    <AssemblyPart x:Name="Buttercup.Control.Common" Source="Buttercup.Control.Common.dll" />
+    <AssemblyPart x:Name="Buttercup.Control.Model" Source="Buttercup.Control.Model.dll" />
+    <AssemblyPart x:Name="Control.MVP" Source="Control.MVP.dll" />
+    <AssemblyPart x:Name="Control.UI" Source="Control.UI.dll" />
+    <AssemblyPart x:Name="Microsoft.Silverlight.Testing" Source="Microsoft.Silverlight.Testing.dll" />
+    <AssemblyPart x:Name="Microsoft.Silverlight.Testing.Framework" Source="Microsoft.Silverlight.Testing.Framework.dll" />
+    <AssemblyPart x:Name="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight" Source="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll" />
+    <AssemblyPart x:Name="SharpZipLib" Source="SharpZipLib.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart x:Name="Control.Compression" Source="Control.Compression.dll" />
+  </Deployment.Parts>
+</Deployment>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package
+  PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package xmlns="http://openebook.org/namespaces/oeb-package/1.0/" unique-identifier="uid">
+	  <metadata>
+	
+		    <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+			      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+		       <dc:Language>en-GB</dc:Language>
+         <dc:Language>en-NZ</dc:Language>
+         <dc:Language>en-US</dc:Language>
+         <dc:Date>2009-03-10</dc:Date>
+         <dc:Creator>Wikipedia</dc:Creator>
+         <dc:Publisher>Wikipedia</dc:Publisher>
+         <dc:Title>Microsoft UI Automation</dc:Title>
+         <dc:Identifier>AUTO-UID-4990946756517120292</dc:Identifier>
+         <dc:Identifier id="uid">AUTO-UID-4990946756517120292</dc:Identifier>
+      </dc-metadata>
+	
+		    <x-metadata>
+			      <meta content="audioFullText" name="dtb:multimediaType"/>
+			      <meta content="DAISY Pipeline Narrator" name="dtb:narrator"/>
+		       <meta content="0:18:05.220" name="dtb:totalTime"/>
+         <meta content="audio,text,image" name="dtb:multimediaContent"/>
+      </x-metadata>
+	
+	  </metadata>
+	
+	  <manifest>
+	     <item href="speechgen0001.smil" id="smil-1" media-type="application/smil"/>
+      <item href="speechgen0002.smil" id="smil-2" media-type="application/smil"/>
+      <item href="speechgen0003.smil" id="smil-3" media-type="application/smil"/>
+      <item href="speechgen0004.smil" id="smil-4" media-type="application/smil"/>
+      <item href="speechgen0005.smil" id="smil-5" media-type="application/smil"/>
+      <item href="speechgen0006.smil" id="smil-6" media-type="application/smil"/>
+      <item href="speechgen0007.smil" id="smil-7" media-type="application/smil"/>
+      <item href="speechgen0008.smil" id="smil-8" media-type="application/smil"/>
+      <item href="speechgen0009.smil" id="smil-9" media-type="application/smil"/>
+      <item href="speechgen0010.smil" id="smil-10" media-type="application/smil"/>
+      <item href="speechgen0011.smil" id="smil-11" media-type="application/smil"/>
+      <item href="speechgen0012.smil" id="smil-12" media-type="application/smil"/>
+      <item href="speechgen0013.smil" id="smil-13" media-type="application/smil"/>
+      <item href="speechgen0014.smil" id="smil-14" media-type="application/smil"/>
+      <item href="speechgen0015.smil" id="smil-15" media-type="application/smil"/>
+      <item href="speechgen0016.smil" id="smil-16" media-type="application/smil"/>
+      <item href="tpbnarrator.res" id="resource" media-type="application/x-dtbresource+xml"/>
+      <item href="speechgen0012.mp3" id="opf-17" media-type="audio/mpeg"/>
+      <item href="speechgen.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+      <item href="speechgen0002.mp3" id="opf-18" media-type="audio/mpeg"/>
+      <item href="UIA-Wikipedia_for_Daisy.xml" id="opf-19"
+            media-type="application/x-dtbook+xml"/>
+      <item href="speechgen0014.mp3" id="opf-20" media-type="audio/mpeg"/>
+      <item href="speechgen0001.mp3" id="opf-21" media-type="audio/mpeg"/>
+      <item href="speechgen0008.mp3" id="opf-22" media-type="audio/mpeg"/>
+      <item href="speechgen.opf" id="opf-23" media-type="text/xml"/>
+      <item href="UIA-Wikipedia_for_Daisy-Picture_22.png" id="opf-24"
+            media-type="image/png"/>
+      <item href="speechgen0016.mp3" id="opf-25" media-type="audio/mpeg"/>
+      <item href="speechgen0005.mp3" id="opf-26" media-type="audio/mpeg"/>
+      <item href="speechgen0006.mp3" id="opf-27" media-type="audio/mpeg"/>
+      <item href="speechgen0013.mp3" id="opf-28" media-type="audio/mpeg"/>
+      <item href="speechgen0010.mp3" id="opf-29" media-type="audio/mpeg"/>
+      <item href="speechgen0011.mp3" id="opf-30" media-type="audio/mpeg"/>
+      <item href="speechgen0015.mp3" id="opf-31" media-type="audio/mpeg"/>
+      <item href="speechgen0004.mp3" id="opf-32" media-type="audio/mpeg"/>
+      <item href="dtbookbasic.css" id="opf-33" media-type="text/css"/>
+      <item href="speechgen0009.mp3" id="opf-34" media-type="audio/mpeg"/>
+      <item href="speechgen0003.mp3" id="opf-35" media-type="audio/mpeg"/>
+      <item href="speechgen0007.mp3" id="opf-36" media-type="audio/mpeg"/>
+      <item href="tpbnarrator_res.mp3" id="opf-37" media-type="audio/mpeg"/>
+   </manifest>
+	
+	  <spine>
+	     <itemref idref="smil-1"/>
+      <itemref idref="smil-2"/>
+      <itemref idref="smil-3"/>
+      <itemref idref="smil-4"/>
+      <itemref idref="smil-5"/>
+      <itemref idref="smil-6"/>
+      <itemref idref="smil-7"/>
+      <itemref idref="smil-8"/>
+      <itemref idref="smil-9"/>
+      <itemref idref="smil-10"/>
+      <itemref idref="smil-11"/>
+      <itemref idref="smil-12"/>
+      <itemref idref="smil-13"/>
+      <itemref idref="smil-14"/>
+      <itemref idref="smil-15"/>
+      <itemref idref="smil-16"/>
+   </spine>
+
+</package>

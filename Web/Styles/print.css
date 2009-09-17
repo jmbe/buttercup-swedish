@@ -1,0 +1,18 @@
+body {
+	background: #ffffff;
+	font-family: arial;
+}
+
+#navbarWrapper {
+	display: none;
+}
+
+body a.logo {
+	background:transparent url(../images/logoButterCupBlack.png) no-repeat scroll 0 0;
+	display:block;
+	height:84px;
+	line-height:180px;
+	margin-top:12px;
+	overflow:hidden;
+	width:376px;
+}

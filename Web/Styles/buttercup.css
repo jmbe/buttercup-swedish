@@ -1,0 +1,120 @@
+﻿html, body
+{
+	height: 100%;
+	margin: 0;
+}
+
+body
+{
+	font-family: Arial,Helevetica,Verdana,Sans-serif;
+	background-color: #CCCCCC;
+	text-align: center;
+	
+}
+
+div#buttercupHost
+{
+	height: 100%;
+}
+
+/*div#buttercupHost h1
+{
+	font-size: 2.4em;
+}
+
+div#buttercupHost h2
+{
+	font-size: 1.6em;
+}
+
+div#buttercupHost h3
+{
+	font-size: 1.2em;
+}
+
+div#buttercupHost h4
+{
+	font-size: 1.1em;
+}
+
+div#buttercupHost object
+{
+	width: 350px;
+	height: 660px;
+	float: left;
+}
+
+div#buttercupHost div#ContentPanel object
+{
+	width: 300px;
+	height: 300px;
+	float: none;
+}
+
+div#buttercupHost div#ContentPanel div.objectHost
+{
+	text-align: center;
+	width: 100%;
+}
+
+div.NavControlHost
+{
+	float: left;
+}
+*/
+
+/* Content panel styles - includes contrast-based colour schemes.
+	Default scheme is NormalContrast.
+
+div#buttercupHost div#ContentPanel
+{
+	height: 700px;
+	max-height: 100%;
+	overflow: auto;
+	background-color: White;
+	color: #1f1f1f;
+	padding: 40px 60px 20px;
+	line-height: 1.5em;
+}
+
+div#buttercupHost div#ContentPanel.HighContrastBlackOnWhite
+{
+	background-color: #fff;
+	color: #000;
+}
+
+div#buttercupHost div#ContentPanel.HighContrastWhiteOnBlack
+{
+	background-color: #000;
+	color: #fff;
+}
+
+div#buttercupHost div#ContentPanel.HueContrastYellowOnBlue
+{
+	background-color: #00003f;
+	color: #ffdf00;
+}
+*/
+
+div#buttercupHost div#ContentPanel .highlight
+{
+	background-color: #fff77f;
+}
+
+div#buttercupHost div#ContentPanel.HighContrastBlackOnWhite .highlight
+{
+	background-color: #000;
+	color: #fff;
+}
+
+div#buttercupHost div#ContentPanel.HighContrastWhiteOnBlack .highlight
+{
+	background-color: #2f2b00;
+	color: #fff77f;
+}
+
+div#buttercupHost div#ContentPanel.HueContrastYellowOnBlue .highlight
+{
+	background-color: #00005f;
+	color: #fff;
+}

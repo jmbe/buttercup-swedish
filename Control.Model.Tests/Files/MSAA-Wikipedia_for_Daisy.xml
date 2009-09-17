@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd"><?xml-stylesheet href="dtbookbasic.css" type="text/css"?><dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" xml:lang="en-US" version="2005-3">
+	<head>
+		<meta name="dtb:uid" content="AUTO-UID-4702713388317564060" />
+		<meta content="2.0.0.0 Beta" name="dt:version" />
+		<meta name="dc:Title" content="Microsoft Active Accessibility (MSAA)" />
+		<meta content="Joel Marcey" name="dc:Creator" />
+		<meta content="2009-03-06" name="dc:Date" />
+		<meta content="Twin Roots" name="dc:Publisher" />
+		<meta content="AUTO-UID-4702713388317564060" name="dc:Identifier" />
+		<meta name="dc:Language" content="en-US" />
+		<meta name="dc:Language" content="en-NZ" />
+		<meta content="en-GB" name="dc:Language" />
+	</head>
+	<book showin="blp">
+		<frontmatter>
+			<doctitle id="dtb1" smilref="speechgen0001.smil#tcp1">Microsoft Active Accessibility (MSAA)</doctitle>
+			<docauthor smilref="speechgen0001.smil#tcp2" id="dtb2">Joel Marcey</docauthor>
+		</frontmatter>
+		<bodymatter id="bodymatter_0001">
+			<level1>
+				<h1 smilref="speechgen0002.smil#tcp3" id="dtb3">  Microsoft Active Accessibility (MSAA)
+</h1>
+				<p smilref="speechgen0002.smil#tcp4" id="dtb4">From Wikipedia, the free encyclopedia</p>
+				<p><sent><a href="http://en.wikipedia.org/wiki/Microsoft" external="true" smilref="speechgen0002.smil#tcp5" id="dtb5">Microsoft</a> <span class="normalized" smilref="speechgen0002.smil#tcp6" id="dtb6">Active Accessibility (MSAA) is an </span><a href="http://en.wikipedia.org/wiki/Application_programming_interface" id="dtb7" external="true" smilref="speechgen0002.smil#tcp7">Application Programming Interface</a> <span smilref="speechgen0002.smil#tcp8" id="dtb8" class="normalized">(API) for user interface accessibility. </span></sent><sent><span id="dtb9" smilref="speechgen0002.smil#tcp9" class="normalized">MSAA was introduced as a platform add-on to Microsoft </span><a id="dtb10" external="true" href="http://en.wikipedia.org/wiki/Windows_95" smilref="speechgen0002.smil#tcp10">Windows 95</a> <span id="dtb11" class="normalized" smilref="speechgen0002.smil#tcp11">in 1997. </span></sent><sent><span smilref="speechgen0002.smil#tcp12" class="normalized" id="dtb12">MSAA is designed to help </span><a smilref="speechgen0002.smil#tcp13" external="true" id="dtb13" href="http://en.wikipedia.org/wiki/Assistive_technology">Assistive Technology</a> <span smilref="speechgen0002.smil#tcp14" class="normalized" id="dtb14">(AT) products interact with standard and custom </span><a smilref="speechgen0002.smil#tcp15" href="http://en.wikipedia.org/wiki/User_interface" external="true" id="dtb15">user interface</a> <span smilref="speechgen0002.smil#tcp16" id="dtb16" class="normalized">(UI) elements of an application (or the operating system), as well as to access, identify, and manipulate an application's UI elements. </span></sent><sent smilref="speechgen0002.smil#tcp17" id="dtb17">AT products work with MSAA enabled applications in order to provide better access for individuals who have physical or cognitive difficulties, impairments, or disabilities. </sent><sent smilref="speechgen0002.smil#tcp18" id="dtb18">Some examples of AT products are screen readers for users with limited sight, on screen keyboards for users with limited physical access, or narrators for users with limited hearing. </sent><sent id="dtb19" smilref="speechgen0002.smil#tcp19">MSAA can also be used for automated testing tools, and computer-based training applications. </sent></p>
+				<p id="dtb20" smilref="speechgen0002.smil#tcp20">The current and latest specification of MSAA is found in part of Microsoft UI Automation Community Promise Specification. </p>
+				<level2>
+					<h2 id="dtb21" smilref="speechgen0003.smil#tcp21">  History
+</h2>
+					<p><sent id="dtb22" smilref="speechgen0003.smil#tcp22">MSAA was originally made available in April 1997 in the form of a Re-Distributable Kit (RDK) that included updated operating system components for Microsoft Windows 95. </sent><sent><span class="normalized" id="dtb23" smilref="speechgen0003.smil#tcp23">Since </span><a id="dtb24" href="http://en.wikipedia.org/wiki/Windows_98" external="true" smilref="speechgen0003.smil#tcp24">Windows 98</a> <span smilref="speechgen0003.smil#tcp25" id="dtb25" class="normalized">and </span><a href="http://en.wikipedia.org/wiki/NT_4.0" id="dtb26" external="true" smilref="speechgen0003.smil#tcp26">Windows NT 4.0</a> <a smilref="speechgen0003.smil#tcp27" external="true" id="dtb27" href="http://en.wikipedia.org/wiki/Service_Pack">Service Pack</a> <span smilref="speechgen0003.smil#tcp28" class="normalized" id="dtb28">4, MSAA has been built-into all versions of the </span><a id="dtb29" external="true" href="http://en.wikipedia.org/wiki/Microsoft_Windows" smilref="speechgen0003.smil#tcp29">Windows</a> <span id="dtb30" class="normalized" smilref="speechgen0003.smil#tcp30">platform, and has received periodic upgrades and patches over time.</span></sent></p>
+					<p><sent smilref="speechgen0003.smil#tcp31" id="dtb31">Programmatic exposure for accessibility-based applications on Windows has historically been provided through MSAA. </sent><sent><span id="dtb32" smilref="speechgen0003.smil#tcp32" class="normalized">However newer applications are now using </span><a external="true" smilref="speechgen0003.smil#tcp33" id="dtb33" href="http://en.wikipedia.org/wiki/Microsoft_UI_Automation">User Interface Automation</a> <span smilref="speechgen0003.smil#tcp34" id="dtb34" class="normalized">(UIA), which was introduced in Windows Vista &amp; the </span><a id="dtb35" href="http://en.wikipedia.org/wiki/.NET_Framework" smilref="speechgen0003.smil#tcp35" external="true">.NET Framework</a> <span id="dtb36" class="normalized" smilref="speechgen0003.smil#tcp36">3.0.</span></sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0004.smil#tcp37" id="dtb37">  Motivation and Goals
+</h2>
+					<p smilref="speechgen0004.smil#tcp38" id="dtb38">The motivating factor behind the development of MSAA was to allow an available and seamless communication mechanism between the underlying operating system or applications and assistive technology products. </p>
+					<p smilref="speechgen0004.smil#tcp39" id="dtb39">The programmatic goal of MSAA is to allow Windows controls to expose basic information, such as name, location on screen, or type of control, and state information such as visibility, enabled, or selected.</p>
+				</level2>
+				<level2>
+					<h2 id="dtb40" smilref="speechgen0005.smil#tcp40">  Technical Overview
+</h2>
+					<p><sent><span id="dtb41" class="normalized" smilref="speechgen0005.smil#tcp41">MSAA is based on the </span><a external="true" smilref="speechgen0005.smil#tcp42" id="dtb42" href="http://en.wikipedia.org/wiki/Component_Object_Model">Component Object Model</a> <span id="dtb43" class="normalized" smilref="speechgen0005.smil#tcp43">(COM). </span></sent><sent smilref="speechgen0005.smil#tcp44" id="dtb44">COM defines a mechanism for applications and operating systems to communicate.</sent></p>
+					<p smilref="speechgen0005.smil#tcp45" id="dtb45">Figure 1 shows a high-level architecture of MSAA. </p>
+					<p><sent id="dtb46" smilref="speechgen0005.smil#tcp46">Applications (<abbr title="for example">e.g.</abbr>, word processor) are called “servers” in MSAA because they provide, or serve, information about their user interfaces (UI). </sent><sent id="dtb47" smilref="speechgen0005.smil#tcp47">Accessibility tools (<abbr title="for example">e.g.</abbr>, screen readers) are called “clients” in MSAA because they consume and interact with UI information from an application. </sent></p>
+					<p><sent smilref="speechgen0005.smil#tcp48" id="dtb48">The system component of the MSAA framework, Oleacc.dll, aids in the communication between accessibility tools (clients) and applications (servers). </sent><sent id="dtb49" smilref="speechgen0005.smil#tcp49">The code boundary indicates the programmatic boundaries between applications that provide UI accessibility information and accessibility tools that interact with the UI on behalf of users. </sent><sent id="dtb50" smilref="speechgen0005.smil#tcp50">The boundary can also be a process boundary when MSAA clients have their own process.</sent></p>
+					<p xml:lang="en-NZ"><imggroup><img alt="" smilref="speechgen0005.smil#tcp51" src="MSAA-Wikipedia_for_Daisy-Picture_2.png" id="rId171" /></imggroup>
+					</p>
+					<p smilref="speechgen0005.smil#tcp52" id="dtb51">Figure 1: Microsoft Active Accessibility</p>
+					<p id="dtb52" smilref="speechgen0005.smil#tcp53">The UI is represented as a hierarchy of accessible objects; changes and actions are represented as WinEvents. </p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0006.smil#tcp54" id="dtb53">  Accessible Objects
+</h2>
+					<p><sent id="dtb54" smilref="speechgen0006.smil#tcp55">The accessible object is the central interface of MSAA, and is represented by an IAccessible COM interface and an integer ChildId. </sent><sent smilref="speechgen0006.smil#tcp56" id="dtb55">It allows applications to expose a tree structure that represents the structure of the UI. </sent><sent id="dtb56" smilref="speechgen0006.smil#tcp57">Each element of this tree exposes a set of properties and methods that allow the corresponding UI element to be manipulated. </sent><sent id="dtb57" smilref="speechgen0006.smil#tcp58">MSAA clients can access the programmatic UI information through a standard API. </sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0007.smil#tcp59" id="dtb58">  Roles, Names, Values, States
+</h2>
+					<p><sent id="dtb59" smilref="speechgen0007.smil#tcp60">MSAA communicates information by sending small chunks of information about elements of a program to the AT. </sent><sent id="dtb60" smilref="speechgen0007.smil#tcp61">The four critical pieces of information on which the AT relies to help users interact with applications are an element's role, name, value, and state:</sent></p>
+					<list type="ul" id="dtb61" smilref="speechgen0007.smil#tcs1">
+						<li><p><sent id="dtb62" smilref="speechgen0007.smil#tcp62"><strong>★  Role</strong>: Conveys to users via AT what type of object a control is, such as a button or a table. </sent><sent id="dtb63" smilref="speechgen0007.smil#tcp63">The IAccessible method for this is get_accRole.</sent></p>
+						</li>
+						<li><p><sent smilref="speechgen0007.smil#tcp64" id="dtb64"><strong>★  Name</strong>: Provides a label for an element, such as “Next” on a button that moves users to the next page, or “First Name” for an edit box. </sent><sent smilref="speechgen0007.smil#tcp65" id="dtb65">The IAccessible method for this is get_accName.</sent></p>
+						</li>
+						<li><p><sent id="dtb66" smilref="speechgen0007.smil#tcp66"><strong>★  Value</strong>: Provides the value of the specified object such as the value on a slider bar, or the information in an editable text box. </sent><sent smilref="speechgen0007.smil#tcp67" id="dtb67">Not all objects have a value. </sent><sent id="dtb68" smilref="speechgen0007.smil#tcp68">The IAccessible method for this is get_ac cValue.</sent></p>
+						</li>
+						<li><p><sent smilref="speechgen0007.smil#tcp69" id="dtb69"><strong>★  State</strong>: Identifies the current condition of the control, such as “checked” for a checkbox. </sent><sent smilref="speechgen0007.smil#tcp70" id="dtb70">State advises whether a control can be selected, focused, and/or other types of changeable functionality. </sent><sent id="dtb71" smilref="speechgen0007.smil#tcp71">The IAccessible method for this is get_accState.</sent></p>
+						</li>
+					</list>
+					<p smilref="speechgen0007.smil#tcp72" id="dtb72">Microsoft provides a complete list of controls and their functions. </p>
+				</level2>
+				<level2>
+					<h2 id="dtb73" smilref="speechgen0008.smil#tcp73">  Role
+</h2>
+					<p><sent id="dtb74" smilref="speechgen0008.smil#tcp74">Role information is based on the type of UI control with which a developer wants to interact. </sent><sent id="dtb75" smilref="speechgen0008.smil#tcp75">For example, if a developer is implementing a button that is either clickable, the developer would select Pushbutton as the Role to implement. </sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0009.smil#tcp76" id="dtb76">  Name
+</h2>
+					<p><sent smilref="speechgen0009.smil#tcp77" id="dtb77">The Names for elements in an application are assigned in the code by the developer. </sent><sent smilref="speechgen0009.smil#tcp78" id="dtb78">Many objects such as icons, menus, check boxes, combo boxes, and other controls have labels that are displayed to users. </sent><sent id="dtb79" smilref="speechgen0009.smil#tcp79">Any label that is displayed to users on a control (<abbr title="for example">e.g.</abbr>, a button) is the default for the object's name property. </sent><sent smilref="speechgen0009.smil#tcp80" id="dtb80">Ensure the Name of the object makes sense to a user and describes the control properly. </sent><sent smilref="speechgen0009.smil#tcp81" id="dtb81">The Name property must not include the control role or type information, such as “button” or “list”, or it will conflict with the text from the role property (acquired from GetRoleText function of MSAA API).</sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0010.smil#tcp82" id="dtb82">  Value
+</h2>
+					<p><sent id="dtb83" smilref="speechgen0010.smil#tcp83">Value is used when a developer wants to return information from objects in the form of a string. </sent><sent id="dtb84" smilref="speechgen0010.smil#tcp84">Value may be returned for objects where percentages, integers, textual or visual information is contained in the object. </sent><sent id="dtb85" smilref="speechgen0010.smil#tcp85">For example, the property values returned from scroll bar and trackbar accessible objects can indicate percentages in strings.</sent></p>
+					<p smilref="speechgen0010.smil#tcp86" id="dtb86">Not all objects have a Value assigned to them.</p>
+				</level2>
+				<level2>
+					<h2 id="dtb87" smilref="speechgen0011.smil#tcp87">  State
+</h2>
+					<p><sent smilref="speechgen0011.smil#tcp88" id="dtb88">The <strong>State</strong> property describes an object's status at a moment in time. </sent><sent><span id="dtb89" smilref="speechgen0011.smil#tcp89" class="normalized">Microsoft Active Accessibility provides </span><a href="http://msdn.microsoft.com/en-us/library/dd373609(VS.85).aspx" smilref="speechgen0011.smil#tcp90" external="true" id="dtb90">object state constants</a><span class="normalized" id="dtb91" smilref="speechgen0011.smil#tcp91">, defined in oleacc.h, that are combined to identify an object's state. </span></sent><sent><span id="dtb92" class="normalized" smilref="speechgen0011.smil#tcp92">If predefined state values are returned, clients use </span><a href="http://msdn.microsoft.com/en-us/library/dd318090(VS.85).aspx" id="dtb93" smilref="speechgen0011.smil#tcp93" external="true">GetStateText</a> <span class="normalized" smilref="speechgen0011.smil#tcp94" id="dtb94">to retrieve a localized string that describes the state. </span></sent><sent smilref="speechgen0011.smil#tcp95" id="dtb95">All objects support the <strong>State</strong> property.</sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0012.smil#tcp96" id="dtb96">  Challenges and Limitations
+</h2>
+					<p><sent id="dtb97" smilref="speechgen0012.smil#tcp97">Microsoft designed the MSAA object model about the same time as Windows 95 was released. </sent><sent smilref="speechgen0012.smil#tcp98" id="dtb98">The model is based on “roles”. </sent><sent id="dtb99" smilref="speechgen0012.smil#tcp99">However, these roles, defined a decade ago, cannot support new UI behaviors, or merge two or more roles together. </sent><sent><span id="dtb100" smilref="speechgen0012.smil#tcp100" class="normalized">For example, there is no text object model to help assistive technologies deal with styled text such as </span><a external="true" id="dtb101" href="http://en.wikipedia.org/wiki/Markup_Language" smilref="speechgen0012.smil#tcp101">markup text</a> <span id="dtb102" smilref="speechgen0012.smil#tcp102" class="normalized">or </span><a href="http://en.wikipedia.org/wiki/Rich_text_format" smilref="speechgen0012.smil#tcp103" id="dtb103" external="true">rich text</a> <span smilref="speechgen0012.smil#tcp104" class="normalized" id="dtb104">documents. </span></sent><sent smilref="speechgen0012.smil#tcp105" id="dtb105">While MSAA still has the Value property, it can host only simple, non-styled text in its value. </sent></p>
+					<p><sent id="dtb106" smilref="speechgen0012.smil#tcp106">Another limitation involves navigating the object model. </sent><sent id="dtb107" smilref="speechgen0012.smil#tcp107">MSAA represents the UI as a hierarchy of accessible objects. </sent><sent smilref="speechgen0012.smil#tcp108" id="dtb108">Clients navigate from one accessible object to another using interfaces and methods available from the accessible object. </sent><sent smilref="speechgen0012.smil#tcp109" id="dtb109">Servers can expose the children of an accessible object with properties of the accessible object or with the IEnumVARIANT COM interface. </sent><sent smilref="speechgen0012.smil#tcp110" id="dtb110">Clients, however, must be able to deal with all approaches for any MSAA server. </sent><sent smilref="speechgen0012.smil#tcp111" id="dtb111">This ambiguity means extra work for client implementers, and the complexity can contribute to unpredictable problems of server implementations. </sent></p>
+					<p><sent smilref="speechgen0012.smil#tcp112" id="dtb112">Just as important is the ability to extend MSAA properties or functions without breaking or changing the IAccessible COM interface specification. </sent><sent id="dtb113" smilref="speechgen0012.smil#tcp113">The result is that you cannot expose new control behavior or properties through the object model. </sent><sent smilref="speechgen0012.smil#tcp114" id="dtb114">The object model tends to be both static and stagnant.</sent></p>
+					<p id="dtb115" smilref="speechgen0012.smil#tcp115">Other developer limitations include:</p>
+					<list type="ul" smilref="speechgen0012.smil#tcs2" id="dtb116">
+						<li><p id="dtb117" smilref="speechgen0012.smil#tcp116">★  Exposing only a limited set of information about UI elements.</p></li>
+						<li><p smilref="speechgen0012.smil#tcp117" id="dtb118">★  Chatty interface and requirement to use it in-process limits the use of MSAA to a handful of niche market clients.</p></li>
+						<li><p smilref="speechgen0012.smil#tcp118" id="dtb119">★  IAccessible has many design and API irregularities, making it hard to use and implement.</p></li>
+						<li><p id="dtb120" smilref="speechgen0012.smil#tcp119">★  Care must be taken when extending IAccessible to ensure that the extension interfaces are fully compatible with IAccessible, and the many implementations already in the market.</p></li>
+					</list>
+					<p smilref="speechgen0012.smil#tcp120" id="dtb121"> </p>
+				</level2>
+				<level2>
+					<h2 id="dtb122" smilref="speechgen0013.smil#tcp121">  Availability
+</h2>
+					<p><sent smilref="speechgen0013.smil#tcp122" id="dtb123">MSAA was initially available as an add-on to Windows 95. </sent><sent><span id="dtb124" smilref="speechgen0013.smil#tcp123" class="normalized">It has been integrated with all subsequent Windows versions, up to and including the yet to be released </span><a id="dtb125" external="true" href="http://en.wikipedia.org/wiki/Windows_7" smilref="speechgen0013.smil#tcp124">Windows 7</a>.</sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb126" smilref="speechgen0014.smil#tcp125">  Related Technology
+</h2>
+					<level3>
+						<h3 smilref="speechgen0015.smil#tcp126" id="dtb127">  User Interface Automation (UIA)
+</h3>
+						<p xml:lang="en-GB"><sent id="dtb128" smilref="speechgen0015.smil#tcp127">The successor to MSAA was User Interface Automation (UIA). </sent><sent id="dtb129" smilref="speechgen0015.smil#tcp128">However, since there are still MSAA based applications in existence, bridges are used to allow communication between UI Automation and MSAA applications. </sent><sent smilref="speechgen0015.smil#tcp129" id="dtb130">So information can be shared between the two APIs, an MSAA-to-UI Automation Proxy and UI Automation-to-MSAA Bridge were developed. </sent><sent smilref="speechgen0015.smil#tcp130" id="dtb131">The former is a component that consumes MSAA information and makes it available through the UI Automation client API. </sent><sent id="dtb132" smilref="speechgen0015.smil#tcp131">The latter enables client applications using MSAA access applications that implement UI Automation.</sent></p>
+						<p><a external="true" href="http://en.wikipedia.org/wiki/Accessible_Rich_Internet_Applications"><strong id="dtb133" smilref="speechgen0015.smil#tcp132">Accessible Rich Internet Applications (ARIA)</strong></a><span smilref="speechgen0015.smil#tcp133" class="normalized" id="dtb134">: There is a general mapping from ARIA attributes to MSAA properties. </span></p>
+						<p><sent><a external="true" href="http://en.wikipedia.org/wiki/IAccessible2"><strong smilref="speechgen0015.smil#tcp134" id="dtb135">IAccessible2</strong></a><span smilref="speechgen0015.smil#tcp135" id="dtb136" class="normalized">: MSAA provides the roots of IAccessible2. </span></sent><sent id="dtb137" smilref="speechgen0015.smil#tcp136">IAccessible2 leverages the work done on MSAA, and adds additional functionality.</sent></p>
+					</level3>
+					<level3>
+						<h3 id="dtb138" smilref="speechgen0016.smil#tcp137">  Windows Automation API
+</h3>
+						<p><sent smilref="speechgen0016.smil#tcp138" id="dtb139">Starting with Windows 7, Microsoft is packaging its accessibility technologies under a framework called Windows Automation API. </sent><sent smilref="speechgen0016.smil#tcp139" id="dtb140">MSAA will be part of this framework.</sent></p>
+					</level3>
+				</level2>
+				<level2>
+					<h2 id="dtb141" smilref="speechgen0017.smil#tcp140">  Implementations of MSAA
+</h2>
+					<p><sent smilref="speechgen0017.smil#tcp141" id="dtb142">MSAA is available for developers in all versions of Windows since Windows 95. </sent><sent><span smilref="speechgen0017.smil#tcp142" class="normalized" id="dtb143">Since its original introduction, MSAA has been used as a way to add support for programmatic access to the UI for many business and consumer applications, including Microsoft </span><a external="true" id="dtb144" href="http://en.wikipedia.org/wiki/Internet_Explorer" smilref="speechgen0017.smil#tcp143">Internet Explorer</a><span id="dtb145" smilref="speechgen0017.smil#tcp144" class="normalized">, </span><a id="dtb146" smilref="speechgen0017.smil#tcp145" href="http://en.wikipedia.org/wiki/Mozilla_Firefox" external="true">Firefox</a><span id="dtb147" smilref="speechgen0017.smil#tcp146" class="normalized">, etc. </span></sent><sent><span smilref="speechgen0017.smil#tcp147" id="dtb148" class="normalized">The technology has been used by many AT products, in addition to software automation and </span><a external="true" id="dtb149" smilref="speechgen0017.smil#tcp148" href="http://en.wikipedia.org/wiki/Quality_assurance">quality assurance</a> <span class="normalized" id="dtb150" smilref="speechgen0017.smil#tcp149">programs such as </span><a external="true" smilref="speechgen0017.smil#tcp150" href="http://en.wikipedia.org/wiki/Mercury_Interactive" id="dtb151">Mercury Interactive</a>.</sent></p>
+					<p id="dtb152" smilref="speechgen0017.smil#tcp151">More implementations of MSAA in applications and AT products can be found by searching on the Microsoft Accessibility sites or on the AT Information website. </p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0018.smil#tcp152" id="dtb153">  References
+</h2>
+					<list id="dtb154" smilref="speechgen0018.smil#tcs3" type="ul">
+						<li><p><a smilref="speechgen0018.smil#tcp153" external="true" href="http://www.microsoft.com/enable/products/default.aspx" id="dtb155">Accessibility in Microsoft Products</a></p>
+						</li>
+						<li><p><a href="http://www.microsoft.com/enable/microsoft/history.aspx" external="true" smilref="speechgen0018.smil#tcp154" id="dtb156">Assistive Technology Product Catalog Details</a></p>
+						</li>
+						<li><p><a smilref="speechgen0018.smil#tcp155" external="true" href="http://msdn.microsoft.com/en-us/library/bb773173(VS.85).aspx" id="dtb157">Windows Controls</a></p>
+						</li>
+						<li><p><a external="true" href="http://trace.wisc.edu/resources/at-resources.php" smilref="speechgen0018.smil#tcp156" id="dtb158">Assistive Technology Information</a></p>
+						</li>
+						<li><p><a external="true" href="http://msdn.microsoft.com/en-us/accessibility/bb892135.aspx" id="dtb159" smilref="speechgen0018.smil#tcp157">Microsoft UI Automation Community Promise Specification</a></p>
+						</li>
+					</list>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0019.smil#tcp158" id="dtb160">  External links
+</h2>
+					<list id="dtb161" type="ul" smilref="speechgen0019.smil#tcs4">
+						<li><p><a id="dtb162" href="http://msdn2.microsoft.com/en-us/library/ms697707.aspx" external="true" smilref="speechgen0019.smil#tcp159">Microsoft Active Accessibility home page</a></p>
+						</li>
+						<li><p><a external="true" smilref="speechgen0019.smil#tcp160" href="http://www.microsoft.com/enable/microsoft/history.aspx" id="dtb163">History of Microsoft's Commitment to Accessibility</a></p>
+						</li>
+						<li><p><a id="dtb164" smilref="speechgen0019.smil#tcp161" href="http://www.codeplex.com/AccCheck" external="true">UI Accessibility Checker</a></p>
+						</li>
+						<li><p><a href="http://www.codeplex.com/UIAutomationVerify/" id="dtb165" external="true" smilref="speechgen0019.smil#tcp162">UIA Verify</a></p>
+						</li>
+						<li><p><a smilref="speechgen0019.smil#tcp163" id="dtb166" external="true" href="http://www.microsoft.com/enable/profiles/default.aspx">Profiles of Accessibility in Action</a></p>
+						</li>
+						<li><p><a external="true" href="http://msdn.microsoft.com/en-us/accessibility/default.aspx" id="dtb167" smilref="speechgen0019.smil#tcp164">Accessibility Development Center</a></p>
+						</li>
+					</list>
+				</level2>
+			</level1>
+		</bodymatter>
+	</book>
+</dtbook>

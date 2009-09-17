@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="Buttercup.Control.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Shortcut Keys" Grid.Row="0"></TextBlock>
+        <Border BorderThickness="2" CornerRadius="4" Padding="5"
+				BorderBrush="{Binding Path=DefaultForeground}" Grid.Row="1" VerticalAlignment="Top">
+            <Grid ShowGridLines="False">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="O"></TextBlock>
+                    <TextBlock Text="C"></TextBlock>
+                    <TextBlock Text="I"></TextBlock>
+                    <TextBlock Text="Shift+?"></TextBlock> 
+                    <TextBlock Text="Spacebar"></TextBlock>
+                    <TextBlock Text="Home"></TextBlock>
+                    <TextBlock Text="End"></TextBlock>
+                    <TextBlock Text="Page Up"></TextBlock>
+                    <TextBlock Text="Page Down"></TextBlock>
+                    <TextBlock Text="Up Arrow"></TextBlock>
+                    <TextBlock Text="Down Arrow"></TextBlock>
+                    <TextBlock Text="Left Arrow"></TextBlock>
+                    <TextBlock Text="Right Arrow"></TextBlock>
+                    <TextBlock Text="K"></TextBlock>
+                    <TextBlock Text="J"></TextBlock>
+                    <TextBlock Text="M"></TextBlock>
+                    <TextBlock Text="F"></TextBlock>
+                    <TextBlock Text="P"></TextBlock>
+                    <TextBlock Text="Shift+K"></TextBlock>
+                    <TextBlock Text="Shift+J"></TextBlock>
+                    <TextBlock Text="A"></TextBlock>
+                    <TextBlock Text="Escape"></TextBlock>
+                    <TextBlock Text="Tab"></TextBlock>
+                    <TextBlock Text="Shift+Tab"></TextBlock>
+                    <TextBlock Text="Enter"></TextBlock>
+                    <TextBlock Text="Backspace"></TextBlock>
+                    <TextBlock Text="Ctrl+Space"></TextBlock>
+                    <TextBlock Text="Numpad *"></TextBlock>
+                    <TextBlock Text="Numpad -"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Margin="6,0,0,0" >
+                    <TextBlock Text="Open Dialog"></TextBlock>
+                    <TextBlock Text="Show Content" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock Text="Show Book Info"></TextBlock>
+                    <TextBlock Text="Show Help"></TextBlock>
+                    <TextBlock Text="Play or Pause"></TextBlock>
+                    <TextBlock Text="Go to First Heading"></TextBlock>
+                    <TextBlock Text="Go to Last Heading"></TextBlock>
+                    <TextBlock Text="Go to Previous Page"></TextBlock>
+                    <TextBlock Text="Go to Next Page"></TextBlock>
+                    <TextBlock Text="Go to Previous Header"></TextBlock>
+                    <TextBlock Text="Go to Next Header"></TextBlock>
+                    <TextBlock Text="Go to Previous Phrase"></TextBlock>
+                    <TextBlock Text="Go to Next Phrase"></TextBlock>
+                    <TextBlock Text="Increase Volume"></TextBlock>
+                    <TextBlock Text="Decrease Volume"></TextBlock>
+                    <TextBlock Text="Mute or Un-Mute"></TextBlock>
+                    <TextBlock Text="Find Text"></TextBlock>
+                    <TextBlock Text="Go To Page"></TextBlock>
+                    <TextBlock Text="Increase Content Size"></TextBlock>
+                    <TextBlock Text="Decrease Content Size"></TextBlock>
+                    <TextBlock Text="Contrast"></TextBlock>
+                    <TextBlock Text="Close Panel"></TextBlock>
+                    <TextBlock Text="Tab Forward"></TextBlock>
+                    <TextBlock Text="Tab Backwards"></TextBlock>
+                    <TextBlock Text="Start Action"></TextBlock>
+                    <TextBlock Text="Clear Search Textbox"></TextBlock>
+                    <TextBlock Text="Toggle Self Voicing"></TextBlock>
+                    <TextBlock Text="Speak Help Text"></TextBlock>
+                    <TextBlock Text="Stop Self Voice"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </Border> 
+    </Grid>
+</UserControl>

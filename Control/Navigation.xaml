@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="Buttercup.Control.Navigation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    xmlns:bc="clr-namespace:Buttercup.Control"
+    HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <bc:MediaListBox x:Name="navTabs"
+                Style="{StaticResource tickList}" Margin="0,0,48,8"
+				BorderBrush="{Binding Path=DefaultForeground}" Background="{x:Null}"
+				GotFocus="ListBoxGotFocus" LostFocus="ListBoxLostFocus"
+                SelectionChanged="CurrentNavTabChanged">
+            <!-- Note: The tag corresponds to the index of the corresponding tab. -->
+			<bc:ExtendedListBoxItem Style="{StaticResource tickListItem}" Tag="0" IsSelected="True"
+					Background="{Binding Path=DefaultBackground}"
+					Foreground="{Binding Path=DefaultForeground}"
+                    GotFocus="SpeakControlOnFocus"
+                    AutomationProperties.AcceleratorKey="C"
+                    AutomationProperties.Name="Table of Contents"
+                    AutomationProperties.HelpText="Switch between Book Information, Table of Contents and Bookmark views, use the Up and Down Arrow Keys to switch between them.">
+                <TextBlock Name="contentsLabel">
+                    <Run TextDecorations="Underline">C</Run><Run>ontents</Run>
+                </TextBlock>
+			</bc:ExtendedListBoxItem>
+			<bc:ExtendedListBoxItem Style="{StaticResource tickListItem}" Tag="1"
+					Background="{Binding Path=DefaultBackground}"
+					Foreground="{Binding Path=DefaultForeground}"
+                    GotFocus="SpeakControlOnFocus"
+                    AutomationProperties.AcceleratorKey="B"
+                    AutomationProperties.Name="Bookmarks"
+                    AutomationProperties.HelpText="Switch between Book Information, Table of Contents and Bookmark views, use the Up and Down Arrow Keys to switch between them.">
+                <TextBlock Name="bookmarksLabel">
+                    <Run TextDecorations="Underline">B</Run><Run>ookmarks</Run>
+                </TextBlock>
+            </bc:ExtendedListBoxItem>
+            <bc:ExtendedListBoxItem Style="{StaticResource tickListItem}" Tag="2"
+					Background="{Binding Path=DefaultBackground}"
+					Foreground="{Binding Path=DefaultForeground}"
+                    GotFocus="SpeakControlOnFocus"
+                    AutomationProperties.AcceleratorKey="I"
+                    AutomationProperties.Name="Book Information"
+                    AutomationProperties.HelpText="Switch between Book Information, Table of Contents and Bookmark views, use the Up and Down Arrow Keys to switch between them.">
+                <TextBlock Name="bookInfoLabel">
+                    <Run>Book</Run>
+                    <Run TextDecorations="Underline">I</Run><Run>nformation</Run>
+                </TextBlock>
+            </bc:ExtendedListBoxItem>
+        </bc:MediaListBox>
+
+        <bc:MediaTabControl x:Name="contentsSectionContainer" Grid.Row="1" 
+                            Style="{StaticResource SubPanelContainer}">
+			<basics:TabItem Header="Contents" Style="{StaticResource SubPanelItem}">
+                <bc:MediaListBox x:Name="TableOfContentsListBox" Style="{StaticResource tickList}"
+						BorderBrush="{Binding Path=DefaultForeground}" Background="{x:Null}"
+						SelectionChanged="TableOfContentsListBox_SelectionChanged"
+						GotFocus="ListBoxGotFocus" LostFocus="ListBoxLostFocus"
+                        AutomationProperties.Name="Table of Contents" AutomationProperties.HelpText="Navigate through the Table of Contents using the Up and Down Arrow Keys." />
+            </basics:TabItem>
+
+			<basics:TabItem Header="Bookmarks" Style="{StaticResource SubPanelItem}">
+				<bc:MediaListBox x:Name="BookmarksListBox" Style="{StaticResource tickList}"
+						BorderBrush="{Binding Path=DefaultForeground}" Background="{x:Null}"
+						GotFocus="ListBoxGotFocus" LostFocus="ListBoxLostFocus"
+						SelectionChanged="BookmarksListBox_SelectionChanged"/>
+            </basics:TabItem>
+
+            <basics:TabItem Header="Book Information" Style="{StaticResource SubPanelItem}">
+                 <bc:BookInfoControl x:Name="BookInfo" Background="{x:Null}"
+                        IsTabStop="True" IsEnabled="True" Visibility="Visible"/>
+            </basics:TabItem>
+        </bc:MediaTabControl>
+    </Grid >
+</UserControl>

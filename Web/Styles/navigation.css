@@ -1,0 +1,19 @@
+﻿body {
+}
+
+
+ul.navbarList {
+    margin: 17px;
+    padding: 0px;
+}
+ul.navbarList li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+ul.navbarList li a {
+    display: block;
+    height: 39px;
+    line-height: 37px;
+    padding-left: 50px;
+    font-size: 1.1em;
+}

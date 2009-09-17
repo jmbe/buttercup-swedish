@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+<head>
+	<smilCustomTest id="pagenum" defaultState="true" override="visible" bookStruct="PAGE_NUMBER" />
+	<smilCustomTest id="prodnote" defaultState="true" override="visible" bookStruct="OPTIONAL_PRODUCER_NOTE" />
+	<meta name="dtb:uid" content="ghBOOK1211216239" />
+	<meta name="dtb:depth" content="2" />
+	<meta name="dtb:generator" content="gh DTB Maker 4.0" />
+	<meta name="dtb:maxPageNumber" content="40" />
+	<meta name="dtb:totalPageCount" content="40" />
+</head>
+<docTitle><text>The Countries: New Zealand</text></docTitle>
+<docAuthor><text>Tamara L. Britton</text></docAuthor><navMap>
+	<navPoint id="ghGen3" class="h1" playOrder="2">
+		<navLabel>
+			<text>The Countries: New Zealand</text>
+			<audio src="audio/Page01.mp3" clipBegin="00:02.336" clipEnd="00:05.801" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen3" />
+	</navPoint>
+
+	<navPoint id="ghGen24" class="h1" playOrder="4">
+		<navLabel>
+			<text>Library of Congress Cataloging-in-Publication Data</text>
+			<audio src="audio/Page02.mp3" clipBegin="01:21.500" clipEnd="01:25.996" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen24" />
+	</navPoint>
+
+	<navPoint id="ghGen46" class="h1" playOrder="6">
+		<navLabel>
+			<text>Contents</text>
+			<audio src="audio/Page03.alt.mp3" clipBegin="00:02.286" clipEnd="00:04.454" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen46" />
+	</navPoint>
+
+	<navPoint id="ghGen111" class="h1" playOrder="8">
+		<navLabel>
+			<text>Hello!</text>
+			<audio src="audio/Page04.mp3" clipBegin="00:02.317" clipEnd="00:04.100" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen111" />
+	</navPoint>
+
+	<navPoint id="ghGen129" class="h1" playOrder="11">
+		<navLabel>
+			<text>Fast Facts</text>
+			<audio src="audio/Page06.mp3" clipBegin="00:02.866" clipEnd="00:04.453" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen129" />
+		<navPoint id="ghGen134" class="h2" playOrder="12">
+			<navLabel>
+				<text>LAND</text>
+				<audio src="audio/land.mp3" clipBegin="00:00.00" clipEnd="00:01.338" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen134" />
+		</navPoint>
+
+		<navPoint id="ghGen145" class="h2" playOrder="13">
+			<navLabel>
+				<text>PEOPLE</text>
+				<audio src="audio/Page06.mp3" clipBegin="00:47.132" clipEnd="00:48.560" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen145" />
+		</navPoint>
+
+		<navPoint id="ghGen154" class="h2" playOrder="14">
+			<navLabel>
+				<text>GOVERNMENT</text>
+				<audio src="audio/Page06.mp3" clipBegin="01:12.537" clipEnd="01:14.432" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen154" />
+		</navPoint>
+
+		<navPoint id="ghGen165" class="h2" playOrder="15">
+			<navLabel>
+				<text>ECONOMY</text>
+				<audio src="audio/Page06.mp3" clipBegin="01:34.784" clipEnd="01:36.615" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen165" />
+		</navPoint>
+
+	</navPoint>
+
+	<navPoint id="ghGen179" class="h1" playOrder="17">
+		<navLabel>
+			<text>Timeline</text>
+			<audio src="audio/Page07.mp3" clipBegin="00:02.256" clipEnd="00:04.100" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen179" />
+	</navPoint>
+
+	<navPoint id="ghGen213" class="h1" playOrder="19">
+		<navLabel>
+			<text>History</text>
+			<audio src="audio/Page08.mp3" clipBegin="00:02.251" clipEnd="00:03.986" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen213" />
+	</navPoint>
+
+	<navPoint id="ghGen301" class="h1" playOrder="26">
+		<navLabel>
+			<text>Island Nation</text>
+			<audio src="audio/Page14.mp3" clipBegin="00:02.348" clipEnd="00:04.647" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen301" />
+	</navPoint>
+
+	<navPoint id="ghGen356" class="h1" playOrder="31">
+		<navLabel>
+			<text>Plants &amp; Animals</text>
+			<audio src="audio/Page18.mp3" clipBegin="00:02.434" clipEnd="00:04.983" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen356" />
+	</navPoint>
+
+	<navPoint id="ghGen386" class="h1" playOrder="34">
+		<navLabel>
+			<text>New Zealanders</text>
+			<audio src="audio/Page20.mp3" clipBegin="00:02.369" clipEnd="00:03.962" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen386" />
+	</navPoint>
+
+	<navPoint id="ghGen421" class="h1" playOrder="38">
+		<navLabel>
+			<text>New Zealand Pavlova</text>
+			<audio src="audio/Page23.mp3" clipBegin="00:02.610" clipEnd="00:04.992" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen421" />
+	</navPoint>
+
+	<navPoint id="ghGen478" class="h1" playOrder="40">
+		<navLabel>
+			<text>Making Money</text>
+			<audio src="audio/Page24.mp3" clipBegin="00:02.550" clipEnd="00:04.233" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen478" />
+	</navPoint>
+
+	<navPoint id="ghGen524" class="h1" playOrder="45">
+		<navLabel>
+			<text>Cities</text>
+			<audio src="audio/Page28.mp3" clipBegin="00:02.579" clipEnd="00:04.318" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen524" />
+	</navPoint>
+
+	<navPoint id="ghGen560" class="h1" playOrder="48">
+		<navLabel>
+			<text>Transportation</text>
+			<audio src="audio/Page30.mp3" clipBegin="00:02.327" clipEnd="00:04.272" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen560" />
+	</navPoint>
+
+	<navPoint id="ghGen583" class="h1" playOrder="51">
+		<navLabel>
+			<text>Government</text>
+			<audio src="audio/Page32.mp3" clipBegin="00:02.510" clipEnd="00:04.319" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen583" />
+	</navPoint>
+
+	<navPoint id="ghGen611" class="h1" playOrder="54">
+		<navLabel>
+			<text>Celebrate!</text>
+			<audio src="audio/Page34.mp3" clipBegin="00:02.445" clipEnd="00:04.515" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen611" />
+	</navPoint>
+
+	<navPoint id="ghGen632" class="h1" playOrder="57">
+		<navLabel>
+			<text>Leisure Time</text>
+			<audio src="audio/Page36.mp3" clipBegin="00:02.733" clipEnd="00:04.855" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen632" />
+	</navPoint>
+
+	<navPoint id="ghGen659" class="h1" playOrder="60">
+		<navLabel>
+			<text>Glossary</text>
+			<audio src="audio/Page38.mp3" clipBegin="00:02.732" clipEnd="00:04.266" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen659" />
+	</navPoint>
+
+	<navPoint id="ghGen719" class="h1" playOrder="62">
+		<navLabel>
+			<text>Web Sites</text>
+			<audio src="audio/Page39.mp3" clipBegin="01:28.187" clipEnd="01:30.199" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen719" />
+	</navPoint>
+
+	<navPoint id="ghGen724" class="h1" playOrder="64">
+		<navLabel>
+			<text>Index</text>
+			<audio src="audio/Page40.index.mp3" clipBegin="00:00.00" clipEnd="00:02.00" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen724" />
+		<navPoint id="ghGen725" class="h2" playOrder="65">
+			<navLabel>
+				<text>A</text>
+				<audio src="audio/Page40.index.mp3" clipBegin="00:02.00" clipEnd="00:03.215" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen725" />
+		</navPoint>
+
+		<navPoint id="ghGen734" class="h2" playOrder="66">
+			<navLabel>
+				<text>C</text>
+				<audio src="audio/Page40.mp3" clipBegin="00:24.488" clipEnd="00:26.835" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen734" />
+		</navPoint>
+
+		<navPoint id="ghGen741" class="h2" playOrder="67">
+			<navLabel>
+				<text>D</text>
+				<audio src="audio/Page40.mp3" clipBegin="00:41.579" clipEnd="00:42.996" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen741" />
+		</navPoint>
+
+		<navPoint id="ghGen744" class="h2" playOrder="68">
+			<navLabel>
+				<text>E</text>
+				<audio src="audio/Page40.mp3" clipBegin="00:47.100" clipEnd="00:48.250" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen744" />
+		</navPoint>
+
+		<navPoint id="ghGen751" class="h2" playOrder="69">
+			<navLabel>
+				<text>F</text>
+				<audio src="audio/Page40.mp3" clipBegin="01:04.493" clipEnd="01:05.891" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen751" />
+		</navPoint>
+
+		<navPoint id="ghGen754" class="h2" playOrder="70">
+			<navLabel>
+				<text>G</text>
+				<audio src="audio/Page40.mp3" clipBegin="01:12.907" clipEnd="01:14.543" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen754" />
+		</navPoint>
+
+		<navPoint id="ghGen759" class="h2" playOrder="71">
+			<navLabel>
+				<text>H</text>
+				<audio src="audio/Page40.mp3" clipBegin="01:27.589" clipEnd="01:29.142" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen759" />
+		</navPoint>
+
+		<navPoint id="ghGen768" class="h2" playOrder="72">
+			<navLabel>
+				<text>L</text>
+				<audio src="audio/Page40.mp3" clipBegin="01:46.935" clipEnd="01:48.700" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen768" />
+		</navPoint>
+
+		<navPoint id="ghGen773" class="h2" playOrder="73">
+			<navLabel>
+				<text>M</text>
+				<audio src="audio/Page40.mp3" clipBegin="02:01.417" clipEnd="02:02.877" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen773" />
+		</navPoint>
+
+		<navPoint id="ghGen778" class="h2" playOrder="74">
+			<navLabel>
+				<text>N</text>
+				<audio src="audio/Page40.mp3" clipBegin="02:14.837" clipEnd="02:16.245" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen778" />
+		</navPoint>
+
+		<navPoint id="ghGen783" class="h2" playOrder="75">
+			<navLabel>
+				<text>P</text>
+				<audio src="audio/Page40.mp3" clipBegin="02:26.964" clipEnd="02:28.00" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen783" />
+		</navPoint>
+
+		<navPoint id="ghGen788" class="h2" playOrder="76">
+			<navLabel>
+				<text>R</text>
+				<audio src="audio/Page40.mp3" clipBegin="02:38.121" clipEnd="02:39.408" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen788" />
+		</navPoint>
+
+		<navPoint id="ghGen793" class="h2" playOrder="77">
+			<navLabel>
+				<text>S</text>
+				<audio src="audio/Page40.mp3" clipBegin="02:48.324" clipEnd="02:49.687" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen793" />
+		</navPoint>
+
+		<navPoint id="ghGen804" class="h2" playOrder="78">
+			<navLabel>
+				<text>T</text>
+				<audio src="audio/Page40.mp3" clipBegin="03:12.171" clipEnd="03:13.575" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen804" />
+		</navPoint>
+
+		<navPoint id="ghGen813" class="h2" playOrder="79">
+			<navLabel>
+				<text>U</text>
+				<audio src="audio/Page40.mp3" clipBegin="03:30.731" clipEnd="03:32.147" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen813" />
+		</navPoint>
+
+		<navPoint id="ghGen816" class="h2" playOrder="80">
+			<navLabel>
+				<text>W</text>
+				<audio src="audio/Page40.mp3" clipBegin="03:36.803" clipEnd="03:38.247" />
+			</navLabel>
+			<content src="New_Zealand.smil#ghGen816" />
+		</navPoint>
+
+	</navPoint>
+
+	<navPoint id="ghGen823" class="h1" playOrder="81">
+		<navLabel>
+			<text>Questions</text>
+			<audio src="audio/questions/questions.mp3" clipBegin="00:00.00" clipEnd="00:01.000" />
+		</navLabel>
+		<content src="New_Zealand.smil#ghGen823" />
+	</navPoint>
+
+</navMap>
+
+
+<pageList id="pages">
+	<navLabel>
+		<text></text>
+	</navLabel>
+	<pageTarget id="gh_pageRef1" class="pagenum" value="1" type="normal" playOrder="1">
+		<navLabel>
+			<text>1</text>
+			<audio src="audio/Page01.mp3" clipBegin="00:00.00" clipEnd="00:02.250" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef1" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef2" class="pagenum" value="2" type="normal" playOrder="3">
+		<navLabel>
+			<text>2</text>
+			<audio src="audio/Page02.mp3" clipBegin="00:00.00" clipEnd="00:02.393" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef2" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef3" class="pagenum" value="3" type="normal" playOrder="5">
+		<navLabel>
+			<text>3</text>
+			<audio src="audio/Page03.alt.mp3" clipBegin="00:00.00" clipEnd="00:02.286" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef3" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef4" class="pagenum" value="4" type="normal" playOrder="7">
+		<navLabel>
+			<text>4</text>
+			<audio src="audio/Page04.mp3" clipBegin="00:00.00" clipEnd="00:02.317" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef4" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef5" class="pagenum" value="5" type="normal" playOrder="9">
+		<navLabel>
+			<text>5</text>
+			<audio src="audio/Page05.mp3" clipBegin="00:00.00" clipEnd="00:02.320" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef5" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef6" class="pagenum" value="6" type="normal" playOrder="10">
+		<navLabel>
+			<text>6</text>
+			<audio src="audio/Page06.mp3" clipBegin="00:00.00" clipEnd="00:02.866" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef6" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef7" class="pagenum" value="7" type="normal" playOrder="16">
+		<navLabel>
+			<text>7</text>
+			<audio src="audio/Page07.mp3" clipBegin="00:00.00" clipEnd="00:02.256" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef7" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef8" class="pagenum" value="8" type="normal" playOrder="18">
+		<navLabel>
+			<text>8</text>
+			<audio src="audio/Page08.mp3" clipBegin="00:00.00" clipEnd="00:02.251" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef8" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef9" class="pagenum" value="9" type="normal" playOrder="20">
+		<navLabel>
+			<text>9</text>
+			<audio src="audio/Page09.mp3" clipBegin="00:00.00" clipEnd="00:02.252" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef9" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef10" class="pagenum" value="10" type="normal" playOrder="21">
+		<navLabel>
+			<text>10</text>
+			<audio src="audio/Page10.mp3" clipBegin="00:00.00" clipEnd="00:02.223" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef10" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef11" class="pagenum" value="11" type="normal" playOrder="22">
+		<navLabel>
+			<text>11</text>
+			<audio src="audio/Page11.mp3" clipBegin="00:00.00" clipEnd="00:02.241" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef11" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef12" class="pagenum" value="12" type="normal" playOrder="23">
+		<navLabel>
+			<text>12</text>
+			<audio src="audio/Page12.mp3" clipBegin="00:00.00" clipEnd="00:02.396" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef12" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef13" class="pagenum" value="13" type="normal" playOrder="24">
+		<navLabel>
+			<text>13</text>
+			<audio src="audio/Page13.mp3" clipBegin="00:00.00" clipEnd="00:02.428" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef13" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef14" class="pagenum" value="14" type="normal" playOrder="25">
+		<navLabel>
+			<text>14</text>
+			<audio src="audio/Page14.mp3" clipBegin="00:00.00" clipEnd="00:02.348" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef14" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef15" class="pagenum" value="15" type="normal" playOrder="27">
+		<navLabel>
+			<text>15</text>
+			<audio src="audio/Page15.mp3" clipBegin="00:00.00" clipEnd="00:02.442" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef15" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef16" class="pagenum" value="16" type="normal" playOrder="28">
+		<navLabel>
+			<text>16</text>
+			<audio src="audio/Page16.mp3" clipBegin="00:00.00" clipEnd="00:02.405" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef16" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef17" class="pagenum" value="17" type="normal" playOrder="29">
+		<navLabel>
+			<text>17</text>
+			<audio src="audio/Page17.mp3" clipBegin="00:00.00" clipEnd="00:02.456" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef17" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef18" class="pagenum" value="18" type="normal" playOrder="30">
+		<navLabel>
+			<text>18</text>
+			<audio src="audio/Page18.mp3" clipBegin="00:00.00" clipEnd="00:02.434" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef18" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef19" class="pagenum" value="19" type="normal" playOrder="32">
+		<navLabel>
+			<text>19</text>
+			<audio src="audio/Page19.mp3" clipBegin="00:00.00" clipEnd="00:02.432" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef19" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef20" class="pagenum" value="20" type="normal" playOrder="33">
+		<navLabel>
+			<text>20</text>
+			<audio src="audio/Page20.mp3" clipBegin="00:00.00" clipEnd="00:02.369" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef20" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef21" class="pagenum" value="21" type="normal" playOrder="35">
+		<navLabel>
+			<text>21</text>
+			<audio src="audio/Page21.mp3" clipBegin="00:00.00" clipEnd="00:02.381" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef21" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef22" class="pagenum" value="22" type="normal" playOrder="36">
+		<navLabel>
+			<text>22</text>
+			<audio src="audio/Page22.mp3" clipBegin="00:00.00" clipEnd="00:02.657" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef22" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef23" class="pagenum" value="23" type="normal" playOrder="37">
+		<navLabel>
+			<text>23</text>
+			<audio src="audio/Page23.mp3" clipBegin="00:00.00" clipEnd="00:02.610" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef23" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef24" class="pagenum" value="24" type="normal" playOrder="39">
+		<navLabel>
+			<text>24</text>
+			<audio src="audio/Page24.mp3" clipBegin="00:00.00" clipEnd="00:02.550" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef24" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef25" class="pagenum" value="25" type="normal" playOrder="41">
+		<navLabel>
+			<text>25</text>
+			<audio src="audio/Page25.mp3" clipBegin="00:00.00" clipEnd="00:02.442" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef25" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef26" class="pagenum" value="26" type="normal" playOrder="42">
+		<navLabel>
+			<text>26</text>
+			<audio src="audio/Page26.mp3" clipBegin="00:00.00" clipEnd="00:02.719" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef26" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef27" class="pagenum" value="27" type="normal" playOrder="43">
+		<navLabel>
+			<text>27</text>
+			<audio src="audio/Page27.mp3" clipBegin="00:00.00" clipEnd="00:02.450" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef27" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef28" class="pagenum" value="28" type="normal" playOrder="44">
+		<navLabel>
+			<text>28</text>
+			<audio src="audio/Page28.mp3" clipBegin="00:00.00" clipEnd="00:02.579" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef28" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef29" class="pagenum" value="29" type="normal" playOrder="46">
+		<navLabel>
+			<text>29</text>
+			<audio src="audio/Page29.mp3" clipBegin="00:00.00" clipEnd="00:02.492" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef29" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef30" class="pagenum" value="30" type="normal" playOrder="47">
+		<navLabel>
+			<text>30</text>
+			<audio src="audio/Page30.mp3" clipBegin="00:00.00" clipEnd="00:02.327" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef30" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef31" class="pagenum" value="31" type="normal" playOrder="49">
+		<navLabel>
+			<text>31</text>
+			<audio src="audio/Page31.mp3" clipBegin="00:00.00" clipEnd="00:02.303" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef31" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef32" class="pagenum" value="32" type="normal" playOrder="50">
+		<navLabel>
+			<text>32</text>
+			<audio src="audio/Page32.mp3" clipBegin="00:00.00" clipEnd="00:02.510" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef32" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef33" class="pagenum" value="33" type="normal" playOrder="52">
+		<navLabel>
+			<text>33</text>
+			<audio src="audio/Page33.mp3" clipBegin="00:00.00" clipEnd="00:02.523" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef33" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef34" class="pagenum" value="34" type="normal" playOrder="53">
+		<navLabel>
+			<text>34</text>
+			<audio src="audio/Page34.mp3" clipBegin="00:00.00" clipEnd="00:02.445" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef34" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef35" class="pagenum" value="35" type="normal" playOrder="55">
+		<navLabel>
+			<text>35</text>
+			<audio src="audio/Page35.mp3" clipBegin="00:00.00" clipEnd="00:02.648" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef35" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef36" class="pagenum" value="36" type="normal" playOrder="56">
+		<navLabel>
+			<text>36</text>
+			<audio src="audio/Page36.mp3" clipBegin="00:00.00" clipEnd="00:02.733" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef36" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef37" class="pagenum" value="37" type="normal" playOrder="58">
+		<navLabel>
+			<text>37</text>
+			<audio src="audio/Page37.mp3" clipBegin="00:00.00" clipEnd="00:02.662" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef37" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef38" class="pagenum" value="38" type="normal" playOrder="59">
+		<navLabel>
+			<text>38</text>
+			<audio src="audio/Page38.mp3" clipBegin="00:00.00" clipEnd="00:02.732" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef38" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef39" class="pagenum" value="39" type="normal" playOrder="61">
+		<navLabel>
+			<text>39</text>
+			<audio src="audio/Page39.mp3" clipBegin="00:00.00" clipEnd="00:02.557" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef39" />
+	</pageTarget>
+
+	<pageTarget id="gh_pageRef40" class="pagenum" value="40" type="normal" playOrder="63">
+		<navLabel>
+			<text>40</text>
+			<audio src="audio/Page40.mp3" clipBegin="00:00.00" clipEnd="00:02.241" />
+		</navLabel>
+		<content src="New_Zealand.smil#gh_pageRef40" />
+	</pageTarget>
+
+</pageList>
+
+</ncx>
+  		    
+ 			  	 
+  		 	  
+  	 	 		
+  		 	  
+ 					  
+ 	 			  
+  	 				
+ 					  

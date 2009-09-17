@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN" "http://www.w3.org/TR/REC-SMIL/SMIL10.dtd" []>
+<smil>
+   <head>
+      <meta name="ncc:generator" content="DMFC z3986-2005 to Daisy 2.02 (smil2smil v0.2)" />
+      <meta name="dc:format" content="Daisy 2.02" />
+      <meta name="dc:identifier" content="AUTO-UID-4990946756517120292" />
+      <meta name="title" content="  UI Automation Tree&#xa;" />
+      <meta name="dc:title" content="Microsoft UI Automation" />
+      <meta name="ncc:totalElapsedTime" content="0:06:57" />
+      <meta name="ncc:timeInThisSmil" content="0:00:46" />
+      <layout>
+         <region id="txtView" />
+      </layout>
+   </head>
+   <body>
+      <seq dur="45.860s">
+         <par endsync="last" id="tcp90">
+            <text id="text90" src="content.html#dtb90" />
+            <audio src="speechgen0008.mp3" id="audd133e10" clip-begin="npt=0.000s" clip-end="npt=5.440s" />
+         </par>
+         <par endsync="last" id="tcp91">
+            <text id="text91" src="content.html#dtb91" />
+            <audio src="speechgen0008.mp3" id="audd133e13" clip-begin="npt=5.440s" clip-end="npt=14.240s" />
+         </par>
+         <par endsync="last" id="tcp92">
+            <text id="text92" src="content.html#dtb92" />
+            <audio src="speechgen0008.mp3" id="audd133e16" clip-begin="npt=14.240s" clip-end="npt=23.800s" />
+         </par>
+         <par endsync="last" id="tcp93">
+            <text id="text93" src="content.html#dtb93" />
+            <audio src="speechgen0008.mp3" id="audd133e19" clip-begin="npt=23.800s" clip-end="npt=29.800s" />
+         </par>
+         <par endsync="last" id="tcp94">
+            <text id="text94" src="content.html#dtb94" />
+            <audio src="speechgen0008.mp3" id="audd133e22" clip-begin="npt=29.800s" clip-end="npt=37.920s" />
+         </par>
+         <par endsync="last" id="tcp95">
+            <text id="text95" src="content.html#dtb95" />
+            <audio src="speechgen0008.mp3" id="audd133e25" clip-begin="npt=37.920s" clip-end="npt=45.860s" />
+         </par>
+      </seq>
+   </body>
+</smil>

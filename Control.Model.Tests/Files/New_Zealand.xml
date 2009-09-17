@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-2.dtd" [ 
+   <!ENTITY % MATHML.prefixed "INCLUDE" > 
+   <!ATTLIST w 
+       gh:voiceS   CDATA        #IMPLIED 
+       gh:voiceR   CDATA        #IMPLIED 
+       gh:pronR   CDATA        #IMPLIED 
+     > 
+   <!ATTLIST w 
+       gh:pronS   CDATA        #IMPLIED 
+     > 
+   <!ATTLIST dtbook 
+       xmlns:gh   CDATA        #IMPLIED 
+     > 
+   <!ATTLIST list 
+       style   CDATA        #IMPLIED 
+     > 
+      <!ATTLIST td 
+       style   CDATA        #IMPLIED 
+     > 
+]>
+<dtbook version="2005-2" xmlns="http://www.daisy.org/z3986/2005/dtbook/" xmlns:gh="SYSTEM">
+	<head>
+	<meta name="dtb:uid" content="ghBOOK1211216239"/><meta name="dc:Title" content="The Countries: New Zealand"/></head>
+	<book>
+		<frontmatter>
+			<doctitle id="ghGen2" smilref="New_Zealand.smil#ghGen2">The Countries: New Zealand</doctitle>
+			<level1>
+				<pagenum id="gh_pageRef1" smilref="New_Zealand.smil#gh_pageRef1">1</pagenum>
+				<h1 id="ghGen3" smilref="New_Zealand.smil#ghGen3">The Countries: New Zealand</h1>
+				
+				<imggroup id="ghGen4"><img src="img/Page01a.jpg" alt="A picture of New Zealand." id="ghGen5"/></imggroup>
+				
+				<docauthor id="ghGen6" smilref="New_Zealand.smil#ghGen6">Tamara L. Britton</docauthor>
+				
+				<p id="ghGen7">
+					<sent id="ghGen8" smilref="New_Zealand.smil#ghGen8">ABDO Publishing Company</sent>
+				</p>
+				<pagenum id="gh_pageRef2" smilref="New_Zealand.smil#gh_pageRef2">2</pagenum>
+				<p id="ghGen9">
+					<sent id="ghGen10" smilref="New_Zealand.smil#ghGen10">Visit us at: <w gh:pronS="w w w dot abdo pub dot com" gh:pronR="w w w dot abdo pub dot com">www.abdopub.com</w></sent>
+				</p>
+				<p id="ghGen11">
+					<sent id="ghGen12" smilref="New_Zealand.smil#ghGen12">Published by ABDO Publishing Company, 4940 Viking Drive, Edina, Minnesota <w gh:pronS="5 5 4 3 5 " gh:pronR="5 5 4 3 5 ">55435</w>.</sent>
+					<sent id="ghGen13" smilref="New_Zealand.smil#ghGen13">Copyright © 2004 by Abdo Consulting Group, Inc. </sent>
+					<sent id="ghGen14" smilref="New_Zealand.smil#ghGen14">International copyrights reserved in all countries. </sent>
+					<sent id="ghGen15" smilref="New_Zealand.smil#ghGen15">No part of this book may be reproduced in any form without written permission from the publisher. </sent>
+				</p>
+				<p id="ghGen16">
+					<sent id="ghGen17" smilref="New_Zealand.smil#ghGen17">Printed in the United States.</sent>
+				</p>
+				<p id="ghGen18">
+					<sent id="ghGen19" smilref="New_Zealand.smil#ghGen19">Photo Credits: <w gh:pronS="korbiss ">Corbis</w> pp. 5, 6, 9, 11, 12, 14, 18, 19, 21, 22, 25, 26, 27, 28, 29, 31, 33, 35, 36, 37</sent>
+				</p>
+				<p id="ghGen20">
+					<sent id="ghGen21" smilref="New_Zealand.smil#ghGen21">Editors: Kate A. Conley, Stephanie Hedlund, <w gh:pronS="kristi anne " gh:pronR="kristi anne ">Kristianne</w> E. Vieregger</sent>
+				</p>
+				<p id="ghGen22">
+					<sent id="ghGen23" smilref="New_Zealand.smil#ghGen23">Art Direction &amp; Maps: Neil Linepier</sent>
+				</p>
+			</level1>
+			<level1>
+				<h1 id="ghGen24" smilref="New_Zealand.smil#ghGen24">Library of Congress Cataloging-in-Publication Data</h1>
+				<p id="ghGen25">
+					<sent id="ghGen26" smilref="New_Zealand.smil#ghGen26">Britton, Tamara L., 1963-</sent>
+				</p>
+				<p id="ghGen27">
+					<sent id="ghGen28" smilref="New_Zealand.smil#ghGen28">New Zealand/Tamara L. Britton.</sent>
+				</p>
+				<p id="ghGen29">
+					<sent id="ghGen30" smilref="New_Zealand.smil#ghGen30"><w gh:pronS="p " gh:pronR="p ">p.</w> <w gh:pronS="see emm " gh:pronR="see emm ">cm.</w> - (The countries)</sent>
+				</p>
+				<p id="ghGen31">
+					<sent id="ghGen32" smilref="New_Zealand.smil#ghGen32">Includes index.</sent>
+				</p>
+				<p id="ghGen33">
+					<sent id="ghGen34" smilref="New_Zealand.smil#ghGen34">Summary: An introduction to the history, geography, plants and animals, government, people, and culture of New Zealand.</sent>
+				</p>
+				<p id="ghGen35">
+					<sent id="ghGen36" smilref="New_Zealand.smil#ghGen36">ISBN <w gh:pronS="1 dash 5 9 1 9 7 dash 2 9 4 dash 9 " gh:pronR="1 dash 5 9 1 9 7 dash 2 9 4 dash 9 ">1-59197-294-9</w></sent>
+				</p>
+				<p id="ghGen37">
+					<sent id="ghGen38" smilref="New_Zealand.smil#ghGen38">1. New Zealand - Juvenile literature. </sent>
+					<sent id="ghGen39" smilref="New_Zealand.smil#ghGen39">[1. New Zealand.] <w gh:pronS="one " gh:pronR="one ">I.</w> Title. <w gh:pronS="two " gh:pronR="two ">II.</w> Series.</sent>
+				</p>
+				<p id="ghGen40">
+					<sent id="ghGen41" smilref="New_Zealand.smil#ghGen41"><w gh:pronS="D U 4 0 8 point B 7 5 " gh:pronR="D U 4 0 8 point B 7 5 ">DU408.B75</w> 2003</sent>
+				</p>
+				<p id="ghGen42">
+					<sent id="ghGen43" smilref="New_Zealand.smil#ghGen43"><w gh:pronS="9 9 3 " gh:pronR="9 9 3 ">993</w><w gh:pronS="dash " gh:pronR="dash ">-</w><w gh:pronS="d c 2 1 " gh:pronR="d c 2 1 ">dc21</w></sent>
+				</p>
+				<p id="ghGen44">
+					<sent id="ghGen45" smilref="New_Zealand.smil#ghGen45"><w gh:pronS="2 0 0 3 0 4 3 7 4 0 " gh:pronR="2 0 0 3 0 4 3 7 4 0 ">2003043740</w></sent>
+				</p>
+				<pagenum id="gh_pageRef3" smilref="New_Zealand.smil#gh_pageRef3">3</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen46" smilref="New_Zealand.smil#ghGen46">Contents</h1>
+				
+				
+				<p id="ghGen47">
+					<sent id="ghGen48" smilref="New_Zealand.smil#ghGen48">Hello!</sent>
+				</p>
+				
+				
+				<p id="ghGen49">
+					<sent id="ghGen50" smilref="New_Zealand.smil#ghGen50">4</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen51">
+					<sent id="ghGen52" smilref="New_Zealand.smil#ghGen52">Fast Facts</sent>
+				</p>
+				
+				
+				<p id="ghGen53">
+					<sent id="ghGen54" smilref="New_Zealand.smil#ghGen54">6</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen55">
+					<sent id="ghGen56" smilref="New_Zealand.smil#ghGen56">Timeline</sent>
+				</p>
+				
+				
+				<p id="ghGen57">
+					<sent id="ghGen58" smilref="New_Zealand.smil#ghGen58">7</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen59">
+					<sent id="ghGen60" smilref="New_Zealand.smil#ghGen60">History</sent>
+				</p>
+				
+				
+				<p id="ghGen61">
+					<sent id="ghGen62" smilref="New_Zealand.smil#ghGen62">8</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen63">
+					<sent id="ghGen64" smilref="New_Zealand.smil#ghGen64">Island Nation</sent>
+				</p>
+				
+				
+				<p id="ghGen65">
+					<sent id="ghGen66" smilref="New_Zealand.smil#ghGen66">14</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen67">
+					<sent id="ghGen68" smilref="New_Zealand.smil#ghGen68">Plants &amp; Animals</sent>
+				</p>
+				
+				
+				<p id="ghGen69">
+					<sent id="ghGen70" smilref="New_Zealand.smil#ghGen70">18</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen71">
+					<sent id="ghGen72" smilref="New_Zealand.smil#ghGen72">New Zealanders</sent>
+				</p>
+				
+				
+				<p id="ghGen73">
+					<sent id="ghGen74" smilref="New_Zealand.smil#ghGen74">20</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen75">
+					<sent id="ghGen76" smilref="New_Zealand.smil#ghGen76">Making Money</sent>
+				</p>
+				
+				
+				<p id="ghGen77">
+					<sent id="ghGen78" smilref="New_Zealand.smil#ghGen78">24</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen79">
+					<sent id="ghGen80" smilref="New_Zealand.smil#ghGen80">Cities</sent>
+				</p>
+				
+				
+				<p id="ghGen81">
+					<sent id="ghGen82" smilref="New_Zealand.smil#ghGen82">28</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen83">
+					<sent id="ghGen84" smilref="New_Zealand.smil#ghGen84">Transportation</sent>
+				</p>
+				
+				
+				<p id="ghGen85">
+					<sent id="ghGen86" smilref="New_Zealand.smil#ghGen86">30</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen87">
+					<sent id="ghGen88" smilref="New_Zealand.smil#ghGen88">Government</sent>
+				</p>
+				
+				
+				<p id="ghGen89">
+					<sent id="ghGen90" smilref="New_Zealand.smil#ghGen90">32</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen91">
+					<sent id="ghGen92" smilref="New_Zealand.smil#ghGen92">Celebrate!</sent>
+				</p>
+				
+				
+				<p id="ghGen93">
+					<sent id="ghGen94" smilref="New_Zealand.smil#ghGen94">34</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen95">
+					<sent id="ghGen96" smilref="New_Zealand.smil#ghGen96">Leisure Time</sent>
+				</p>
+				
+				
+				<p id="ghGen97">
+					<sent id="ghGen98" smilref="New_Zealand.smil#ghGen98">36</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen99">
+					<sent id="ghGen100" smilref="New_Zealand.smil#ghGen100">Glossary</sent>
+				</p>
+				
+				
+				<p id="ghGen101">
+					<sent id="ghGen102" smilref="New_Zealand.smil#ghGen102">38</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen103">
+					<sent id="ghGen104" smilref="New_Zealand.smil#ghGen104">Web Sites</sent>
+				</p>
+				
+				
+				<p id="ghGen105">
+					<sent id="ghGen106" smilref="New_Zealand.smil#ghGen106">39</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen107">
+					<sent id="ghGen108" smilref="New_Zealand.smil#ghGen108">Index</sent>
+				</p>
+				
+				
+				<p id="ghGen109">
+					<sent id="ghGen110" smilref="New_Zealand.smil#ghGen110">40</sent>
+				</p>
+				
+				
+				
+
+			</level1>
+			</frontmatter>
+		<bodymatter>
+
+			<level1>
+				<pagenum id="gh_pageRef4" smilref="New_Zealand.smil#gh_pageRef4">4</pagenum>
+				<h1 id="ghGen111" smilref="New_Zealand.smil#ghGen111">Hello!</h1>
+				<p id="ghGen112">
+					<sent id="ghGen113" smilref="New_Zealand.smil#ghGen113">	Welcome to New Zealand! </sent>
+					<sent id="ghGen114" smilref="New_Zealand.smil#ghGen114">New Zealand is an island nation in the Southern Hemisphere. </sent>
+					<sent id="ghGen115" smilref="New_Zealand.smil#ghGen115">It is about 1,000 miles (1,600 km) from its nearest neighbor! </sent>
+					<sent id="ghGen116" smilref="New_Zealand.smil#ghGen116">Its isolated location and many islands make it home to unique plants and animals.</sent>
+				</p>
+				<p id="ghGen117">
+					<sent id="ghGen118" smilref="New_Zealand.smil#ghGen118">New Zealand's people are mainly descendants of European immigrants and the native <w gh:pronS="more e " gh:pronR="more e ">Maori</w> <w gh:pronS=" " gh:pronR=" ">(MOUR-ee)</w>. </sent>
+					<sent id="ghGen119" smilref="New_Zealand.smil#ghGen119">The immigrants and natives blended their traditions to create a rich cultural mix. </sent>
+					<sent id="ghGen120" smilref="New_Zealand.smil#ghGen120">But, this threatens the survival of the native <w gh:pronS="more e " gh:pronR="more e ">Maori</w> culture.</sent>
+				</p>
+				<p id="ghGen121">
+					<sent id="ghGen122" smilref="New_Zealand.smil#ghGen122">	Today, New Zealand's government is working to promote growth, while preserving history. </sent>
+					<sent id="ghGen123" smilref="New_Zealand.smil#ghGen123">Together, New Zealanders are working to make their country a great place to <w gh:pronS="lihv " gh:pronR="lihv ">live</w> for all of its people.</sent>
+				</p>
+				<pagenum id="gh_pageRef5" smilref="New_Zealand.smil#gh_pageRef5">5</pagenum>
+				<imggroup id="ghGen124">
+				<img src="img/Page05a.jpg" alt="Four girls standing together, one holding a soccer ball." id="ghGen125"/>
+				<prodnote render="optional" id="ghGen126" smilref="New_Zealand.smil#ghGen126">
+					<p id="ghGen127">
+						<sent id="ghGen128">Picture shown with the caption, "Hello from New Zealand!"</sent>
+					</p>
+				</prodnote>
+				</imggroup>
+				<pagenum id="gh_pageRef6" smilref="New_Zealand.smil#gh_pageRef6">6</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen129" smilref="New_Zealand.smil#ghGen129">Fast Facts</h1>
+				<p id="ghGen130">
+					<sent id="ghGen131" smilref="New_Zealand.smil#ghGen131">OFFICIAL NAME: New Zealand</sent>
+				</p>
+				<p id="ghGen132">
+					<sent id="ghGen133" smilref="New_Zealand.smil#ghGen133">CAPITAL: Wellington</sent>
+				</p>
+				<level2>
+					<h2 id="ghGen134" smilref="New_Zealand.smil#ghGen134">LAND</h2>
+					<p id="ghGen135">
+						<sent id="ghGen136" smilref="New_Zealand.smil#ghGen136">Area: 103,738 square miles (268,680 sq km)</sent>
+					</p>
+					<p id="ghGen137">
+						<sent id="ghGen138" smilref="New_Zealand.smil#ghGen138">Mountain Range: Southern Alps</sent>
+					</p>
+					<p id="ghGen139">
+						<sent id="ghGen140" smilref="New_Zealand.smil#ghGen140">Highest Point: Mount Cook 12,349 feet (3,764 m)</sent>
+					</p>
+					<p id="ghGen141">
+						<sent id="ghGen142" smilref="New_Zealand.smil#ghGen142">Major Rivers: Waikato and Clutha Rivers</sent>
+					</p>
+					<p id="ghGen143">
+						<sent id="ghGen144" smilref="New_Zealand.smil#ghGen144">Lakes: Taupo, Te Anau, Manpouri</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen145" smilref="New_Zealand.smil#ghGen145">PEOPLE</h2>
+					<p id="ghGen146">
+						<sent id="ghGen147" smilref="New_Zealand.smil#ghGen147">Population: 3,908,037 (July 2002 <w gh:pronS="estimated " gh:pronR="estimated ">est.</w>)</sent>
+					</p>
+					<p id="ghGen148">
+						<sent id="ghGen149" smilref="New_Zealand.smil#ghGen149">Major Cities: Wellington, Auckland, <w gh:pronR="Christ church ">Christchurch</w></sent>
+					</p>
+					<p id="ghGen150">
+						<sent id="ghGen151" smilref="New_Zealand.smil#ghGen151">Languages: English, <w gh:pronS="more e " gh:pronR="more e ">Maori</w></sent>
+					</p>
+					<p id="ghGen152">
+						<sent id="ghGen153" smilref="New_Zealand.smil#ghGen153">Religions: Protestantism, Catholicism</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen154" smilref="New_Zealand.smil#ghGen154">GOVERNMENT</h2>
+					<p id="ghGen155">
+						<sent id="ghGen156" smilref="New_Zealand.smil#ghGen156">Form: Parliamentary democracy</sent>
+					</p>
+					<p id="ghGen157">
+						<sent id="ghGen158" smilref="New_Zealand.smil#ghGen158">Head of State: British monarch represented by governor general</sent>
+					</p>
+					<p id="ghGen159">
+						<sent id="ghGen160" smilref="New_Zealand.smil#ghGen160">Head of Government: Prime minister</sent>
+					</p>
+					<p id="ghGen161">
+						<sent id="ghGen162" smilref="New_Zealand.smil#ghGen162">Legislature: Parliament</sent>
+					</p>
+					<p id="ghGen163">
+						<sent id="ghGen164" smilref="New_Zealand.smil#ghGen164">Nationhood: September 26, 1907</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen165" smilref="New_Zealand.smil#ghGen165">ECONOMY</h2>
+					<p id="ghGen166">
+						<sent id="ghGen167" smilref="New_Zealand.smil#ghGen167">Agricultural Products: Meat, fish, dairy products, wood; wheat, fruits, vegetables; timber</sent>
+					</p>
+					<p id="ghGen168">
+						<sent id="ghGen169" smilref="New_Zealand.smil#ghGen169">Mining Products: Petroleum, coal, natural gas</sent>
+					</p>
+					<p id="ghGen170">
+						<sent id="ghGen171" smilref="New_Zealand.smil#ghGen171">Manufactured Products: Processed foods, wood products, textiles, machinery</sent>
+					</p>
+					<p id="ghGen172">
+						<sent id="ghGen173" smilref="New_Zealand.smil#ghGen173">Money: New Zealand dollar (1 New Zealand dollar = 100 cents)</sent>
+					</p>
+					<imggroup id="ghGen174">
+					<img src="img/Page06.alt.jpg" alt="Map of New Zealand showing Wellington, the New Zealand flag and money." id="ghGen175"/>
+					<prodnote render="optional" id="ghGen176" smilref="New_Zealand.smil#ghGen176">
+						<p id="ghGen177">
+							<sent id="ghGen178">Shown are pictures depicting where Wellington is located, New Zealand's flag, and New Zealand’s money.</sent>
+						</p>
+					</prodnote>
+					</imggroup>
+					<pagenum id="gh_pageRef7" smilref="New_Zealand.smil#gh_pageRef7">7</pagenum>
+				</level2>
+			</level1>
+			<level1>
+				<h1 id="ghGen179" smilref="New_Zealand.smil#ghGen179">Timeline</h1>
+				
+				
+				
+				<p id="ghGen180">
+					<sent id="ghGen181" smilref="New_Zealand.smil#ghGen181">1000</sent>
+
+					<sent id="ghGen182" smilref="New_Zealand.smil#ghGen182">Polynesian peoples migrate to New Zealand</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen183">
+					<sent id="ghGen184" smilref="New_Zealand.smil#ghGen184">1642</sent>
+
+					<sent id="ghGen185" smilref="New_Zealand.smil#ghGen185">Abel Tasman discovers New Zealand</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen186">
+					<sent id="ghGen187" smilref="New_Zealand.smil#ghGen187">1769</sent>
+
+					<sent id="ghGen188" smilref="New_Zealand.smil#ghGen188">James Cook maps New Zealand</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen189">
+					<sent id="ghGen190" smilref="New_Zealand.smil#ghGen190">1840</sent>
+
+					<sent id="ghGen191" smilref="New_Zealand.smil#ghGen191"><w gh:pronS="more e " gh:pronR="more e ">Maori</w> and British sign the Treaty of <w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w></sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen192">
+					<sent id="ghGen193" smilref="New_Zealand.smil#ghGen193">1845</sent>
+
+					<sent id="ghGen194" smilref="New_Zealand.smil#ghGen194">Hone Heke leads uprising; <w gh:pronS="more e " gh:pronR="more e ">Maori</w> Wars begin</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen195">
+					<sent id="ghGen196" smilref="New_Zealand.smil#ghGen196">1846</sent>
+
+					<sent id="ghGen197" smilref="New_Zealand.smil#ghGen197">British defeat <w gh:pronS="more e " gh:pronR="more e ">Maori</w></sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen198">
+					<sent id="ghGen199" smilref="New_Zealand.smil#ghGen199">1860</sent>
+
+					<sent id="ghGen200" smilref="New_Zealand.smil#ghGen200">War resumes between British and <w gh:pronS="more e " gh:pronR="more e ">Maori</w></sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen201">
+					<sent id="ghGen202" smilref="New_Zealand.smil#ghGen202">1872</sent>
+
+					<sent id="ghGen203" smilref="New_Zealand.smil#ghGen203"><w gh:pronS="tay kootie rea kee rang gee " gh:pronR="tay kootie ree kee rang gee ">Te Kooti Rikirangi</w> retreats from war; <w gh:pronS="more e " gh:pronR="more e ">Maori</w> Wars end</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen204">
+					<sent id="ghGen205" smilref="New_Zealand.smil#ghGen205">1907</sent>
+
+					<sent id="ghGen206" smilref="New_Zealand.smil#ghGen206">New Zealand wins independence from Britain</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen207">
+					<sent id="ghGen208" smilref="New_Zealand.smil#ghGen208">1985</sent>
+
+					<sent id="ghGen209" smilref="New_Zealand.smil#ghGen209">Treaty of Rarotonga</sent>
+				</p>
+				
+				
+				
+				
+				<p id="ghGen210">
+					<sent id="ghGen211" smilref="New_Zealand.smil#ghGen211">1986</sent>
+
+					<sent id="ghGen212" smilref="New_Zealand.smil#ghGen212">The United States ends <w gh:pronS="anzus " gh:pronR="anzus ">ANZUS</w> Treaty</sent>
+				</p>
+				
+				
+				
+				<pagenum id="gh_pageRef8" smilref="New_Zealand.smil#gh_pageRef8">8</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen213" smilref="New_Zealand.smil#ghGen213">History</h1>
+				<p id="ghGen214">
+					<sent id="ghGen215" smilref="New_Zealand.smil#ghGen215">	Polynesian people first came to New Zealand in about 1000. </sent>
+					<sent id="ghGen216" smilref="New_Zealand.smil#ghGen216">The <w gh:pronS="more e " gh:pronR="more e ">Maori</w> are descendants of these early people. </sent>
+					<sent id="ghGen217" smilref="New_Zealand.smil#ghGen217">Early <w gh:pronS="more e " gh:pronR="more e ">Maori</w> peoples were hunters and gatherers. </sent>
+					<sent id="ghGen218" smilref="New_Zealand.smil#ghGen218">Later, they gained skills in agriculture and fishing.</sent>
+				</p>
+				<p id="ghGen219">
+					<sent id="ghGen220" smilref="New_Zealand.smil#ghGen220">	The <w gh:pronS="more e " gh:pronR="more e ">Maori</w> led an isolated existence until Dutchman Abel Tasman arrived. </sent>
+					<sent id="ghGen221" smilref="New_Zealand.smil#ghGen221">Tasman worked for the Dutch East India Company. </sent>
+					<sent id="ghGen222" smilref="New_Zealand.smil#ghGen222">He was searching for a continent in the Southern Hemisphere.</sent>
+				</p>
+				<p id="ghGen223">
+					<sent id="ghGen224" smilref="New_Zealand.smil#ghGen224">	Tasman discovered New Zealand in December 1642. </sent>
+					<sent id="ghGen225" smilref="New_Zealand.smil#ghGen225">The <w gh:pronS="more e " gh:pronR="more e ">Maori</w>, however, defended their homeland. </sent>
+					<sent id="ghGen226" smilref="New_Zealand.smil#ghGen226">Tasman could not come ashore.</sent>
+				</p>
+				<p id="ghGen227">
+					<sent id="ghGen228" smilref="New_Zealand.smil#ghGen228">	In 1769, Captain James Cook sailed around New Zealand. </sent>
+					<sent id="ghGen229" smilref="New_Zealand.smil#ghGen229">He became friends with the <w gh:pronS="more e " gh:pronR="more e ">Maori</w>. </sent>
+					<sent id="ghGen230" smilref="New_Zealand.smil#ghGen230">Captain Cook's successful exploration and mapping</sent>
+				</p>
+				<pagenum id="gh_pageRef9" smilref="New_Zealand.smil#gh_pageRef9">9</pagenum>
+				<p id="ghGen231">
+					<sent id="ghGen232" smilref="New_Zealand.smil#ghGen232">of the islands led other explorers there.</sent>
+				</p>
+				<imggroup id="ghGen233">
+				<img src="img/Page09a.jpg" alt="Many warriors all rowing in a large boat." id="ghGen234"/>
+				<prodnote render="optional" id="ghGen235" smilref="New_Zealand.smil#ghGen235">
+					<p id="ghGen236">
+						<sent id="ghGen237">Picture shown with the caption, "The <w gh:pronS="more e " gh:pronR="more e ">Maori</w> were fierce warriors, and tribes often waged war on each other."</sent>
+					</p>
+				</prodnote>
+				</imggroup>
+				<p id="ghGen238">
+					<sent id="ghGen239" smilref="New_Zealand.smil#ghGen239">	By the late 1700s, explorers from other European countries had come to New Zealand. </sent>
+					<sent id="ghGen240" smilref="New_Zealand.smil#ghGen240">They set up colonies to trade natural resources, such as flax and wood, and to hunt whales and</sent>
+				</p>
+				<pagenum id="gh_pageRef10" smilref="New_Zealand.smil#gh_pageRef10">10</pagenum>
+				<p id="ghGen241">
+					<sent id="ghGen242" smilref="New_Zealand.smil#ghGen242">seals. </sent>
+					<sent id="ghGen243" smilref="New_Zealand.smil#ghGen243">New Zealand became successful and profitable.</sent>
+				</p>
+				<p id="ghGen244">
+					<sent id="ghGen245" smilref="New_Zealand.smil#ghGen245">	For this reason, the British wanted to annex New Zealand. </sent>
+					<sent id="ghGen246" smilref="New_Zealand.smil#ghGen246">British officials signed the Treaty of <w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w> <w gh:pronS=" " gh:pronR=" ">(WHY-tahng-gee)</w> with the <w gh:pronS="more e " gh:pronR="more e ">Maori</w> in 1840. </sent>
+					<sent id="ghGen247" smilref="New_Zealand.smil#ghGen247">It made England's monarch the ruler of New Zealand.</sent>
+				</p>
+				<p id="ghGen248">
+					<sent id="ghGen249" smilref="New_Zealand.smil#ghGen249">	The few <w gh:pronS="more e " gh:pronR="more e ">Maori</w> who signed the treaty did not represent all of their people. </sent>
+					<sent id="ghGen250" smilref="New_Zealand.smil#ghGen250">The <w gh:pronS="more e " gh:pronR="more e ">Maori</w> believed the land belonged to all, not to individuals. </sent>
+					<sent id="ghGen251" smilref="New_Zealand.smil#ghGen251">Many were upset that the British settlers were taking land for themselves.</sent>
+				</p>
+				<p id="ghGen252">
+					<sent id="ghGen253" smilref="New_Zealand.smil#ghGen253">	In 1845, <w gh:pronS="more e " gh:pronR="more e ">Maori</w> chief Hone Heke led an uprising against the settlers. </sent>
+					<sent id="ghGen254" smilref="New_Zealand.smil#ghGen254">This started the <w gh:pronS="more e " gh:pronR="more e ">Maori</w> Wars. </sent>
+					<sent id="ghGen255" smilref="New_Zealand.smil#ghGen255">The British won in 1846. </sent>
+					<sent id="ghGen256" smilref="New_Zealand.smil#ghGen256">But in 1860, war broke out again. </sent>
+					<sent id="ghGen257" smilref="New_Zealand.smil#ghGen257">The fighting continued until 1872, when a new <w gh:pronS="more e " gh:pronR="more e ">Maori</w> chief, <w gh:pronS="tay kootie rea kee rang gee " gh:pronR="tay kootie ree kee rang gee ">Te Kooti Rikirangi</w> <w gh:pronS=" " gh:pronR=" ">(TAY KOO-tee ree-kee-RAHNG-gee)</w>, retreated.</sent>
+				</p>
+				<p id="ghGen258">
+					<sent id="ghGen259" smilref="New_Zealand.smil#ghGen259">	The <w gh:pronS="more e " gh:pronR="more e ">Maori</w> and their culture were in danger of</sent>
+				</p>
+				<pagenum id="gh_pageRef11" smilref="New_Zealand.smil#gh_pageRef11">11</pagenum>
+				<p id="ghGen260">
+					<sent id="ghGen261" smilref="New_Zealand.smil#ghGen261">extinction. </sent>
+					<sent id="ghGen262" smilref="New_Zealand.smil#ghGen262">The government had given away much of their land during the wars. </sent>
+					<sent id="ghGen263" smilref="New_Zealand.smil#ghGen263">And, diseases introduced by the Europeans killed many people.</sent>
+				</p>
+				<imggroup id="ghGen264"><img src="img/Page11a.jpg" alt="Many Maori walking, carrying flags and a large banner that reads &quot;honour the treaty&quot;." id="ghGen265"/>
+				<prodnote render="optional" id="ghGen266" smilref="New_Zealand.smil#ghGen266">
+					<p id="ghGen267">
+						<sent id="ghGen268">Picture shown with the caption, "Many <w gh:pronS="more e " gh:pronR="more e ">Maori</w> protest on <w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w> Day."</sent>
+					</p>
+				</prodnote></imggroup>
+				<p id="ghGen269">
+					<sent id="ghGen270" smilref="New_Zealand.smil#ghGen270">	Meanwhile, New Zealand continued to grow</sent>
+				</p>
+				<pagenum id="gh_pageRef12" smilref="New_Zealand.smil#gh_pageRef12">12</pagenum>
+				<p id="ghGen271">
+					<sent id="ghGen272" smilref="New_Zealand.smil#ghGen272">and prosper. </sent>
+					<sent id="ghGen273" smilref="New_Zealand.smil#ghGen273">Thousands of European settlers had moved there. </sent>
+					<sent id="ghGen274" smilref="New_Zealand.smil#ghGen274">In 1907, New Zealand became a self-governing country.</sent>
+				</p>
+				<imggroup id="ghGen275"><img src="img/Page12a.jpg" alt="Memorial with statues of people around a pilar, with a large angel on the top." id="ghGen276"/>
+				<prodnote render="optional" id="ghGen277" smilref="New_Zealand.smil#ghGen277">
+					<p id="ghGen278">
+						<sent id="ghGen279">Picture shown with the caption, "This memorial in <w gh:pronR="Christ church ">Christchurch</w> honors soldiers who lost their <w gh:pronS="lye vze ">lives</w> during World Wars <w gh:pronS="one " gh:pronR="one ">I</w> and <w gh:pronS="two " gh:pronR="two ">II</w>."</sent>
+					</p>
+				</prodnote></imggroup>
+				<p id="ghGen280">
+					<sent id="ghGen281" smilref="New_Zealand.smil#ghGen281">	New Zealanders aided the British during the South African War and World War <w gh:pronS="one " gh:pronR="one ">I</w>. </sent>
+					<sent id="ghGen282" smilref="New_Zealand.smil#ghGen282">Many soldiers lost their <w gh:pronS="lye vze ">lives</w> in battle. </sent>
+					<sent id="ghGen283" smilref="New_Zealand.smil#ghGen283">During this time,</sent>
+				</p>
+				<pagenum id="gh_pageRef13" smilref="New_Zealand.smil#gh_pageRef13">13</pagenum>
+				<p id="ghGen284">
+					<sent id="ghGen285" smilref="New_Zealand.smil#ghGen285">however, many New Zealanders developed a sense of pride in their country.</sent>
+				</p>
+				<p id="ghGen286">
+					<sent id="ghGen287" smilref="New_Zealand.smil#ghGen287">	During World War <w gh:pronS="two " gh:pronR="two ">II</w>, New Zealand supplied food to Britain. </sent>
+					<sent id="ghGen288" smilref="New_Zealand.smil#ghGen288">And once again, its soldiers fought bravely. </sent>
+					<sent id="ghGen289" smilref="New_Zealand.smil#ghGen289">After the war, the United States, Australia, and New Zealand signed the <w gh:pronS="anzus " gh:pronR="anzus ">ANZUS</w> Treaty. </sent>
+					<sent id="ghGen290" smilref="New_Zealand.smil#ghGen290">It formed an alliance between the countries to protect the South Pacific from future aggression.</sent>
+				</p>
+				<p id="ghGen291">
+					<sent id="ghGen292" smilref="New_Zealand.smil#ghGen292">	Then, in 1985, New Zealand signed the Treaty of Rarotonga (rar-uh-TAHNG-guh). </sent>
+					<sent id="ghGen293" smilref="New_Zealand.smil#ghGen293">It created the South Pacific Nuclear Free Zone. </sent>
+					<sent id="ghGen294" smilref="New_Zealand.smil#ghGen294">After this, New Zealand would not let nuclear-powered watercraft into its waters. </sent>
+					<sent id="ghGen295" smilref="New_Zealand.smil#ghGen295">So in 1986, the United States ended the <w gh:pronS="anzus " gh:pronR="anzus ">ANZUS</w> Treaty.</sent>
+				</p>
+				<p id="ghGen296">
+					<sent id="ghGen297" smilref="New_Zealand.smil#ghGen297">	Today, New Zealand's government continues to work to improve conditions for its people. </sent>
+					<sent id="ghGen298" smilref="New_Zealand.smil#ghGen298">It's trying to repay the <w gh:pronS="more e " gh:pronR="more e ">Maori</w> for past injustices. </sent>
+					<sent id="ghGen299" smilref="New_Zealand.smil#ghGen299">And, New Zealand is increasing its participation in the world market. </sent>
+					<sent id="ghGen300" smilref="New_Zealand.smil#ghGen300">The country's people are working together to make New Zealand a great place to work and <w gh:pronS="lihv " gh:pronR="lihv ">live</w> for everyone.</sent>
+				</p>
+				<pagenum id="gh_pageRef14" smilref="New_Zealand.smil#gh_pageRef14">14</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen301" smilref="New_Zealand.smil#ghGen301">Island Nation</h1>
+				<p id="ghGen302">
+					<sent id="ghGen303" smilref="New_Zealand.smil#ghGen303">New Zealand is an island nation in the Southern Hemisphere. </sent>
+					<sent id="ghGen304" smilref="New_Zealand.smil#ghGen304">The country's land is made up of three large islands and many smaller islands. </sent>
+					<sent id="ghGen305" smilref="New_Zealand.smil#ghGen305">New Zealand's nearest neighbor is Australia, located about 1,000 miles (1,600 km) away.</sent>
+				</p>
+				<p id="ghGen306">
+					<sent id="ghGen307" smilref="New_Zealand.smil#ghGen307">North Island has a dramatic landscape. </sent>
+					<sent id="ghGen308" smilref="New_Zealand.smil#ghGen308">In the center of the island is an area of active volcanoes. </sent>
+					<sent id="ghGen309" smilref="New_Zealand.smil#ghGen309">This area also has many lakes. </sent>
+					<sent id="ghGen310" smilref="New_Zealand.smil#ghGen310">The largest is Lake Taupo.</sent>
+				</p>
+				<p id="ghGen311">
+					<sent id="ghGen312" smilref="New_Zealand.smil#ghGen312">	North of the volcanoes are limestone caves. </sent>
+					<sent id="ghGen313" smilref="New_Zealand.smil#ghGen313">They are called the <w gh:pronS="why toe mo " gh:pronR="why toe moe ">Waitomo</w> <w gh:pronS=" " gh:pronR=" ">(why-TOH-moh)</w></sent>
+					<sent id="ghGen314" smilref="New_Zealand.smil#ghGen314">Caves. </sent>
+					<sent id="ghGen315" smilref="New_Zealand.smil#ghGen315">Farther north is a thermal region. </sent>
+					<sent id="ghGen316" smilref="New_Zealand.smil#ghGen316">This area has geysers and hot springs.</sent>
+				</p>
+				<!--  This image is missing a VDN  -->
+				<imggroup id="ghGen317"><img src="img/Page14a.jpg" alt="Lady Knox geyser." id="ghGen318"/>
+				<prodnote render="optional" id="ghGen319" smilref="New_Zealand.smil#ghGen319">
+					<p id="ghGen320">
+						<sent id="ghGen321">Picture shown with the caption, "This geyser, called Lady Knox, can be found on Waiotapu Thermal Reserve.  Vistors come to watch it erupt."</sent>
+					</p>
+				</prodnote></imggroup>
+				
+
+				<pagenum id="gh_pageRef15" smilref="New_Zealand.smil#gh_pageRef15">15</pagenum>
+				<imggroup id="ghGen322"><img src="img/Page15.jpg" alt="The location of New Zealand both on the Earth and realtive to Australia along with A more detailed map of New Zealand, showing the features described in the text." id="ghGen323"/>
+				<prodnote render="optional" id="ghGen324" smilref="New_Zealand.smil#ghGen324">
+					<p id="ghGen325">
+						<sent id="ghGen326">Three maps are shown. The first shows New Zealand’s location on a map of the Earth. The second shows its location southeast of Australia. The third shows a detailed map of New Zealand.</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef16" smilref="New_Zealand.smil#gh_pageRef16">16</pagenum>
+				<p id="ghGen327">
+					<sent id="ghGen328" smilref="New_Zealand.smil#ghGen328">	Cook Strait separates North Island and South Island. </sent>
+					<sent id="ghGen329" smilref="New_Zealand.smil#ghGen329">South Island is New Zealand's largest island. </sent>
+					<sent id="ghGen330" smilref="New_Zealand.smil#ghGen330">New Zealanders call it the Mainland. </sent>
+					<sent id="ghGen331" smilref="New_Zealand.smil#ghGen331">The Southern Alps run along this island's west coast. </sent>
+					<sent id="ghGen332" smilref="New_Zealand.smil#ghGen332">They contain Mount Cook, the nation's highest peak.</sent>
+				</p>
+				<p id="ghGen333">
+					<sent id="ghGen334" smilref="New_Zealand.smil#ghGen334">	East of the Southern Alps is a wide plain. </sent>
+					<sent id="ghGen335" smilref="New_Zealand.smil#ghGen335">It is called Canterbury Plains. </sent>
+					<sent id="ghGen336" smilref="New_Zealand.smil#ghGen336">South of the mountains and plains, fjords lead into <w gh:pronR="Foe voe " gh:voiceS="f ow v ow ">Foveaux</w> <w gh:pronS=" " gh:pronR=" ">(FOH-voh)</w> Strait.</sent>
+				</p>
+				<p id="ghGen337">
+					<sent id="ghGen338" smilref="New_Zealand.smil#ghGen338">	Across <w gh:pronR="Foe voe " gh:voiceS="f ow v ow ">Foveaux</w> Strait is Stewart Island. </sent>
+					<sent id="ghGen339" smilref="New_Zealand.smil#ghGen339">It is hilly and wooded. </sent>
+					<sent id="ghGen340" smilref="New_Zealand.smil#ghGen340">The island has inlets, ports, and bays. </sent>
+					<sent id="ghGen341" smilref="New_Zealand.smil#ghGen341">The island's Halfmoon Bay is the southernmost place in New Zealand where people <w gh:pronS="lihv " gh:pronR="lihv ">live</w>.</sent>
+				</p>
+				<p id="ghGen342">
+					<sent id="ghGen343" smilref="New_Zealand.smil#ghGen343">New Zealand's rivers are short and swift. </sent>
+					<sent id="ghGen344" smilref="New_Zealand.smil#ghGen344">They are not good for navigation, but they do generate much of New Zealand's energy. </sent>
+					<sent id="ghGen345" smilref="New_Zealand.smil#ghGen345">The Waikato River is the longest at 264 miles (425 km) long.</sent>
+				</p>
+				<p id="ghGen346">
+					<sent id="ghGen347" smilref="New_Zealand.smil#ghGen347">	<w gh:pronR="wihndz ">Winds</w> from the sea bring much rain to the country, but most falls west of the mountains.	</sent>
+					<sent id="ghGen348" smilref="New_Zealand.smil#ghGen348">Because of New Zealand's location, its climate is mild year-round.</sent>
+				</p>
+				<pagenum id="gh_pageRef17" smilref="New_Zealand.smil#gh_pageRef17">17</pagenum>
+				<imggroup id="ghGen349"><img src="img/Page17a.jpg" alt="Map showing the average yearly rainfall in different parts of New Zealand and differences in temperature in different parts of New Zealand during the summer and winter." id="ghGen350"/>
+				<prodnote render="optional" id="ghGen351" smilref="New_Zealand.smil#ghGen351">
+					<p id="ghGen352">
+						<sent id="ghGen353">Three maps of New Zealand are shown. </sent>
+						<sent id="ghGen354">The first shows average yearly rainfall in different parts of New Zealand. </sent>
+						<sent id="ghGen355">The second and third maps show differences in temperature in different parts of New Zealand during the summer and winter.</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef18" smilref="New_Zealand.smil#gh_pageRef18">18</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen356" smilref="New_Zealand.smil#ghGen356">Plants &amp; Animals</h1>
+				<p id="ghGen357">
+					<sent id="ghGen358" smilref="New_Zealand.smil#ghGen358">New Zealand's varied landscape makes it home to many plants and animals. </sent>
+					<sent id="ghGen359" smilref="New_Zealand.smil#ghGen359">Because of the country's geographic isolation, some are found nowhere else on Earth.</sent>
+				</p>
+				<p id="ghGen360">
+					<sent id="ghGen361" smilref="New_Zealand.smil#ghGen361">	Forests cover about one-fourth of New Zealand's land. </sent>
+					<sent id="ghGen362" smilref="New_Zealand.smil#ghGen362">Beech is the most common tree. </sent>
+					<sent id="ghGen363" smilref="New_Zealand.smil#ghGen363">Rimu is a hardwood tree that grows very slowly. </sent>
+					<sent id="ghGen364" smilref="New_Zealand.smil#ghGen364">Rimu trees can <w gh:pronS="lihv " gh:pronR="lihv ">live</w> to be hundreds of years old.</sent>
+				</p>
+				<imggroup id="ghGen365"><img src="img/Page18a.jpg" alt="The forest." id="ghGen366"/>
+				<prodnote render="optional" id="ghGen367" smilref="New_Zealand.smil#ghGen367">
+					<p id="ghGen368">
+						<sent id="ghGen369">Picture shown with the caption, "This forest has been preserved, which means people can't destroy the area."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef19" smilref="New_Zealand.smil#gh_pageRef19">19</pagenum>
+				<p id="ghGen370">
+					<sent id="ghGen371" smilref="New_Zealand.smil#ghGen371">	Below the forests, in the lower elevations, grasses grow.</sent>
+				</p>
+				<p id="ghGen372">
+					<sent id="ghGen373" smilref="New_Zealand.smil#ghGen373">	Lizards, frogs, and bats are New Zealand's only indigenous animals. </sent>
+					<sent id="ghGen374" smilref="New_Zealand.smil#ghGen374">Other animals, such as cows, were brought to New Zealand from other countries. </sent>
+					<sent id="ghGen375" smilref="New_Zealand.smil#ghGen375">And, while New Zealand is home to many kinds of animals, no snakes <w gh:pronS="lihv " gh:pronR="lihv ">live</w> there at all!</sent>
+				</p>
+				<p id="ghGen376">
+					<sent id="ghGen377" smilref="New_Zealand.smil#ghGen377">	More than 250 species of birds <w gh:pronS="lihv " gh:pronR="lihv ">live</w> in New Zealand, including the kiwi and the weka. </sent>
+					<sent id="ghGen378" smilref="New_Zealand.smil#ghGen378">The kiwi is a small gray-brown bird. </sent>
+					<sent id="ghGen379" smilref="New_Zealand.smil#ghGen379">Its feathers are soft and hairlike. </sent>
+					<sent id="ghGen380" smilref="New_Zealand.smil#ghGen380">It sleeps in burrows dug into the ground.</sent>
+				</p>
+				<imggroup id="ghGen381"><img src="img/Page19a.jpg" alt="Kiwi partially hidden behind a plant." id="ghGen382"/>
+				<prodnote render="optional" id="ghGen383" smilref="New_Zealand.smil#ghGen383">
+					<p id="ghGen384">
+						<sent id="ghGen385">Picture shown with the caption, "Kiwis like to eat worms, and they can sleep for up to 20 hours a day."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef20" smilref="New_Zealand.smil#gh_pageRef20">20</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen386" smilref="New_Zealand.smil#ghGen386">New Zealanders</h1>
+				<p id="ghGen387">
+					<sent id="ghGen388" smilref="New_Zealand.smil#ghGen388">	Most New Zealanders are of European descent. </sent>
+					<sent id="ghGen389" smilref="New_Zealand.smil#ghGen389">They are known as <w gh:pronS="pah kuh, hah " gh:pronR="pah kuh hah ">pakeha</w> <w gh:pronS=" " gh:pronR=" ">(PAH-kuh-hah)</w>. </sent>
+					<sent id="ghGen390" smilref="New_Zealand.smil#ghGen390">The second-largest ethnic group is the <w gh:pronS="more e " gh:pronR="more e ">Maori</w>. </sent>
+					<sent id="ghGen391" smilref="New_Zealand.smil#ghGen391">There are also Asians, Pacific Islanders, and Indians in New Zealand.</sent>
+				</p>
+				<p id="ghGen392">
+					<sent id="ghGen393" smilref="New_Zealand.smil#ghGen393">	English and <w gh:pronS="more e " gh:pronR="more e ">Maori</w> are New Zealand's official languages. </sent>
+					<sent id="ghGen394" smilref="New_Zealand.smil#ghGen394">The country does not have an official religion. </sent>
+					<sent id="ghGen395" smilref="New_Zealand.smil#ghGen395">Most New Zealanders are Anglican, Presbyterian, or Catholic.</sent>
+				</p>
+				<p id="ghGen396">
+					<sent id="ghGen397" smilref="New_Zealand.smil#ghGen397">	Almost all New Zealanders <w gh:pronS="lihv " gh:pronR="lihv ">live</w> in cities. </sent>
+					<sent id="ghGen398" smilref="New_Zealand.smil#ghGen398">Most own a family home. </sent>
+					<sent id="ghGen399" smilref="New_Zealand.smil#ghGen399">These houses often have attached gardens.</sent>
+				</p>
+				<p id="ghGen400">
+					<sent id="ghGen401" smilref="New_Zealand.smil#ghGen401">	Opposite page: These <w gh:pronS="more e " gh:pronR="more e ">Maori</w> women are celebrating their culture through native clothing and dance.</sent>
+				</p>
+				<pagenum id="gh_pageRef21" smilref="New_Zealand.smil#gh_pageRef21">21</pagenum>
+				<imggroup id="ghGen402"><img src="img/Page21.jpg" alt="Maori women celebrating their culture through native clothing and dance." id="ghGen403"/>
+				<prodnote render="optional" id="ghGen404" smilref="New_Zealand.smil#ghGen404">
+					<p id="ghGen405">
+						<sent id="ghGen406">Picture shown with the caption, "These <w gh:pronS="more e " gh:pronR="more e ">Maori</w> women are celebrating their culture through native clothing and dance."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef22" smilref="New_Zealand.smil#gh_pageRef22">22</pagenum>
+				<p id="ghGen407">
+					<sent id="ghGen408" smilref="New_Zealand.smil#ghGen408">New Zealand's many immigrant groups have contributed to its food. </sent>
+					<sent id="ghGen409" smilref="New_Zealand.smil#ghGen409">The traditional dish is roast lamb. </sent>
+					<sent id="ghGen410" smilref="New_Zealand.smil#ghGen410">Many New Zealanders enjoy a traditional breakfast of eggs, meats, and potatoes before heading to work or school.</sent>
+				</p>
+				<p id="ghGen411">
+					<sent id="ghGen412" smilref="New_Zealand.smil#ghGen412">	Children must attend school from age six to age 15. </sent>
+					<sent id="ghGen413" smilref="New_Zealand.smil#ghGen413">Almost every New Zealander can read and write. </sent>
+					<sent id="ghGen414" smilref="New_Zealand.smil#ghGen414">Six years of primary school are followed by secondary school. </sent>
+					<sent id="ghGen415" smilref="New_Zealand.smil#ghGen415">After completing secondary school, students can attend one of New Zealand's seven universities.</sent>
+				</p>
+				<imggroup id="ghGen416"><img src="img/Page22.jpg" alt="Young students sitting around a table with their teacher." id="ghGen417"/>
+				<prodnote render="optional" id="ghGen418" smilref="New_Zealand.smil#ghGen418">
+					<p id="ghGen419">
+						<sent id="ghGen420">Picture shown with the caption, "Students in New Zealand learn about their country's history."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef23" smilref="New_Zealand.smil#gh_pageRef23">23</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen421" smilref="New_Zealand.smil#ghGen421">New Zealand Pavlova</h1>
+				<imggroup id="ghGen422"><img src="img/Page23a.png" alt="New Zealand Pavlova recipie." id="ghGen423"/>
+				<prodnote render="optional" id="ghGen424" smilref="New_Zealand.smil#ghGen424">
+					<p id="ghGen425">
+						<sent id="ghGen426">	This dish is often served at parties and during holidays.
+							3 egg whites <br/>
+							1 cup white sugar <br/>
+							2 tablespoons water <br/>
+							3 teaspoons cornstarch <br/>
+							1 teaspoon vanilla extract <br/>
+							1 teaspoon distilled white vinegar <br/>
+							
+							Preheat oven to 275°<w gh:pronS=" Fahrenheit " gh:pronR=" Fahrenheit ">F</w> (135°<w gh:pronS=" Celsius " gh:pronR=" Celsius ">C</w>).   <br/>
+							Line a cookie sheet with foil and spray on a little cooking spray.  <br/>
+							In a large mixing bowl, beat egg whites until foamy.  <br/>
+							Gradually add sugar.  <br/>
+							Continue to beat until stiff peaks form.  <br/>
+							Beat in water, cornstarch, vanilla, and vinegar.  <br/>
+							Pour entire mixture onto the center of the cookie sheet.  <br/>
+							Bake for 45 minutes.  <br/>
+							Turn oven off and leave Pavlova in the oven until cold.  <br/>
+							Turn upside down onto plate and top with fresh fruit and whipped cream. <br/>
+							
+							AN IMPORTANT NOTE TO THE CHEF: Always have an adult help with the preparation of cooking of food.  <br/>
+							Never use kitchen utensils or appliances without adult permission and supervision. <br/>
+						</sent>
+					</p>
+				</prodnote></imggroup>
+				
+				<!--  This icon will not be spoken  -->
+				<img src="img/Page23b.png" alt="Language icon." id="ghGen427"/>
+				
+				<table id="ghGen428" smilref="New_Zealand.smil#ghGen428">
+					<tr id="ghGen429">
+						<th id="ghGen430">
+							<p id="ghGen431">
+								<sent id="ghGen432" smilref="New_Zealand.smil#ghGen432">English</sent>
+							</p>
+						</th>
+						<th id="ghGen433">
+							<p id="ghGen434">
+								<sent id="ghGen435" smilref="New_Zealand.smil#ghGen435"><w gh:pronS="more e " gh:pronR="more e ">Maori</w></sent>
+							</p>
+						</th>
+					</tr>
+					<tr id="ghGen436">
+						<td id="ghGen437">
+							<p id="ghGen438">
+								<sent id="ghGen439" smilref="New_Zealand.smil#ghGen439">Hello</sent>
+							</p>
+						</td>
+						<td id="ghGen440">
+							<p id="ghGen441">
+								<sent id="ghGen442" smilref="New_Zealand.smil#ghGen442"><w gh:pronS="kee or ah " gh:pronR="kee or ah ">Kia ora</w> <w gh:pronS=" " gh:pronR=" ">(KEE OR-ah)</w></sent>
+							</p>
+						</td>
+					</tr>
+					<tr id="ghGen443">
+						<td id="ghGen444">
+							<p id="ghGen445">
+								<sent id="ghGen446" smilref="New_Zealand.smil#ghGen446">Good-bye</sent>
+							</p>
+						</td>
+						<td id="ghGen447">
+							<p id="ghGen448">
+								<sent id="ghGen449" smilref="New_Zealand.smil#ghGen449"><w gh:voiceR="e&amp;I_" gh:voiceS="ey _">E</w> <w gh:pronS="hi dah, " gh:pronR="hi dah, ">haere</w> <w gh:pronS="dah " gh:pronR="dah ">rä</w> <w gh:pronS=" " gh:pronR=" ">(A HY-dah DAH)</w></sent>
+							</p>
+						</td>
+					</tr>
+					<tr id="ghGen450">
+						<td id="ghGen451">
+							<p id="ghGen452">
+								<sent id="ghGen453" smilref="New_Zealand.smil#ghGen453">Food</sent>
+							</p>
+						</td>
+						<td id="ghGen454">
+							<p id="ghGen455">
+								<sent id="ghGen456" smilref="New_Zealand.smil#ghGen456">Kai <w gh:pronS=" " gh:pronR=" ">(KY)</w></sent>
+							</p>
+						</td>
+					</tr>
+					<tr id="ghGen457">
+						<td id="ghGen458">
+							<p id="ghGen459">
+								<sent id="ghGen460" smilref="New_Zealand.smil#ghGen460">Gift</sent>
+							</p>
+						</td>
+						<td id="ghGen461">
+							<p id="ghGen462">
+								<sent id="ghGen463" smilref="New_Zealand.smil#ghGen463">Koha <w gh:pronS=" " gh:pronR=" ">(KOH-hah)</w></sent>
+							</p>
+						</td>
+					</tr>
+					<tr id="ghGen464">
+						<td id="ghGen465">
+							<p id="ghGen466">
+								<sent id="ghGen467" smilref="New_Zealand.smil#ghGen467">Children</sent>
+							</p>
+						</td>
+						<td id="ghGen468">
+							<p id="ghGen469">
+								<sent id="ghGen470" smilref="New_Zealand.smil#ghGen470"><w gh:pronS="tom are ee kee " gh:pronR="tom are ee kee ">Tamariki</w> <w gh:pronS=" " gh:pronR=" ">(TAHM-ahr-ee-kee)</w></sent>
+							</p>
+						</td>
+					</tr>
+					<tr id="ghGen471">
+						<td id="ghGen472">
+							<p id="ghGen473">
+								<sent id="ghGen474" smilref="New_Zealand.smil#ghGen474">Visitor</sent>
+							</p>
+						</td>
+						<td id="ghGen475">
+							<p id="ghGen476">
+								<sent id="ghGen477" smilref="New_Zealand.smil#ghGen477"><w gh:pronS="man oo he rie " gh:pronR="man oo he rie ">Manurhiri</w> <w gh:pronS=" " gh:pronR=" ">(MAN-oo-hee-ree)</w></sent>
+							</p>
+						</td>
+					</tr>
+				</table>
+				<pagenum id="gh_pageRef24" smilref="New_Zealand.smil#gh_pageRef24">24</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen478" smilref="New_Zealand.smil#ghGen478">Making Money</h1>
+				<p id="ghGen479">
+					<sent id="ghGen480" smilref="New_Zealand.smil#ghGen480">	Most New Zealanders work in the service industry. </sent>
+					<sent id="ghGen481" smilref="New_Zealand.smil#ghGen481">Some work in community and social service jobs. </sent>
+					<sent id="ghGen482" smilref="New_Zealand.smil#ghGen482">Others work in banking and finance, insurance, and real estate. </sent>
+					<sent id="ghGen483" smilref="New_Zealand.smil#ghGen483">Hotel and restaurant workers contribute to the nation's growing tourist industry.</sent>
+				</p>
+				<p id="ghGen484">
+					<sent id="ghGen485" smilref="New_Zealand.smil#ghGen485">	New Zealanders who work in manufacturing make domestic products. </sent>
+					<sent id="ghGen486" smilref="New_Zealand.smil#ghGen486">These products include processed foods, cars, furniture, and electronics. </sent>
+					<sent id="ghGen487" smilref="New_Zealand.smil#ghGen487">New Zealand has to import the raw materials it needs to make products. </sent>
+					<sent id="ghGen488" smilref="New_Zealand.smil#ghGen488">So, manufacturing is expensive.</sent>
+				</p>
+				<p id="ghGen489">
+					<sent id="ghGen490" smilref="New_Zealand.smil#ghGen490">	New Zealanders mine petroleum and coal. </sent>
+					<sent id="ghGen491" smilref="New_Zealand.smil#ghGen491">Most of these resources are used domestically to produce energy. </sent>
+					<sent id="ghGen492" smilref="New_Zealand.smil#ghGen492">Some are sent to other countries. </sent>
+					<sent id="ghGen493" smilref="New_Zealand.smil#ghGen493">Hydropower and geothermal energy</sent>
+				</p>
+				<pagenum id="gh_pageRef25" smilref="New_Zealand.smil#gh_pageRef25">25</pagenum>
+				
+				<imggroup id="ghGen494"><img src="img/Page25.jpg" alt="Large, beautiful building in the distance with white and purple flowers in front of it." id="ghGen495"/>
+				<prodnote render="optional" id="ghGen496" smilref="New_Zealand.smil#ghGen496">
+					<p id="ghGen497">
+						<sent id="ghGen498">Picture shown with the caption, "This museum and restaurant used to be New Zealand's government bathhouse."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef26" smilref="New_Zealand.smil#gh_pageRef26">26</pagenum>
+				<p id="ghGen499">
+					<sent id="ghGen500" smilref="New_Zealand.smil#ghGen500">provide most of New Zealand's electricity. </sent>
+					<sent id="ghGen501" smilref="New_Zealand.smil#ghGen501">Gold and iron are also important mining products.</sent>
+				</p>
+				<p id="ghGen502">
+					<sent id="ghGen503" smilref="New_Zealand.smil#ghGen503">	Agriculture employs the least amount of New Zealanders. </sent>
+					<sent id="ghGen504" smilref="New_Zealand.smil#ghGen504">But, its products are the country's chief exports. </sent>
+					<sent id="ghGen505" smilref="New_Zealand.smil#ghGen505">Farmers raise sheep for butter, meat, wool, and cheese. </sent>
+					<sent id="ghGen506" smilref="New_Zealand.smil#ghGen506">They also grow wheat, apples, corn, and potatoes. </sent>
+					<sent id="ghGen507" smilref="New_Zealand.smil#ghGen507">New Zealand is the world's largest producer of kiwifruit and lamb. </sent>
+					<sent id="ghGen508" smilref="New_Zealand.smil#ghGen508">It is the world's second-largest producer of wool.</sent>
+				</p>
+				<p id="ghGen509">
+					<sent id="ghGen510" smilref="New_Zealand.smil#ghGen510">	Loggers harvest many trees. </sent>
+					<sent id="ghGen511" smilref="New_Zealand.smil#ghGen511">This activity has depleted much of New Zealand's native forests. </sent>
+					<sent id="ghGen512" smilref="New_Zealand.smil#ghGen512">Now, imported trees make up most of the harvest. </sent>
+					<sent id="ghGen513" smilref="New_Zealand.smil#ghGen513">New Zealanders who work in this industry manufacture pulp, paper, timber, and other wood products.</sent>
+				</p>
+				
+				<imggroup id="ghGen514"><img src="img/Page26.jpg" alt="This shepherd is guarding his sheep with his motorcycle and sheepdogs!" id="ghGen515"/>
+				<prodnote render="optional" id="ghGen516" smilref="New_Zealand.smil#ghGen516">
+					<p id="ghGen517">
+						<sent id="ghGen518">Picture shown with the caption, "This shepherd is guarding his sheep with his motorcycle and sheepdogs!"</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef27" smilref="New_Zealand.smil#gh_pageRef27">27</pagenum>
+				<imggroup id="ghGen519"><img src="img/Page27.jpg" alt="Two farmers pitching hay." id="ghGen520"/>
+				<prodnote render="optional" id="ghGen521" smilref="New_Zealand.smil#ghGen521">
+					<p id="ghGen522">
+						<sent id="ghGen523">Picture shown with the caption, "Farmers in New Zealand working in the fields."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef28" smilref="New_Zealand.smil#gh_pageRef28">28</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen524" smilref="New_Zealand.smil#ghGen524">Cities</h1>
+				<p id="ghGen525">
+					<sent id="ghGen526" smilref="New_Zealand.smil#ghGen526">Auckland is New Zealand's largest city. </sent>
+					<sent id="ghGen527" smilref="New_Zealand.smil#ghGen527">About 1 million people <w gh:pronS="lihv " gh:pronR="lihv ">live</w> there. </sent>
+					<sent id="ghGen528" smilref="New_Zealand.smil#ghGen528">The city was built on North Island in 1840. </sent>
+					<sent id="ghGen529" smilref="New_Zealand.smil#ghGen529">It was New Zealand's capital until 1865.</sent>
+				</p>
+				<p id="ghGen530">
+					<sent id="ghGen531" smilref="New_Zealand.smil#ghGen531">Auckland is on an isthmus between the Tasman Sea and the Pacific Ocean. </sent>
+					<sent id="ghGen532" smilref="New_Zealand.smil#ghGen532">This makes it a major port and center of trade and shipping. </sent>
+					<sent id="ghGen533" smilref="New_Zealand.smil#ghGen533">Its manufactured goods include clothing, cars, and processed foods.</sent>
+				</p>
+				
+				<imggroup id="ghGen534"><img src="img/Page28.jpg" alt="A view of Wellington by the sea." id="ghGen535"/>
+				<prodnote render="optional" id="ghGen536" smilref="New_Zealand.smil#ghGen536">
+					<p id="ghGen537">
+						<sent id="ghGen538">Picture shown with the caption, "A view of Wellington from Mount Victoria."</sent>
+					</p>
+				</prodnote></imggroup>
+				<p id="ghGen539">
+					<sent id="ghGen540" smilref="New_Zealand.smil#ghGen540">Wellington became the nation's capital in 1865. </sent>
+					<sent id="ghGen541" smilref="New_Zealand.smil#ghGen541">It is on North Island, too. </sent>
+					<sent id="ghGen542" smilref="New_Zealand.smil#ghGen542">The</sent>
+				</p>
+				<pagenum id="gh_pageRef29" smilref="New_Zealand.smil#gh_pageRef29">29</pagenum>
+				<p id="ghGen543">
+					<sent id="ghGen544" smilref="New_Zealand.smil#ghGen544">nation's parliament and government offices are there. </sent>
+					<sent id="ghGen545" smilref="New_Zealand.smil#ghGen545">Mount Victoria is the city's center.</sent>
+				</p>
+				<p id="ghGen546">
+					<sent id="ghGen547" smilref="New_Zealand.smil#ghGen547">Wellington is New Zealand's transportation and communication hub. </sent>
+					<sent id="ghGen548" smilref="New_Zealand.smil#ghGen548">Many goods are shipped through its harbor. </sent>
+					<sent id="ghGen549" smilref="New_Zealand.smil#ghGen549">The city's manufactured goods include clothing, transportation parts, chemicals, and processed foods.</sent>
+				</p>
+				<p id="ghGen550">
+					<sent id="ghGen551" smilref="New_Zealand.smil#ghGen551"><w gh:pronR="Christ church ">Christchurch</w> is another large city in New Zealand. </sent>
+					<sent id="ghGen552" smilref="New_Zealand.smil#ghGen552">It was built on South Island in 1850. </sent>
+					<sent id="ghGen553" smilref="New_Zealand.smil#ghGen553">It is one of the nation's centers of education. </sent>
+					<sent id="ghGen554" smilref="New_Zealand.smil#ghGen554">Products from the city include clothing, carpet, rubber, and wood.</sent>
+				</p>
+				
+				<imggroup id="ghGen555"><img src="img/Page29.jpg" alt="Christchurch Cathedral." id="ghGen556"/>
+				<prodnote render="optional" id="ghGen557" smilref="New_Zealand.smil#ghGen557">
+					<p id="ghGen558">
+						<sent id="ghGen559">Picture shown with the caption, "<w gh:pronR="Christ church ">Christchurch</w> Cathedral."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef30" smilref="New_Zealand.smil#gh_pageRef30">30</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen560" smilref="New_Zealand.smil#ghGen560">Transportation</h1>
+				<p id="ghGen561">
+					<sent id="ghGen562" smilref="New_Zealand.smil#ghGen562">	The country has more than 57,000 miles (92,000 km) of roads. </sent>
+					<sent id="ghGen563" smilref="New_Zealand.smil#ghGen563">Most of New Zealand's families own a car. </sent>
+					<sent id="ghGen564" smilref="New_Zealand.smil#ghGen564">This is the most popular way to get around.</sent>
+				</p>
+				<p id="ghGen565">
+					<sent id="ghGen566" smilref="New_Zealand.smil#ghGen566">	New Zealanders can travel in other ways, too. </sent>
+					<sent id="ghGen567" smilref="New_Zealand.smil#ghGen567">Bus service links all of the country's major cities and towns. </sent>
+					<sent id="ghGen568" smilref="New_Zealand.smil#ghGen568">These cities are also linked by rail.</sent>
+				</p>
+				<p id="ghGen569">
+					<sent id="ghGen570" smilref="New_Zealand.smil#ghGen570">	The nation's leading international airport is in Auckland. </sent>
+					<sent id="ghGen571" smilref="New_Zealand.smil#ghGen571">There are also international airports in Wellington and <w gh:pronR="Christ church ">Christchurch</w>. </sent>
+					<sent id="ghGen572" smilref="New_Zealand.smil#ghGen572">Air New Zealand is the country's biggest air carrier.</sent>
+				</p>
+				<p id="ghGen573">
+					<sent id="ghGen574" smilref="New_Zealand.smil#ghGen574">Auckland and Wellington have busy shipping ports. </sent>
+					<sent id="ghGen575" smilref="New_Zealand.smil#ghGen575">Most of the nation's imports and exports travel through these two waterways.</sent>
+				</p>
+				<p id="ghGen576">
+					<sent id="ghGen577" smilref="New_Zealand.smil#ghGen577">	Opposite page: Cruise ships, as well as many other boats, can be found docked at Wellington's harbor.</sent>
+				</p>
+				<pagenum id="gh_pageRef31" smilref="New_Zealand.smil#gh_pageRef31">31</pagenum>
+				<imggroup id="ghGen578"><img src="img/Page31.jpg" alt="Cruise ship docked at Wellington's harbor." id="ghGen579"/>
+				<prodnote render="optional" id="ghGen580" smilref="New_Zealand.smil#ghGen580">
+					<p id="ghGen581">
+						<sent id="ghGen582">Picture shown with the caption, "Cruise ships, as well as many other boats, can be found docked at Wellington’s harbor."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef32" smilref="New_Zealand.smil#gh_pageRef32">32</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen583" smilref="New_Zealand.smil#ghGen583">Government</h1>
+				<p id="ghGen584">
+					<sent id="ghGen585" smilref="New_Zealand.smil#ghGen585">New Zealand is a parliamentary democracy. </sent>
+					<sent id="ghGen586" smilref="New_Zealand.smil#ghGen586">Great Britain's monarch is also New Zealand's sovereign. </sent>
+					<sent id="ghGen587" smilref="New_Zealand.smil#ghGen587">The monarch appoints a governor general to represent the monarchy. </sent>
+					<sent id="ghGen588" smilref="New_Zealand.smil#ghGen588">The governor general then serves as New Zealand's head of state.</sent>
+				</p>
+				<p id="ghGen589">
+					<sent id="ghGen590" smilref="New_Zealand.smil#ghGen590">New Zealand's legislature is a one-house parliament. </sent>
+					<sent id="ghGen591" smilref="New_Zealand.smil#ghGen591">It is called the House of Representatives. </sent>
+					<sent id="ghGen592" smilref="New_Zealand.smil#ghGen592">There are 120 representatives elected to serve three-year terms. </sent>
+					<sent id="ghGen593" smilref="New_Zealand.smil#ghGen593"><w gh:pronS="more e " gh:pronR="more e ">Maori</w> representatives must hold at least five of these seats.</sent>
+				</p>
+				<p id="ghGen594">
+					<sent id="ghGen595" smilref="New_Zealand.smil#ghGen595">	The head of New Zealand's government is the prime minister. </sent>
+					<sent id="ghGen596" smilref="New_Zealand.smil#ghGen596">He or she is the leader of the majority party in parliament. </sent>
+					<sent id="ghGen597" smilref="New_Zealand.smil#ghGen597">The prime minister recommends a cabinet, which is appointed by the governor general.</sent>
+				</p>
+				<pagenum id="gh_pageRef33" smilref="New_Zealand.smil#gh_pageRef33">33</pagenum>
+				<p id="ghGen598">
+					<sent id="ghGen599" smilref="New_Zealand.smil#ghGen599">	The Privy Council is the nation's highest court. </sent>
+					<sent id="ghGen600" smilref="New_Zealand.smil#ghGen600">It is located in the United Kingdom. </sent>
+					<sent id="ghGen601" smilref="New_Zealand.smil#ghGen601">There is also a High Court.</sent>
+				</p>
+				<p id="ghGen602">
+					<sent id="ghGen603" smilref="New_Zealand.smil#ghGen603">	Citizens in each of the nation's 14 regions elect a representative council. </sent>
+					<sent id="ghGen604" smilref="New_Zealand.smil#ghGen604">Each region is divided into cities. </sent>
+					<sent id="ghGen605" smilref="New_Zealand.smil#ghGen605">Citizens in each city elect a council, which is <w gh:pronR="headid ">headed</w> by a mayor.</sent>
+				</p>
+				<imggroup id="ghGen606"><img src="img/Page33.jpg" alt="New Zealand government buildings." id="ghGen607"/>
+				<prodnote render="optional" id="ghGen608" smilref="New_Zealand.smil#ghGen608">
+					<p id="ghGen609">
+						<sent id="ghGen610">Picture shown with the caption, "New Zealand's government works to create equality among its people."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef34" smilref="New_Zealand.smil#gh_pageRef34">34</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen611" smilref="New_Zealand.smil#ghGen611">Celebrate!</h1>
+				<p id="ghGen612">
+					<sent id="ghGen613" smilref="New_Zealand.smil#ghGen613">	New Zealanders celebrate many holidays. </sent>
+					<sent id="ghGen614" smilref="New_Zealand.smil#ghGen614">Some holidays, such as Christmas Day or Labor Day, are similar to those celebrated in other countries. </sent>
+					<sent id="ghGen615" smilref="New_Zealand.smil#ghGen615">But, New Zealanders also have holidays that are unique to their culture.</sent>
+				</p>
+				<p id="ghGen616">
+					<sent id="ghGen617" smilref="New_Zealand.smil#ghGen617">	For example, February 6 is <w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w> Day. </sent>
+					<sent id="ghGen618" smilref="New_Zealand.smil#ghGen618">This holiday celebrates the signing of the Treaty of <w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w>. </sent>
+					<sent id="ghGen619" smilref="New_Zealand.smil#ghGen619">But, many <w gh:pronS="more e " gh:pronR="more e ">Maori</w> do not celebrate this holiday. </sent>
+					<sent id="ghGen620" smilref="New_Zealand.smil#ghGen620">They are protesting the damage this treaty has done to their culture.</sent>
+				</p>
+				<p id="ghGen621">
+					<sent id="ghGen622" smilref="New_Zealand.smil#ghGen622">	New Zealanders also honor their brave soldiers. </sent>
+					<sent id="ghGen623" smilref="New_Zealand.smil#ghGen623">During World War <w gh:pronS="one " gh:pronR="one ">I</w>, New Zealand and Australia formed the Australian and New Zealand Army Corps (<w gh:pronS="anzac " gh:pronR="anzac ">ANZAC</w>). </sent>
+					<sent id="ghGen624" smilref="New_Zealand.smil#ghGen624">Today, <w gh:pronS="anzac " gh:pronR="anzac ">ANZAC</w> Day is celebrated on April 25. </sent>
+					<sent id="ghGen625" smilref="New_Zealand.smil#ghGen625">It commemorates all the soldiers who died in war. </sent>
+					<sent id="ghGen626" smilref="New_Zealand.smil#ghGen626">It also honors all of the men and women who have served in war.</sent>
+				</p>
+				<pagenum id="gh_pageRef35" smilref="New_Zealand.smil#gh_pageRef35">35</pagenum>
+				<imggroup id="ghGen627"><img src="img/Page35.jpg" alt="A policeman playing bagpipes" id="ghGen628"/>
+				<prodnote render="optional" id="ghGen629" smilref="New_Zealand.smil#ghGen629">
+					<p id="ghGen630">
+						<sent id="ghGen631">Picture shown with the caption, "Celebrating on <w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w> Day."</sent>
+					</p>
+				</prodnote></imggroup>
+				<pagenum id="gh_pageRef36" smilref="New_Zealand.smil#gh_pageRef36">36</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen632" smilref="New_Zealand.smil#ghGen632">Leisure Time</h1>
+				<p id="ghGen633">
+					<sent id="ghGen634" smilref="New_Zealand.smil#ghGen634">	New Zealanders have many ways to relax. </sent>
+					<sent id="ghGen635" smilref="New_Zealand.smil#ghGen635">One of the most popular is participating in or watching sporting events. </sent>
+					<sent id="ghGen636" smilref="New_Zealand.smil#ghGen636">Rugby is the nation's most popular sport. </sent>
+					<sent id="ghGen637" smilref="New_Zealand.smil#ghGen637">The All Blacks is New Zealand's national team. </sent>
+					<sent id="ghGen638" smilref="New_Zealand.smil#ghGen638">Many of the team's matches are played in Auckland's Eden Park.</sent>
+				</p>
+				<imggroup id="ghGen639"><img src="img/Page36.jpg" alt="A rugby team, wearing maroon and gold shirts." id="ghGen640"/>
+				<prodnote render="optional" id="ghGen641" smilref="New_Zealand.smil#ghGen641">
+					<p id="ghGen642">
+						<sent id="ghGen643">Picture shown with the caption, "Rugby is a popular sport for all the ages to watch and play."</sent>
+					</p>
+				</prodnote></imggroup>
+				<p id="ghGen644">
+					<sent id="ghGen645" smilref="New_Zealand.smil#ghGen645">New Zealand also has many national parks, and each offers unique recreation options.</sent>
+				</p>
+				<pagenum id="gh_pageRef37" smilref="New_Zealand.smil#gh_pageRef37">37</pagenum>
+				<p id="ghGen646">
+					<sent id="ghGen647" smilref="New_Zealand.smil#ghGen647">Tongariro National Park has three active volcanoes. </sent>
+					<sent id="ghGen648" smilref="New_Zealand.smil#ghGen648">They are Tongariro, Ngauruhoe, and Ruapehu. </sent>
+					<sent id="ghGen649" smilref="New_Zealand.smil#ghGen649">Other parks offer skiing, hiking, and mountain climbing.</sent>
+				</p>
+				<p id="ghGen650">
+					<sent id="ghGen651" smilref="New_Zealand.smil#ghGen651">New Zealand is a beautiful country with many natural resources. </sent>
+					<sent id="ghGen652" smilref="New_Zealand.smil#ghGen652">Its diverse population has come together to create a rich culture. </sent>
+					<sent id="ghGen653" smilref="New_Zealand.smil#ghGen653">New Zealanders are working together to preserve this culture and to keep New Zealand a great place to visit and <w gh:pronS="lihv " gh:pronR="lihv ">live</w>.</sent>
+				</p>
+				<imggroup id="ghGen654"><img src="img/Page37.jpg" alt="Two campers sitting on the ground, looking at Mount Ngauruhoe in the distance." id="ghGen655"/>
+				<prodnote render="optional" id="ghGen656" smilref="New_Zealand.smil#ghGen656">
+					<p id="ghGen657">
+						<sent id="ghGen658">Picture shown with the caption, "These campers are enjoying a view of Mount Ngauruhoe."</sent>
+					</p>
+				</prodnote></imggroup>
+
+			</level1>
+		</bodymatter>
+		<rearmatter>
+			<level1>
+				<pagenum id="gh_pageRef38" smilref="New_Zealand.smil#gh_pageRef38">38</pagenum>
+				<h1 id="ghGen659" smilref="New_Zealand.smil#ghGen659">Glossary</h1>
+				<p id="ghGen660">
+					<sent id="ghGen661" smilref="New_Zealand.smil#ghGen661">aggression - displaying forceful or hostile actions.</sent>
+				</p>
+				<p id="ghGen662">
+					<sent id="ghGen663" smilref="New_Zealand.smil#ghGen663">alliance - people, groups, or nations joined together for a common cause.</sent>
+				</p>
+				<p id="ghGen664">
+					<sent id="ghGen665" smilref="New_Zealand.smil#ghGen665">annex - to take land and add it to a nation.</sent>
+				</p>
+				<p id="ghGen666">
+					<sent id="ghGen667" smilref="New_Zealand.smil#ghGen667">commemorate - to honor the memory of.</sent>
+				</p>
+				<p id="ghGen668">
+					<sent id="ghGen669" smilref="New_Zealand.smil#ghGen669">culture - the customs, arts, and tools of a nation or people at a certain time.</sent>
+				</p>
+				<p id="ghGen670">
+					<sent id="ghGen671" smilref="New_Zealand.smil#ghGen671">deplete - to empty of a main substance.</sent>
+				</p>
+				<p id="ghGen672">
+					<sent id="ghGen673" smilref="New_Zealand.smil#ghGen673">descendant - a person who comes from a particular ancestor or group of ancestors.</sent>
+				</p>
+				<p id="ghGen674">
+					<sent id="ghGen675" smilref="New_Zealand.smil#ghGen675">diverse - composed of several distinct pieces or qualities.</sent>
+				</p>
+				<p id="ghGen676">
+					<sent id="ghGen677" smilref="New_Zealand.smil#ghGen677">Dutch East India Company - a company formed to expand Dutch trade and maintain close contact between the Dutch government and its colonies.</sent>
+				</p>
+				<p id="ghGen678">
+					<sent id="ghGen679" smilref="New_Zealand.smil#ghGen679">ethnic - of or having to do with a group of people who have the same race, nationality, or culture.</sent>
+				</p>
+				<p id="ghGen680">
+					<sent id="ghGen681" smilref="New_Zealand.smil#ghGen681">fjord - a long, narrow, and deep inlet of a sea between two steep slopes.</sent>
+				</p>
+				<p id="ghGen682">
+					<sent id="ghGen683" smilref="New_Zealand.smil#ghGen683">flax - a fiber from the stem of a plant.</sent>
+				</p>
+				<p id="ghGen684">
+					<sent id="ghGen685" smilref="New_Zealand.smil#ghGen685">geothermal - using the heat of the earth's interior.</sent>
+				</p>
+				<p id="ghGen686">
+					<sent id="ghGen687" smilref="New_Zealand.smil#ghGen687">geyser - a natural hot spring from which steam and hot water shoot into the air.</sent>
+				</p>
+				<p id="ghGen688">
+					<sent id="ghGen689" smilref="New_Zealand.smil#ghGen689">hemisphere - one half of Earth.</sent>
+				</p>
+				<pagenum id="gh_pageRef39" smilref="New_Zealand.smil#gh_pageRef39">39</pagenum>
+				<p id="ghGen690">
+					<sent id="ghGen691" smilref="New_Zealand.smil#ghGen691">hydropower - electricity produced by water-powered generators.</sent>
+				</p>
+				<p id="ghGen692">
+					<sent id="ghGen693" smilref="New_Zealand.smil#ghGen693">immigration - entry into another country to <w gh:pronS="lihv " gh:pronR="lihv ">live</w>. </sent>
+					<sent id="ghGen694" smilref="New_Zealand.smil#ghGen694">A person who immigrates is called an immigrant.</sent>
+				</p>
+				<p id="ghGen695">
+					<sent id="ghGen696" smilref="New_Zealand.smil#ghGen696">indigenous - having originated in a particular region or environment.</sent>
+				</p>
+				<p id="ghGen697">
+					<sent id="ghGen698" smilref="New_Zealand.smil#ghGen698">isolated - to be separated from something.</sent>
+				</p>
+				<p id="ghGen699">
+					<sent id="ghGen700" smilref="New_Zealand.smil#ghGen700">isthmus - a narrow strip of land connecting two larger land areas.</sent>
+				</p>
+				<p id="ghGen701">
+					<sent id="ghGen702" smilref="New_Zealand.smil#ghGen702">nuclear - of or relating to the energy created when atoms are divided or combined.</sent>
+				</p>
+				<p id="ghGen703">
+					<sent id="ghGen704" smilref="New_Zealand.smil#ghGen704">parliament - the highest lawmaking body of some governments.</sent>
+				</p>
+				<p id="ghGen705">
+					<sent id="ghGen706" smilref="New_Zealand.smil#ghGen706">parliamentary democracy - a form of government in which the decisions of the nation are made by the people through the elected parliament.</sent>
+				</p>
+				<p id="ghGen707">
+					<sent id="ghGen708" smilref="New_Zealand.smil#ghGen708">petroleum - a thick, yellowish black oil. It is used to make gasoline.</sent>
+				</p>
+				<p id="ghGen709">
+					<sent id="ghGen710" smilref="New_Zealand.smil#ghGen710">prime minister - the highest-ranked member of some governments.</sent>
+				</p>
+				<p id="ghGen711">
+					<sent id="ghGen712" smilref="New_Zealand.smil#ghGen712">pulp - a soft and moist mass of wood fibers used in making paper.</sent>
+				</p>
+				<p id="ghGen713">
+					<sent id="ghGen714" smilref="New_Zealand.smil#ghGen714">rugby - a form of football played with an oval ball by two, 15-person teams.</sent>
+				</p>
+				<p id="ghGen715">
+					<sent id="ghGen716" smilref="New_Zealand.smil#ghGen716">sovereign - the supreme ruler of a monarchy, such as a king or queen.</sent>
+				</p>
+				<p id="ghGen717">
+					<sent id="ghGen718" smilref="New_Zealand.smil#ghGen718">unique - being the only one of its kind.</sent>
+				</p>
+			</level1>
+			<level1>
+				<h1 id="ghGen719" smilref="New_Zealand.smil#ghGen719">Web Sites</h1>
+				<p id="ghGen720">
+					<sent id="ghGen721" smilref="New_Zealand.smil#ghGen721">	To learn more about New Zealand, visit ABDO Publishing Company on the World Wide Web at <w gh:pronS="w w w dot abdopub dot com " gh:pronR="w w w dot abdopub dot com ">www.abdopub.com</w>. </sent>
+					<sent id="ghGen722" smilref="New_Zealand.smil#ghGen722">Web sites about New Zealand are featured on our Book Links page. </sent>
+					<sent id="ghGen723" smilref="New_Zealand.smil#ghGen723">These links are routinely monitored and updated to provide the most current information available.</sent>
+				</p>
+				<pagenum id="gh_pageRef40" smilref="New_Zealand.smil#gh_pageRef40">40</pagenum>
+			</level1>
+			<level1>
+				<h1 id="ghGen724" smilref="New_Zealand.smil#ghGen724">Index</h1>
+				<level2>
+					<h2 id="ghGen725" smilref="New_Zealand.smil#ghGen725"><w gh:voiceR="e&amp;I_" gh:voiceS="ey _">A</w></h2>
+					<p id="ghGen726">
+						<sent id="ghGen727" smilref="New_Zealand.smil#ghGen727">animals: 4, 9, 18, 19</sent>
+					</p>
+					<p id="ghGen728">
+						<sent id="ghGen729" smilref="New_Zealand.smil#ghGen729"><w gh:pronS="anzus " gh:pronR="anzus ">ANZUS</w> Treaty: 13</sent>
+					</p>
+					<p id="ghGen730">
+						<sent id="ghGen731" smilref="New_Zealand.smil#ghGen731">Australia: 12, 14, 34</sent>
+					</p>
+					<p id="ghGen732">
+						<sent id="ghGen733" smilref="New_Zealand.smil#ghGen733">Australian and New Zealand Army Corps: 34</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen734" smilref="New_Zealand.smil#ghGen734">C</h2>
+					<p id="ghGen735">
+						<sent id="ghGen736" smilref="New_Zealand.smil#ghGen736">cities: 20, 28, 29, 30, 33, 36</sent>
+					</p>
+					<p id="ghGen737">
+						<sent id="ghGen738" smilref="New_Zealand.smil#ghGen738">climate: 16</sent>
+					</p>
+					<p id="ghGen739">
+						<sent id="ghGen740" smilref="New_Zealand.smil#ghGen740">Cook, James: 8</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen741" smilref="New_Zealand.smil#ghGen741">D</h2>
+					<p id="ghGen742">
+						<sent id="ghGen743" smilref="New_Zealand.smil#ghGen743">Dutch East India Company: 8</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen744" smilref="New_Zealand.smil#ghGen744">E</h2>
+					<p id="ghGen745">
+						<sent id="ghGen746" smilref="New_Zealand.smil#ghGen746">economy: 9, 13, 24, 26, 28, 29, 30</sent>
+					</p>
+					<p id="ghGen747">
+						<sent id="ghGen748" smilref="New_Zealand.smil#ghGen748">education: 22, 29</sent>
+					</p>
+					<p id="ghGen749">
+						<sent id="ghGen750" smilref="New_Zealand.smil#ghGen750">England: 10</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen751" smilref="New_Zealand.smil#ghGen751">F</h2>
+					<p id="ghGen752">
+						<sent id="ghGen753" smilref="New_Zealand.smil#ghGen753">food: 12, 22, 24, 28, 29</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen754" smilref="New_Zealand.smil#ghGen754">G</h2>
+					<p id="ghGen755">
+						<sent id="ghGen756" smilref="New_Zealand.smil#ghGen756">government: 4, 10, 11, 13, 28, 32, 33</sent>
+					</p>
+					<p id="ghGen757">
+						<sent id="ghGen758" smilref="New_Zealand.smil#ghGen758">Great Britain: 12, 32</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen759" smilref="New_Zealand.smil#ghGen759">H</h2>
+					<p id="ghGen760">
+						<sent id="ghGen761" smilref="New_Zealand.smil#ghGen761">history: 4, 8, 9, 10, 11, 12, 13</sent>
+					</p>
+					<p id="ghGen762">
+						<sent id="ghGen763" smilref="New_Zealand.smil#ghGen763">holidays: 34</sent>
+					</p>
+					<p id="ghGen764">
+						<sent id="ghGen765" smilref="New_Zealand.smil#ghGen765">Hone Heke: 10</sent>
+					</p>
+					<p id="ghGen766">
+						<sent id="ghGen767" smilref="New_Zealand.smil#ghGen767">housing: 20</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen768" smilref="New_Zealand.smil#ghGen768">L</h2>
+					<p id="ghGen769">
+						<sent id="ghGen770" smilref="New_Zealand.smil#ghGen770">land: 4, 10, 14, 16, 18, 28, 36, 37</sent>
+					</p>
+					<p id="ghGen771">
+						<sent id="ghGen772" smilref="New_Zealand.smil#ghGen772">languages: 20</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen773" smilref="New_Zealand.smil#ghGen773">M</h2>
+					<p id="ghGen774">
+						<sent id="ghGen775" smilref="New_Zealand.smil#ghGen775"><w gh:pronS="more e " gh:pronR="more e ">Maori</w>: 4, 8, 10, 13, 20, 32, 34</sent>
+					</p>
+					<p id="ghGen776">
+						<sent id="ghGen777" smilref="New_Zealand.smil#ghGen777"><w gh:pronS="more e " gh:pronR="more e ">Maori</w> Wars: 10</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen778" smilref="New_Zealand.smil#ghGen778">N</h2>
+					<p id="ghGen779">
+						<sent id="ghGen780" smilref="New_Zealand.smil#ghGen780">national parks: 36, 37</sent>
+					</p>
+					<p id="ghGen781">
+						<sent id="ghGen782" smilref="New_Zealand.smil#ghGen782">North Island: 14, 16, 28</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen783" smilref="New_Zealand.smil#ghGen783">P</h2>
+					<p id="ghGen784">
+						<sent id="ghGen785" smilref="New_Zealand.smil#ghGen785">Pacific Ocean: 13, 28</sent>
+					</p>
+					<p id="ghGen786">
+						<sent id="ghGen787" smilref="New_Zealand.smil#ghGen787">plants: 4, 18, 26</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen788" smilref="New_Zealand.smil#ghGen788">R</h2>
+					<p id="ghGen789">
+						<sent id="ghGen790" smilref="New_Zealand.smil#ghGen790">Rarotonga, Treaty of: 13</sent>
+					</p>
+					<p id="ghGen791">
+						<sent id="ghGen792" smilref="New_Zealand.smil#ghGen792">religion: 20</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen793" smilref="New_Zealand.smil#ghGen793">S</h2>
+					<p id="ghGen794">
+						<sent id="ghGen795" smilref="New_Zealand.smil#ghGen795">South African War: 12</sent>
+					</p>
+					<p id="ghGen796">
+						<sent id="ghGen797" smilref="New_Zealand.smil#ghGen797">South Island: 16, 29</sent>
+					</p>
+					<p id="ghGen798">
+						<sent id="ghGen799" smilref="New_Zealand.smil#ghGen799">South Pacific Nuclear Free Zone: 13</sent>
+					</p>
+					<p id="ghGen800">
+						<sent id="ghGen801" smilref="New_Zealand.smil#ghGen801">sports: 36, 37</sent>
+					</p>
+					<p id="ghGen802">
+						<sent id="ghGen803" smilref="New_Zealand.smil#ghGen803">Stewart Island: 16</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen804" smilref="New_Zealand.smil#ghGen804">T</h2>
+					<p id="ghGen805">
+						<sent id="ghGen806" smilref="New_Zealand.smil#ghGen806">Tasman, Abel: 8</sent>
+					</p>
+					<p id="ghGen807">
+						<sent id="ghGen808" smilref="New_Zealand.smil#ghGen808">Tasman Sea: 28</sent>
+					</p>
+					<p id="ghGen809">
+						<sent id="ghGen810" smilref="New_Zealand.smil#ghGen810"><w gh:pronS="tay kootie rea kee rang gee " gh:pronR="tay kootie ree kee rang gee ">Te Kooti Rikirangi</w>: 10</sent>
+					</p>
+					<p id="ghGen811">
+						<sent id="ghGen812" smilref="New_Zealand.smil#ghGen812">transportation: 29, 30</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen813" smilref="New_Zealand.smil#ghGen813">U</h2>
+					<p id="ghGen814">
+						<sent id="ghGen815" smilref="New_Zealand.smil#ghGen815">United States: 12, 13</sent>
+					</p>
+				</level2>
+				<level2>
+					<h2 id="ghGen816" smilref="New_Zealand.smil#ghGen816">W</h2>
+					<p id="ghGen817">
+						<sent id="ghGen818" smilref="New_Zealand.smil#ghGen818"><w gh:pronS="why tang gee " gh:pronR="why tang gee ">Waitangi</w>, Treaty of: 10, 34</sent>
+					</p>
+					<p id="ghGen819">
+						<sent id="ghGen820" smilref="New_Zealand.smil#ghGen820">World War <w gh:pronS="one " gh:pronR="one ">I</w>: 12, 34</sent>
+					</p>
+					<p id="ghGen821">
+					
+						<sent id="ghGen822" smilref="New_Zealand.smil#ghGen822">World War <w gh:pronS="two " gh:pronR="two ">II</w>: 12</sent>
+					</p>
+
+				</level2>
+
+			</level1>
+			<level1>
+				<h1 id="ghGen823" smilref="New_Zealand.smil#ghGen823">Questions</h1>				
+				<p id="ghGen824">
+					<sent id="ghGen825" smilref="New_Zealand.smil#ghGen825"><strong>1. Who were the first people to come to New Zealand?</strong></sent>
+				</p>             
+				<p id="ghGen826">              
+					<sent id="ghGen827" smilref="New_Zealand.smil#ghGen827"> a. Americans</sent>
+				</p>              
+				<p id="ghGen828">               
+					<sent id="ghGen829" smilref="New_Zealand.smil#ghGen829"> b. Polynesians</sent>
+				</p>              
+				<p id="ghGen830">               
+					<sent id="ghGen831" smilref="New_Zealand.smil#ghGen831"> c. Europeans</sent>
+				</p>             
+				<p id="ghGen832">              
+					<sent id="ghGen833" smilref="New_Zealand.smil#ghGen833"><strong>2. Who is New Zealand’s closest neighbor?</strong></sent>
+				</p>             
+				<p id="ghGen834">              
+					<sent id="ghGen835" smilref="New_Zealand.smil#ghGen835"> a. Australia</sent>
+				</p>              
+				<p id="ghGen836">               
+					<sent id="ghGen837" smilref="New_Zealand.smil#ghGen837"> b. United States</sent>
+				</p>              
+				<p id="ghGen838">               
+					<sent id="ghGen839" smilref="New_Zealand.smil#ghGen839"> c. China</sent>
+				</p>             
+				<p id="ghGen840">              
+					<sent id="ghGen841" smilref="New_Zealand.smil#ghGen841"><strong>3. What is the largest island in New Zealand?</strong></sent>
+				</p>             
+				<p id="ghGen842">              
+					<sent id="ghGen843" smilref="New_Zealand.smil#ghGen843"> a. North Island</sent>
+				</p>              
+				<p id="ghGen844">               
+					<sent id="ghGen845" smilref="New_Zealand.smil#ghGen845"> b. Stewart Island</sent>
+				</p>              
+				<p id="ghGen846">               
+					<sent id="ghGen847" smilref="New_Zealand.smil#ghGen847"> c. South Island</sent>
+				</p>             
+				<p id="ghGen848">              
+					<sent id="ghGen849" smilref="New_Zealand.smil#ghGen849"><strong>4. What is the longest river in New Zealand?</strong></sent>
+				</p>             
+				<p id="ghGen850">              
+					<sent id="ghGen851" smilref="New_Zealand.smil#ghGen851"> a. Waikato River</sent>
+				</p>              
+				<p id="ghGen852">               
+					<sent id="ghGen853" smilref="New_Zealand.smil#ghGen853"> b. Mataura River</sent>
+				</p>              
+				<p id="ghGen854">               
+					<sent id="ghGen855" smilref="New_Zealand.smil#ghGen855"> c. Clutha River</sent>
+				</p>             
+				<p id="ghGen856">              
+					<sent id="ghGen857" smilref="New_Zealand.smil#ghGen857"><strong>5. What is the most common tree found in New Zealand?</strong></sent>
+				</p>             
+				<p id="ghGen858">              
+					<sent id="ghGen859" smilref="New_Zealand.smil#ghGen859"> a. beech</sent>
+				</p>              
+				<p id="ghGen860">               
+					<sent id="ghGen861" smilref="New_Zealand.smil#ghGen861"> b. pine</sent>
+				</p>              
+				<p id="ghGen862">               
+					<sent id="ghGen863" smilref="New_Zealand.smil#ghGen863"> c. maple</sent>
+				</p>             
+				<p id="ghGen864">              
+					<sent id="ghGen865" smilref="New_Zealand.smil#ghGen865"><strong>6. What are the official languages of New Zealand?</strong></sent>
+				</p>             
+				<p id="ghGen866">              
+					<sent id="ghGen867" smilref="New_Zealand.smil#ghGen867"> a. Spanish and English</sent>
+				</p>              
+				<p id="ghGen868">               
+					<sent id="ghGen869" smilref="New_Zealand.smil#ghGen869"> b. English and <w gh:pronS="more e " gh:pronR="more e ">Maori</w></sent>
+				</p>              
+				<p id="ghGen870">               
+					<sent id="ghGen871" smilref="New_Zealand.smil#ghGen871"> c. Chinese and Japanese</sent>
+				</p>             
+				<p id="ghGen872">              
+					<sent id="ghGen873" smilref="New_Zealand.smil#ghGen873"><strong>7. New Zealand is the world’s largest producer of what products?</strong></sent>
+				</p>             
+				<p id="ghGen874">              
+					<sent id="ghGen875" smilref="New_Zealand.smil#ghGen875"> a. apples and chickens</sent>
+				</p>              
+				<p id="ghGen876">               
+					<sent id="ghGen877" smilref="New_Zealand.smil#ghGen877"> b. kiwi fruit and lamb</sent>
+				</p>              
+				<p id="ghGen878">               
+					<sent id="ghGen879" smilref="New_Zealand.smil#ghGen879"> c. beans and hay</sent>
+				</p>             
+				<p id="ghGen880">              
+					<sent id="ghGen881" smilref="New_Zealand.smil#ghGen881"><strong>8. What is New Zealand’s capital?</strong></sent>
+				</p>             
+				<p id="ghGen882">              
+					<sent id="ghGen883" smilref="New_Zealand.smil#ghGen883"> a. Auckland</sent>
+				</p>              
+				<p id="ghGen884">               
+					<sent id="ghGen885" smilref="New_Zealand.smil#ghGen885"> b. <w gh:pronR="Christ church ">Christchurch</w></sent>
+				</p>              
+				<p id="ghGen886">               
+					<sent id="ghGen887" smilref="New_Zealand.smil#ghGen887"> c. Wellington</sent>
+				</p>             
+				<p id="ghGen888">              
+					<sent id="ghGen889" smilref="New_Zealand.smil#ghGen889"><strong>9. What is the head of New Zealand’s government called?</strong></sent>
+				</p>             
+				<p id="ghGen890">              
+					<sent id="ghGen891" smilref="New_Zealand.smil#ghGen891"> a. prime minister</sent>
+				</p>              
+				<p id="ghGen892">               
+					<sent id="ghGen893" smilref="New_Zealand.smil#ghGen893"> b. governor</sent>
+				</p>              
+				<p id="ghGen894">               
+					<sent id="ghGen895" smilref="New_Zealand.smil#ghGen895"> c. president</sent>
+				</p>
+				<p id="ghGen896">
+					<sent id="ghGen897" smilref="New_Zealand.smil#ghGen897"><strong>10. What is the most popular sport in New Zealand?</strong></sent>
+				</p>
+				<p id="ghGen898">
+					<sent id="ghGen899" smilref="New_Zealand.smil#ghGen899"> a. soccer</sent>
+				</p>              
+				<p id="ghGen900">               
+					<sent id="ghGen901" smilref="New_Zealand.smil#ghGen901"> b. rugby</sent>
+				</p>              
+				<p id="ghGen902">               
+					<sent id="ghGen903" smilref="New_Zealand.smil#ghGen903"> c. golf</sent>
+				</p>
+			</level1>
+		</rearmatter>
+	</book>
+</dtbook>
+  		    
+ 			  	 
+  		 	  
+  	 	 		
+  		 	  
+ 					  
+ 	 			  
+  	 				
+ 					  

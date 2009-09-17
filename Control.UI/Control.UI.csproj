@@ -1,0 +1,116 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33FA4109-7418-4FC3-BEA0-BCB968001CA1}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Control.UI</RootNamespace>
+    <AssemblyName>Control.UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>false</ThrowErrorsInValidation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationVoice.cs" />
+    <Compile Include="BookElementSelectedEventArgs.cs" />
+    <Compile Include="CommandHandler.cs" />
+    <Compile Include="Extensions\ScrollViewerExtensions.cs" />
+    <Compile Include="Extensions\FrameworkElementExtensions.cs" />
+    <Compile Include="Extensions\UIElementExtensions.cs" />
+    <Compile Include="Gestures\GestureState.cs" />
+    <Compile Include="Gestures\MouseGestureEventArgs.cs" />
+    <Compile Include="Gestures\MouseGestures.cs" />
+    <Compile Include="Gestures\MouseMove.cs" />
+    <Compile Include="Gestures\MouseGesture.cs" />
+    <Compile Include="KeyCommandEventArgs.cs" />
+    <Compile Include="KeyCommandHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reader.cs" />
+    <Compile Include="Shortcuts.cs" />
+    <Compile Include="Surface\HtmlSurface.cs" />
+    <Compile Include="Surface\HtmlSurfaceProxy.cs" />
+    <Compile Include="Surface\Surface.cs" />
+    <Compile Include="Surface\XamlSurface.cs" />
+    <Compile Include="Utility\CommonEventHandlerUtility.cs" />
+    <Compile Include="ViewModel\DisplayAttributes.cs" />
+    <Compile Include="VoiceFactory.cs" />
+    <Compile Include="Voice\VoiceBase.cs" />
+    <Compile Include="Voice\MP3Voice.cs" />
+    <Compile Include="Voice\SapiVoice.cs" />
+    <Compile Include="Voice\SilentVoice.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Control.Common\Control.Common.csproj">
+      <Project>{DD57430D-11D8-4683-8B50-A8DA0298AA1F}</Project>
+      <Name>Control.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Control.Model\Control.Model.csproj">
+      <Project>{DC64E251-4682-4483-A950-6B59F9FA14E9}</Project>
+      <Name>Control.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" Condition="" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

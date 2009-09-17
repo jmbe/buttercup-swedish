@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN" "http://www.w3.org/TR/REC-SMIL/SMIL10.dtd" []>
+<smil>
+   <head>
+      <meta name="ncc:generator" content="DMFC z3986-2005 to Daisy 2.02 (smil2smil v0.2)" />
+      <meta name="dc:format" content="Daisy 2.02" />
+      <meta name="dc:identifier" content="AUTO-UID-4990946756517120292" />
+      <meta name="title" content="  UI Automation Control Patterns&#xa;" />
+      <meta name="dc:title" content="Microsoft UI Automation" />
+      <meta name="ncc:totalElapsedTime" content="0:08:22" />
+      <meta name="ncc:timeInThisSmil" content="0:00:47" />
+      <layout>
+         <region id="txtView" />
+      </layout>
+   </head>
+   <body>
+      <seq dur="47.340s">
+         <par endsync="last" id="tcp100">
+            <text id="text100" src="content.html#dtb100" />
+            <audio src="speechgen0010.mp3" id="audd155e10" clip-begin="npt=0.000s" clip-end="npt=6.180s" />
+         </par>
+         <par endsync="last" id="tcp101">
+            <text id="text101" src="content.html#dtb101" />
+            <audio src="speechgen0010.mp3" id="audd155e13" clip-begin="npt=6.180s" clip-end="npt=14.640s" />
+         </par>
+         <par endsync="last" id="tcp102">
+            <text id="text102" src="content.html#dtb102" />
+            <audio src="speechgen0010.mp3" id="audd155e16" clip-begin="npt=14.640s" clip-end="npt=20.200s" />
+         </par>
+         <par endsync="last" id="tcp103">
+            <text id="text103" src="content.html#dtb103" />
+            <audio src="speechgen0010.mp3" id="audd155e19" clip-begin="npt=20.200s" clip-end="npt=30.480s" />
+         </par>
+         <par endsync="last" id="tcp104">
+            <text id="text104" src="content.html#dtb104" />
+            <audio src="speechgen0010.mp3" id="audd155e22" clip-begin="npt=30.480s" clip-end="npt=32.360s" />
+         </par>
+         <par endsync="last" id="tcp105">
+            <text id="text105" src="content.html#dtb105" />
+            <audio src="speechgen0010.mp3" id="audd155e25" clip-begin="npt=32.360s" clip-end="npt=37.560s" />
+         </par>
+         <par endsync="last" id="tcp106">
+            <text id="text106" src="content.html#dtb106" />
+            <audio src="speechgen0010.mp3" id="audd155e28" clip-begin="npt=37.560s" clip-end="npt=47.340s" />
+         </par>
+      </seq>
+   </body>
+</smil>

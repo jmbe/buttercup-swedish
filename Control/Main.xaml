@@ -1,0 +1,319 @@
+﻿<UserControl xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"  x:Class="Buttercup.Control.Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls" 
+    xmlns:primitives="clr-namespace:System.Windows.Controls.Primitives;assembly=System.Windows.Controls" 
+    xmlns:bc="clr-namespace:Buttercup.Control" 
+    xmlns:Resources="clr-namespace:Buttercup.Control.Resources"
+    Background="{Binding Path=DefaultBackground}" BorderBrush="{Binding Path=DefaultForeground}" Foreground="{Binding Path=DefaultForeground}">
+    
+    <Grid Background="{Binding Path=ControlSectionBackground}" ShowGridLines="False" MinHeight="300" MinWidth="600">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+			<RowDefinition MinHeight="16" Height="Auto" />
+		</Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="controlsColumnDefinition" MinWidth="250" Width="Auto" />
+            <ColumnDefinition MinWidth="250" Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <bc:HorizontalScalingStackPanel x:Name="controlsContainer" BaseUnitWidth="12">
+            <Grid Margin="4,4,4,0"
+					bc:HorizontalScalingStackPanel.ShouldScale="True"
+					bc:HorizontalScalingStackPanel.WidthRatio="6">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+				<!-- Zero size control which is used to take focus away from all other controls -->
+				<bc:EmptyControl x:Name="NoFocus" Opacity="0" Width="0" Height="0"
+								 IsTabStop="True" IsEnabled="True" Visibility="Visible" />
+
+				<bc:MediaButton x:Name="openBookButton" Style="{StaticResource SquareButton}"
+						Grid.Row="0" Grid.Column="0" IsEnabled="True"
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Open Book"  AutomationProperties.HelpText="Open a Daisy book from your local computer"
+						Click="openBookButton_Click" AutomationProperties.AcceleratorKey="O"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                    <ToolTipService.ToolTip>
+                        <bc:ExtendedToolTip Content="Open a local Daisy book on your computer (O)"></bc:ExtendedToolTip>
+                    </ToolTipService.ToolTip>
+                    <Path Height="15" Width="20" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 264.296,197.944L 264.296,194.233L 253.781,194.233L 252.576,191.652L 246.667,191.652L 246.667,208L 246.816,208L 264.296,208L 264.447,208L 268.555,197.944L 264.296,197.944 Z M 248,192.986L 251.726,192.986L 252.932,195.566L 262.962,195.566L 262.962,197.944L 250.926,197.944L 248,205.104L 248,192.986 Z M 248.802,206.667L 251.821,199.277L 266.57,199.277L 263.628,206.477L 263.551,206.667L 248.802,206.667 Z " />
+				</bc:MediaButton>
+				<bc:MediaButton x:Name="showNavPanelButton" Style="{StaticResource SquareButton}"
+						Grid.Row="0" Grid.Column="1" 
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Navigation" AutomationProperties.HelpText="Open the Navigation Panel. View Book Information, Table of Contents and Bookmarks."
+						Click="showNavPanelButton_Click" AutomationProperties.AcceleratorKey="C"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                    <ToolTipService.ToolTip>
+                        <bc:ExtendedToolTip Content="Open the Navigation Panel (C)"></bc:ExtendedToolTip>
+                    </ToolTipService.ToolTip>
+                    <Path Width="17.3787" Height="14.6653" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 298.883,279.983L 300.545,279.983L 300.545,277.983L 298.883,277.983M 298.883,275.757L 300.544,275.757L 300.544,273.757L 298.883,273.757M 298.883,271.539L 300.544,271.539L 300.544,269.537L 298.883,269.537M 298.881,267.316L 300.544,267.316L 300.544,265.317L 298.881,265.317M 303.316,275.757L 316.259,275.757L 316.259,273.757L 303.316,273.757M 303.319,279.983L 310.36,279.983L 310.36,277.983L 303.319,277.983M 310.36,269.536L 303.319,269.536L 303.319,271.537L 310.36,271.537M 303.317,267.316L 316.26,267.316L 316.26,265.317L 303.317,265.317L 303.317,267.316 Z " />
+				</bc:MediaButton>
+
+				<bc:Player x:Name="mainPlayer" Grid.Row="1" Grid.ColumnSpan="2" />
+
+				<bc:MediaButton x:Name="showSearchPanelButton" Style="{StaticResource SquareButton}"
+						Grid.Row="2" Grid.Column="0" 
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Find" AutomationProperties.HelpText="Open the Find Panel. Use this panel to go to a particular page or find specific text within the currently opened book."
+						Click="showSearchPanelButton_Click" AutomationProperties.AcceleratorKey="F"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                    <ToolTipService.ToolTip>
+                        <bc:ExtendedToolTip Content="Open the Find Panel (F)"></bc:ExtendedToolTip>
+                    </ToolTipService.ToolTip>
+                    <Path Width="16.8987" Height="17.3894" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 269.282,395.885C 269.287,393.783 270.99,392.08 273.094,392.077C 275.199,392.08 276.899,393.783 276.905,395.885C 276.899,397.989 275.199,399.691 273.094,399.693C 270.99,399.691 269.287,397.989 269.282,395.885 Z M 283.711,406.047L 284.182,405.576L 278.866,400.261L 278.397,400.731L 277.41,399.743C 278.329,398.715 278.905,397.372 278.905,395.885C 278.905,392.677 276.302,390.077 273.094,390.075C 269.886,390.077 267.286,392.677 267.283,395.885C 267.286,399.093 269.886,401.695 273.094,401.695C 274.333,401.695 275.477,401.301 276.419,400.639L 277.453,401.673L 276.981,402.145L 282.298,407.464L 283.135,406.625L 283.713,406.048L 283.711,406.047 Z " />
+				</bc:MediaButton>
+                <bc:MediaButton x:Name="addBookmarkButton" Style="{StaticResource SquareButton}"
+						Grid.Row="2" Grid.Column="1" 
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Add Bookmark" AutomationProperties.HelpText="Bookmark your current position in the book"
+						IsEnabled="False" AutomationProperties.AcceleratorKey="Shift+B"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                    <ToolTipService.ToolTip>
+                        <bc:ExtendedToolTip Content="Bookmark your current position in the book"></bc:ExtendedToolTip>
+                    </ToolTipService.ToolTip>
+                    <Path Width="18.6293" Height="16.98" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 308.786,403.457L 306.226,403.457L 306.226,406.017L 299.494,406.017L 299.494,393.929L 302.121,393.929L 302.121,401.788L 304.12,399.648L 306.402,401.788L 306.402,393.929L 308.786,393.929M 313.854,398.569L 313.854,395.665L 311.902,395.665L 311.902,398.569L 310.12,398.569L 310.12,392.596L 309.453,392.596L 306.402,392.596L 306.402,390.373L 302.121,390.373L 302.121,392.596L 298.161,392.596L 298.161,407.353L 307.91,407.353L 310.12,405.142L 310.12,400.574L 311.902,400.574L 311.902,403.478L 313.854,403.478L 313.854,400.574L 316.79,400.574L 316.79,398.569L 313.854,398.569 Z " />
+                </bc:MediaButton>
+
+                <bc:MediaButton x:Name="showDisplaySettingsButton" Style="{StaticResource SquareButton}"
+						Grid.Row="3" Grid.Column="0" 
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Display Settings" AutomationProperties.HelpText="Open the Display Settings Panel. Use this panel to change the scale and contrast scheme of the Buttercup reader."
+						Click="showDisplaySettingsButton_Click" AutomationProperties.AcceleratorKey="D"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                    <ToolTipService.ToolTip>
+                        <bc:ExtendedToolTip Content="Open the Display Settings Panel (D)"></bc:ExtendedToolTip>
+                    </ToolTipService.ToolTip>
+                    <Path Width="18" Height="10.685" Stretch="Fill" Fill="{Binding Path=DefaultForeground}"
+						  Data="F1 M -83.9993,311.995C -86.1803,311.995 -88.1152,313.209 -89.4303,315.061L -89.623,315.331L -89.4303,315.605C -88.1152,317.456 -86.1803,318.669 -83.9993,318.671C -81.8157,318.669 -79.8861,317.456 -78.5697,315.605L -78.3769,315.331L -78.5697,315.061C -79.8861,313.209 -81.8157,311.995 -83.9993,311.995 Z M -82.7312,313.412C -82.3378,313.412 -82.0163,313.734 -82.0163,314.131C -82.0163,314.527 -82.3378,314.848 -82.7312,314.848C -83.1309,314.848 -83.4512,314.527 -83.4512,314.131C -83.4512,313.734 -83.1309,313.412 -82.7312,313.412 Z M -79.5358,315.331L -79.5788,315.387C -80.7454,316.855 -82.3027,317.732 -83.9993,317.732C -85.6985,317.732 -87.2572,316.855 -88.42,315.387L -88.4643,315.331L -88.42,315.279C -87.3835,313.967 -86.0266,313.131 -84.5397,312.968L -84.2481,312.934L -84.4746,313.12C -84.9017,313.473 -85.1764,313.998 -85.1764,314.594C -85.1752,315.652 -84.3184,316.508 -83.2585,316.51C -82.2012,316.508 -81.3444,315.652 -81.343,314.594C -81.343,314.3 -81.4148,314.027 -81.5293,313.779L -81.649,313.527L -81.4069,313.667C -80.735,314.064 -80.1152,314.603 -79.5788,315.279L -79.5358,315.331 Z" />
+                </bc:MediaButton>
+                
+				<bc:MediaButton x:Name="showHelpButton" Style="{StaticResource SquareButton}"
+						Grid.Row="3" Grid.Column="1" 
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Help"  AutomationProperties.HelpText="Open the Help panel. Here, you can get help on how to use the Buttercup reader."
+						Click="showHelpSettingsButton_Click" AutomationProperties.AcceleratorKey="H"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                    <ToolTipService.ToolTip>
+                        <bc:ExtendedToolTip Content="Open the Help panel (Shift+?)"></bc:ExtendedToolTip>
+                    </ToolTipService.ToolTip>
+                    <Path Width="11.629" Height="17" Stretch="Fill" Fill="{Binding Path=DefaultForeground}"
+						  Data="F1 M 464.733,389.076L 460.753,389.076C 460.743,388.504 460.738,388.156 460.738,388.031C 460.738,386.74 460.952,385.679 461.377,384.847C 461.804,384.015 462.657,383.078 463.936,382.038C 465.216,380.997 465.981,380.316 466.231,379.994C 466.616,379.484 466.808,378.922 466.808,378.308C 466.808,377.455 466.467,376.725 465.785,376.116C 465.105,375.507 464.186,375.203 463.031,375.203C 461.919,375.203 460.988,375.52 460.238,376.155C 459.489,376.789 458.974,377.757 458.694,379.057L 454.667,378.557C 454.783,376.696 455.575,375.114 457.047,373.814C 458.52,372.513 460.452,371.863 462.844,371.863C 465.362,371.863 467.365,372.521 468.853,373.837C 470.341,375.154 471.084,376.685 471.084,378.433C 471.084,379.401 470.811,380.316 470.265,381.18C 469.719,382.043 468.551,383.22 466.762,384.707C 465.835,385.477 465.261,386.096 465.037,386.563C 464.814,387.032 464.711,387.869 464.733,389.076 Z M 460.753,396.137L 460.753,391.752L 465.138,391.752L 465.138,396.137L 460.753,396.137 Z" />
+				</bc:MediaButton>
+                
+				<!--<bc:MediaButton x:Name="increaseStorage" Style="{StaticResource LongButton}"
+						Grid.Row="4" Grid.ColumnSpan="2" 
+						Margin="0,32,0,0" Visibility="Collapsed"
+						GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+						MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+						AutomationProperties.Name="Increase Storage" AutomationProperties.HelpText="Increase the amount of space in Isolated Storage available for Buttercup reader to use for storing books."
+						Click="increaseStorage_Click"
+						Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+						SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+						FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+					<ToolTipService.ToolTip>
+						<ToolTip Content="Increase the size of Isolated Storage"></ToolTip>
+					</ToolTipService.ToolTip>
+					<TextBlock Foreground="{Binding Path=DefaultForeground}" Text="Inc. IS" />
+				</bc:MediaButton>-->
+			</Grid>
+
+            <Border x:Name="sidePanelHost" Visibility="Collapsed"
+					bc:HorizontalScalingStackPanel.ShouldScale="False"
+					bc:HorizontalScalingStackPanel.WidthRatio="24"
+					Style="{StaticResource SectionFrame}"
+					Background="{Binding Path=DefaultBackground}"
+					BorderBrush="{Binding Path=DefaultForeground}"
+					Padding="4" Margin="4">
+				<ScrollViewer x:Name="sidePanelContents" Style="{StaticResource DefaultScrollViewer}"
+						Background="{x:Null}" Foreground="{Binding Path=DefaultForeground}"
+						IsTabStop="False" VerticalScrollBarVisibility="Auto"
+						SizeChanged="sidePanel_SizeChanged" Loaded="sidePanelContents_Loaded">
+					<Grid HorizontalAlignment="Left" VerticalAlignment="Top"
+						  SizeChanged="sidePanelContents_SizeChanged">
+						<bc:MediaTabControl x:Name="sidePanelContainer" Style="{StaticResource PanelContainer}">
+
+							<basics:TabItem x:Name="navigationPanel" Header="Book Navigation" Style="{StaticResource PanelItem}"
+											Background="{Binding Path=DefaultBackground}">
+								<!-- This has its own listbox (to switch inner tabs) as the heading. -->
+								<bc:Navigation x:Name="navigation" />
+							</basics:TabItem>
+
+
+							<basics:TabItem x:Name="displaySettingsPanel" Header="Display Settings" Style="{StaticResource PanelItem}"
+											Background="{Binding Path=DefaultBackground}">
+								<Grid>
+									<Grid.RowDefinitions>
+										<RowDefinition Height="Auto" />
+										<RowDefinition Height="*" />
+									</Grid.RowDefinitions>
+
+									<TextBlock Style="{StaticResource PanelHeading}"
+									   Text="Display Settings" />
+									<bc:DisplaySettings x:Name="displaySettings" Grid.Row="1" />
+								</Grid>
+							</basics:TabItem>
+
+							<basics:TabItem x:Name="searchPanel" Header="Find" Style="{StaticResource PanelItem}"
+											Background="{Binding Path=DefaultBackground}">
+								<Grid>
+									<Grid.RowDefinitions>
+										<RowDefinition Height="Auto" />
+										<RowDefinition Height="*" />
+									</Grid.RowDefinitions>
+
+									<TextBlock Style="{StaticResource PanelHeading}"
+									   Text="Find" />
+									<bc:Search x:Name="search" Grid.Row="1" />
+								</Grid>
+							</basics:TabItem>
+
+
+                            <basics:TabItem x:Name="helpPanel" Header="Help" Style="{StaticResource PanelItem}"
+											Background="{Binding Path=DefaultBackground}">
+                                <!-- This has its own listbox (to switch inner tabs) as the heading. -->
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <TextBlock Style="{StaticResource PanelHeading}"
+									   Text="Help" />
+                                    <bc:Help x:Name="help" Grid.Row="1" IsEnabled="True" IsTabStop="True"
+                                             GotFocus="SpeakControlOnFocus"/>
+                                </Grid>
+                            </basics:TabItem>
+                            
+                            <!-- An Empty Tab Panel. By switching to this panel when hiding the other panels, we force the control to reload each time
+							a panel is reopened (loaded event _always_ triggered on panel open) -->
+							<basics:TabItem x:Name="emptyPanel" Header="" Style="{StaticResource PanelItem}"
+											Background="{Binding Path=DefaultBackground}">
+							</basics:TabItem>
+
+						</bc:MediaTabControl>
+
+						<bc:MediaButton x:Name="hidePanelButton" Style="{StaticResource SquareButton}"
+								HorizontalAlignment="Right" VerticalAlignment="Top"
+								GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+								MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+								AutomationProperties.Name="Hide Panel" AutomationProperties.HelpText="Hide the currently open panel"
+								Margin="4,8,8,4" Click="hidePanelButton_Click" AutomationProperties.AcceleratorKey="Escape"
+								Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+								SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+								FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+                            <ToolTipService.ToolTip>
+                                <bc:ExtendedToolTip Content="Hide the currently open panel (Escape)"></bc:ExtendedToolTip>
+                            </ToolTipService.ToolTip>
+                            <Path Width="13.516" Height="13.5134" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 313.465,232.534L 311.577,230.65L 306.707,235.519L 301.836,230.65L 299.949,232.534L 304.822,237.406L 299.949,242.276L 301.836,244.163L 306.707,239.292L 311.577,244.163L 313.465,242.276L 308.593,237.406L 313.465,232.534 Z " />
+						</bc:MediaButton>
+					</Grid>
+				</ScrollViewer>
+            </Border>
+
+        </bc:HorizontalScalingStackPanel>
+
+		<!-- Last Row Controls -->
+		<Grid Grid.ColumnSpan="2" Grid.Row="1" >
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<ProgressBar x:Name="progressBar" Margin="4" Value="0" Height="15" Grid.Column="1"
+                         IsIndeterminate="False" Minimum="0" Maximum="100" Visibility="Collapsed" />
+			<TextBlock x:Name="progressText" Margin="4" Height="15" HorizontalAlignment="Stretch" 
+                       Foreground="{Binding Path=DefaultForeground}" Text="" Visibility="Collapsed" />
+		</Grid>
+
+		<ScrollViewer x:Name="surfaceContainer" Grid.Column="1" Style="{StaticResource DefaultScrollViewer}"
+					  Padding="20,0,20,20"
+                      Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+					  IsTabStop="False">
+			<StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+				<Grid Margin="20,20,0,0" Height="80" VerticalAlignment="Top">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto" />	
+					</Grid.RowDefinitions>
+					<Canvas Width="158.457" Height="138.744"
+						HorizontalAlignment="Left" VerticalAlignment="Top">
+						<Canvas.RenderTransform>
+							<ScaleTransform ScaleX="0.5" ScaleY="0.5" />
+						</Canvas.RenderTransform>
+
+						<Path Fill="{StaticResource YellowGradientLR}" Width="46.902" Height="20.9309"
+						  Canvas.Left="5.07658" Canvas.Top="44.4045" Stretch="Fill"
+						  Data="F1 M 51.9785,59.2747C 50.405,58.4199 48.373,57.2598 45.8821,55.7943C 43.3919,54.3295 40.7805,52.8638 38.0475,51.3978C 35.3151,49.9316 32.5827,48.5684 29.8515,47.3085C 27.1204,46.0482 24.7272,45.1946 22.6712,44.7493C 20.2728,44.2292 18.0996,44.2974 16.1516,44.9544C 14.2031,45.6113 12.5064,46.554 11.0605,47.7825C 9.61522,49.011 8.42773,50.3978 7.49734,51.944C 6.56761,53.4896 5.9212,54.8912 5.55988,56.149C 5.3372,56.9232 5.18614,57.7635 5.10667,58.6719C 5.02734,59.58 5.10483,60.47 5.33922,61.3431C 5.57294,62.2161 6.04881,62.9876 6.76628,63.657C 7.48375,64.3262 8.52734,64.8099 9.89775,65.1068C 11.4967,65.4537 14.2401,65.4056 18.1288,64.9641C 22.017,64.5221 26.1608,63.9302 30.5605,63.1881C 34.9596,62.446 39.1523,61.6849 43.138,60.9043C 47.1236,60.1238 50.071,59.5806 51.9785,59.2747 Z " />
+						<Path Fill="{StaticResource YellowGradientLR}" Width="36.0234" Height="67.5104"
+						  Canvas.Left="22.9258" Canvas.Top="71.0411" Stretch="Fill"
+						  Data="F1 M 55.9375,124.58C 57.1347,120.42 57.9238,116.094 58.3065,111.603C 58.6888,107.112 58.8997,102.583 58.9395,98.0183C 58.9791,93.453 58.8978,88.8867 58.6947,84.3203C 58.4922,79.7539 58.4616,75.3275 58.6028,71.0411C 55.8874,74.1522 52.7675,77.5104 49.2435,81.1152C 45.7193,84.7193 42.2389,88.4869 38.802,92.4187C 35.3659,96.3509 32.2428,100.35 29.4348,104.418C 26.6263,108.486 24.6516,112.503 23.5098,116.47C 23.0091,118.212 22.83,120.203 22.9739,122.444C 23.1177,124.685 23.6816,126.837 24.6653,128.901C 25.6484,130.964 27.08,132.842 28.959,134.535C 30.8379,136.227 33.319,137.407 36.4029,138.076C 39.4863,138.744 42.166,138.708 44.4413,137.968C 46.7168,137.228 48.6055,136.147 50.1061,134.725C 51.6073,133.303 52.8365,131.668 53.793,129.82C 54.7494,127.971 55.4641,126.225 55.9375,124.58 Z " />
+						<Path Fill="{StaticResource YellowGradientLR}" Width="28.1568" Height="36.6883"
+						  Canvas.Left="29.6368" Canvas.Top="16.292" Stretch="Fill"
+						  Data="F1 M 57.7936,52.9803C 57.7011,52.0357 57.5911,50.5215 57.4628,48.4381L 57.0292,41.4056C 56.8684,38.8015 56.5865,36.0931 56.1816,33.2819C 55.7773,30.47 55.2819,27.8704 54.6952,25.4818C 54.1087,23.0931 53.3535,21.0795 52.4296,19.4402C 51.5064,17.8008 50.3593,16.8326 48.9889,16.5357C 46.933,16.0898 44.8528,16.2559 42.7487,17.0332C 40.6446,17.8099 38.6705,18.8724 36.8268,20.22C 34.9831,21.5677 33.4395,23.0319 32.1959,24.6127C 30.9531,26.1934 30.164,27.5637 29.83,28.7245C 29.2453,30.7565 29.9876,32.9219 32.056,35.2207C 34.1243,37.5188 36.7272,39.7539 39.8639,41.9239C 43.0007,44.0944 46.2643,46.1387 49.6563,48.056C 53.0475,49.9733 55.7598,51.6146 57.7936,52.9803 Z " />
+						<Path Fill="{StaticResource YellowGradientLR}" Width="34.4268" Height="50.6188"
+						  Canvas.Left="66.0648" Canvas.Top="0.189031" Stretch="Fill"
+						  Data="F1 M 100.165,8.82092C 100.666,7.07947 100.59,5.44397 99.9388,3.91534C 99.2864,2.38672 97.5332,1.31256 94.6777,0.693359C 91.4804,0 88.3801,0.0214844 85.3776,0.758362C 82.375,1.49475 79.6529,2.62628 77.2116,4.15289C 74.7708,5.67975 72.709,7.46814 71.0273,9.5188C 69.3451,11.5696 68.2259,13.5626 67.6685,15.498C 66.9173,18.11 66.4447,20.9114 66.2519,23.9017C 66.0585,26.8918 66.0149,29.8887 66.1217,32.8926C 66.2279,35.8965 66.384,38.9368 66.5911,42.0142C 66.7975,45.0911 66.9251,48.0221 66.9727,50.8079C 68.9524,48.5651 71.6685,45.556 75.1204,41.7819C 78.5723,38.0077 82.0443,34.0579 85.5364,29.9329C 89.0292,25.8074 92.1731,21.8379 94.9687,18.0247C 97.7649,14.2109 99.4967,11.1432 100.165,8.82092 Z " />
+						<Path Fill="{StaticResource YellowGradientLR}" Width="83.6523" Height="45.7985"
+						  Canvas.Left="74.3099" Canvas.Top="8.60439" Stretch="Fill"
+						  Data="F1 M 157.566,23.1158C 158.457,20.0201 157.846,17.1895 155.732,14.6244C 153.619,12.0592 150.279,10.2813 145.71,9.29108C 141.028,8.27527 136.325,8.38672 131.601,9.62378C 126.877,10.8607 122.258,12.7884 117.743,15.4076C 113.229,18.026 108.846,21.136 104.594,24.7369C 100.343,28.3379 96.3268,31.9641 92.5462,35.6152C 88.7656,39.2669 85.3333,42.7625 82.2493,46.1028C 79.1647,49.4427 76.5181,52.2096 74.3099,54.4029C 77.468,53.5463 81.638,52.5482 86.8183,51.4102C 91.9993,50.2721 97.5637,48.9603 103.512,47.4745C 109.46,45.9889 115.478,44.3646 121.566,42.6009C 127.655,40.8372 133.243,38.9139 138.332,36.8306C 143.421,34.748 147.717,32.5703 151.223,30.2974C 154.728,28.0253 156.842,25.6315 157.566,23.1158 Z " />
+						<Path Fill="{StaticResource YellowGradientLR}" Width="51.9737" Height="36.0926"
+						  Canvas.Left="0.0561687" Canvas.Top="66.6868" Stretch="Fill"
+						  Data="F1 M 52.0299,66.6868C 47.7324,67.7078 42.8287,68.7259 37.3196,69.7415C 31.8099,70.7572 26.5019,72.0215 21.3952,73.5357C 16.2884,75.0494 11.7975,76.9537 7.92188,79.248C 4.04614,81.543 1.59375,84.4803 0.563751,88.0599C 0.31308,88.9309 0.150421,90.129 0.0754852,91.6543C 0,93.1802 0.145737,94.6764 0.512939,96.1432C 0.878815,97.6107 1.55136,98.9641 2.52922,100.204C 3.50708,101.444 4.90948,102.262 6.73694,102.658C 8.44987,103.029 10.6204,102.549 13.248,101.217C 15.8763,99.8855 18.707,98.0579 21.7415,95.7351C 24.776,93.4121 27.8717,90.7688 31.0299,87.8047C 34.1882,84.8406 37.1399,81.9596 39.886,79.1633C 42.6321,76.3665 45.0879,73.8411 47.2532,71.5865C 49.4185,69.3326 51.0111,67.6992 52.0299,66.6868 Z " />
+					</Canvas>
+
+					<TextBlock Margin="32,24,0,0" FontSize="32" VerticalAlignment="Top"
+							Text="Buttercup" />
+					<TextBlock Margin="190,24,0,0" FontSize="32" VerticalAlignment="Top"
+							Text="Reader" FontWeight="Bold" />
+				</Grid>
+
+				<Rectangle Margin="0,-72,0,0" Height="1" />
+				<TextBlock Style="{StaticResource SplashHeading}" Text="Buttercup Reader" />
+				<TextBlock Style="{StaticResource SplashText}"
+							Text="The Online Digital Talking Book Reader (Demo)" />
+				<TextBlock Style="{StaticResource SplashText}"
+							Text="Website: http://www.buttercupreader.net" />
+
+				<TextBlock Style="{StaticResource SplashHeading}" Text="Get Started" />
+				<TextBlock Style="{StaticResource SplashText}"
+							Text="To open a DAISY DTB from your Hard Drive, press 'O'." />
+				<TextBlock Style="{StaticResource SplashText}"
+							Text="To open the ButtercupReader Help Guide, press 'Shift+?'." />
+			</StackPanel>
+		</ScrollViewer>
+			
+
+		<Popup x:Name="changeSizePopup" Grid.ColumnSpan="2">
+			<bc:RescaleUIPopupContents x:Name="rescaleUIPopupContents" />
+		</Popup>
+
+	</Grid>
+    
+</UserControl>

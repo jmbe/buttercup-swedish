@@ -1,0 +1,118 @@
+﻿<UserControl x:Class="Buttercup.Control.Player"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:bc="clr-namespace:Buttercup.Control"
+    >
+    
+    <Grid x:Name="LayoutRoot" ShowGridLines="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <bc:MediaButton x:Name="playPauseButton" Style="{StaticResource LongButton}"
+                Grid.Row="0" Grid.ColumnSpan="2"
+				Click="playPauseButton_Click"
+                GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+				MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+				AutomationProperties.AcceleratorKey="Space"
+				Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+				SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+				FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+            <ToolTipService.ToolTip>
+                <bc:ExtendedToolTip x:Name="toolTipPlayPauseButton"></bc:ExtendedToolTip>
+            </ToolTipService.ToolTip>
+        </bc:MediaButton>
+        
+        <bc:MediaButton x:Name="PrevSectionButton" Style="{StaticResource SquareButton}"
+                Grid.Row="1" Grid.Column="0"
+                Click="PrevSectionButton_Click"
+				GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+				MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+				AutomationProperties.Name="Previous Heading" AutomationProperties.HelpText="Navigate to the Previous Heading"
+                AutomationProperties.AcceleratorKey="Up Arrow"
+				Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+				SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+				FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+			<bc:MediaButton.RenderTransform>
+				<TransformGroup>
+					<RotateTransform CenterX="16" CenterY="16" Angle="-90" />
+				</TransformGroup>
+			</bc:MediaButton.RenderTransform>
+            <ToolTipService.ToolTip>
+                <bc:ExtendedToolTip Content="Navigate to the Previous Heading (Up Arrow)"></bc:ExtendedToolTip>
+            </ToolTipService.ToolTip>
+            <Path Width="12.0467" Height="10.1227" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 281.788,330.673L 269.741,330.673L 269.741,332.361L 274.676,332.361L 269.806,340.796L 281.493,340.796L 276.624,332.361L 281.788,332.361L 281.788,330.673 Z " />
+        </bc:MediaButton>
+		<bc:MediaButton x:Name="NextSectionButton" Style="{StaticResource SquareButton}"
+                Grid.Row="1" Grid.Column="1"
+                Click="NextSectionButton_Click" GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+				MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+				AutomationProperties.Name="Next Heading" AutomationProperties.HelpText="Navigate to the Next Heading"
+                AutomationProperties.AcceleratorKey="Down Arrow"
+				Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+				SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+				FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+			<bc:MediaButton.RenderTransform>
+				<TransformGroup>
+					<RotateTransform CenterX="16" CenterY="16" Angle="-90" />
+				</TransformGroup>
+			</bc:MediaButton.RenderTransform>
+            <ToolTipService.ToolTip>
+                <bc:ExtendedToolTip Content="Navigate to the Next Heading (Down Arrow)"></bc:ExtendedToolTip>
+            </ToolTipService.ToolTip>
+            <Path Width="12.0467" Height="10.12" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 308.66,339.108L 313.527,330.676L 301.84,330.676L 306.712,339.108L 301.548,339.108L 301.548,340.796L 313.595,340.796L 313.595,339.108L 308.66,339.108 Z " />
+		</bc:MediaButton>
+
+		<bc:MediaButton x:Name="PrevSentenceButton" Style="{StaticResource SquareButton}"
+                Grid.Row="2" Grid.Column="0"
+                Click="PrevSentenceButton_Click" GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+				MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+				AutomationProperties.Name="Previous Paragraph" AutomationProperties.HelpText="Navigate to the Previous Paragraph"
+                AutomationProperties.AcceleratorKey="Left Arrow"
+				Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+				SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+				FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+            <ToolTipService.ToolTip>
+                <bc:ExtendedToolTip Content="Navigate to the Previous Paragraph (Left Arrow)"/>
+            </ToolTipService.ToolTip>
+            <Path Width="13.2547" Height="11.8546" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 283.592,365.918L 277.671,365.918L 277.671,361.574L 270.338,367.502L 277.671,373.429L 277.671,369.082L 283.592,369.082L 283.592,365.918 Z " />
+        </bc:MediaButton>
+        <bc:MediaButton x:Name="NextSentenceButton" Style="{StaticResource SquareButton}"
+                Grid.Row="2" Grid.Column="1"
+                Click="NextSentenceButton_Click" GotFocus="SpeakControlOnFocus" LostFocus="Button_LostFocus"
+				MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+				AutomationProperties.Name="Next Paragraph" AutomationProperties.HelpText="Navigate to the Next Paragraph"
+                AutomationProperties.AcceleratorKey="Right Arrow"
+				Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}"
+				SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+				FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}">
+            <ToolTipService.ToolTip>
+                <bc:ExtendedToolTip Content="Navigate to the Next Paragraph (Right Arrow)"></bc:ExtendedToolTip>
+            </ToolTipService.ToolTip>
+            <Path Width="12.7293" Height="11.8534" Stretch="Fill" Fill="{Binding Path=DefaultForeground}" Data="F1 M 312.608,367.499L 305.275,361.575L 305.275,365.917L 299.879,365.917L 299.879,369.083L 305.275,369.083L 305.275,373.428L 312.608,367.499 Z " />
+        </bc:MediaButton>
+        
+        <bc:MediaVolumeSlider x:Name="VolumeSlider" Minimum="0" Maximum="16"
+				Grid.Row="3" Grid.ColumnSpan="2" 
+                GotFocus="VolumeSlider_GotFocus" Style="{StaticResource VolumeSlider}" LostFocus="Button_LostFocus"
+				MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"
+				Background="{Binding Path=DefaultBackground}" Foreground="{Binding Path=DefaultForeground}" BorderBrush="{Binding Path=DefaultForeground}"
+				SelectionBackground="{Binding Path=HighlightBackground}" SelectionForeground="{Binding Path=HighlightForeground}"
+				FocusBackground="{Binding Path=SelectionBackground}" FocusForeground="{Binding Path=SelectionForeground}"
+			    AutomationProperties.Name="Volume" AutomationProperties.HelpText="Slide to Adjust Volume"
+                AutomationProperties.AcceleratorKey="J to decrease, K to increase.">
+            <ToolTipService.ToolTip>
+                <bc:ExtendedToolTip Content="Slide to Adjust Volume (J to decrease, K to increase)"></bc:ExtendedToolTip>
+            </ToolTipService.ToolTip>
+        </bc:MediaVolumeSlider>
+        
+        <MediaElement x:Name="AudioPlayer" AutoPlay="False" />
+    </Grid>
+</UserControl>

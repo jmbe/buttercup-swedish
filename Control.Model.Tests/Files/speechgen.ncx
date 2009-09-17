@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx
+  PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+	  <head>
+		    <meta content="AUTO-UID-4702713388317564060" name="dtb:uid"/>
+		    <meta content="3" name="dtb:depth"/>
+		
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0" name="dtb:totalPageCount"/>
+		    <meta content="0" name="dtb:maxPageNumber"/>
+	  </head>
+  
+	  <docTitle>
+	     <text>Microsoft Active Accessibility (MSAA)</text>
+      <audio clipBegin="0:00:00" clipEnd="0:00:05.040" src="speechgen0001.mp3"/>
+   </docTitle>
+  
+	  <docAuthor>
+	     <text>Joel Marcey</text>
+      <audio clipBegin="0:00:05.040" clipEnd="0:00:08.740" src="speechgen0001.mp3"/>
+   </docAuthor>
+	
+	  <navMap id="navMap">
+      <navPoint class="h1" id="ncx-1" playOrder="1">
+         <navLabel>
+            <text>  Microsoft Active Accessibility (MSAA)
+</text>
+            <audio clipBegin="0:00:00" clipEnd="0:00:07.040" src="speechgen0002.mp3"/>
+         </navLabel>
+         <content src="speechgen0002.smil#tcp3"/>
+         <navPoint class="h2" id="ncx-2" playOrder="2">
+            <navLabel>
+               <text>  History
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.520" src="speechgen0003.mp3"/>
+            </navLabel>
+            <content src="speechgen0003.smil#tcp21"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-3" playOrder="3">
+            <navLabel>
+               <text>  Motivation and Goals
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:05.480" src="speechgen0004.mp3"/>
+            </navLabel>
+            <content src="speechgen0004.smil#tcp37"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-4" playOrder="4">
+            <navLabel>
+               <text>  Technical Overview
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:05.180" src="speechgen0005.mp3"/>
+            </navLabel>
+            <content src="speechgen0005.smil#tcp40"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-5" playOrder="5">
+            <navLabel>
+               <text>  Accessible Objects
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:05.360" src="speechgen0006.mp3"/>
+            </navLabel>
+            <content src="speechgen0006.smil#tcp54"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-6" playOrder="6">
+            <navLabel>
+               <text>  Roles, Names, Values, States
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:06.820" src="speechgen0007.mp3"/>
+            </navLabel>
+            <content src="speechgen0007.smil#tcp59"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-7" playOrder="7">
+            <navLabel>
+               <text>  Role
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.400" src="speechgen0008.mp3"/>
+            </navLabel>
+            <content src="speechgen0008.smil#tcp73"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-8" playOrder="8">
+            <navLabel>
+               <text>  Name
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.420" src="speechgen0009.mp3"/>
+            </navLabel>
+            <content src="speechgen0009.smil#tcp76"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-9" playOrder="9">
+            <navLabel>
+               <text>  Value
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.500" src="speechgen0010.mp3"/>
+            </navLabel>
+            <content src="speechgen0010.smil#tcp82"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-10" playOrder="10">
+            <navLabel>
+               <text>  State
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.460" src="speechgen0011.mp3"/>
+            </navLabel>
+            <content src="speechgen0011.smil#tcp87"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-11" playOrder="11">
+            <navLabel>
+               <text>  Challenges and Limitations
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:05.520" src="speechgen0012.mp3"/>
+            </navLabel>
+            <content src="speechgen0012.smil#tcp96"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-12" playOrder="12">
+            <navLabel>
+               <text>  Availability
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.820" src="speechgen0013.mp3"/>
+            </navLabel>
+            <content src="speechgen0013.smil#tcp121"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-13" playOrder="13">
+            <navLabel>
+               <text>  Related Technology
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:05.180" src="speechgen0014.mp3"/>
+            </navLabel>
+            <content src="speechgen0014.smil#tcp125"/>
+            <navPoint class="h3" id="ncx-14" playOrder="14">
+               <navLabel>
+                  <text>  User Interface Automation (UIA)
+</text>
+                  <audio clipBegin="0:00:00" clipEnd="0:00:06.400" src="speechgen0015.mp3"/>
+               </navLabel>
+               <content src="speechgen0015.smil#tcp126"/>
+            </navPoint>
+            <navPoint class="h3" id="ncx-15" playOrder="15">
+               <navLabel>
+                  <text>  Windows Automation API
+</text>
+                  <audio clipBegin="0:00:00" clipEnd="0:00:05.500" src="speechgen0016.mp3"/>
+               </navLabel>
+               <content src="speechgen0016.smil#tcp137"/>
+            </navPoint>
+         </navPoint>
+         <navPoint class="h2" id="ncx-16" playOrder="16">
+            <navLabel>
+               <text>  Implementations of MSAA
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:06.240" src="speechgen0017.mp3"/>
+            </navLabel>
+            <content src="speechgen0017.smil#tcp140"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-17" playOrder="17">
+            <navLabel>
+               <text>  References
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:04.680" src="speechgen0018.mp3"/>
+            </navLabel>
+            <content src="speechgen0018.smil#tcp152"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-18" playOrder="18">
+            <navLabel>
+               <text>  External links
+</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:05.060" src="speechgen0019.mp3"/>
+            </navLabel>
+            <content src="speechgen0019.smil#tcp158"/>
+         </navPoint>
+      </navPoint>
+   </navMap>
+	
+	
+  
+</ncx>

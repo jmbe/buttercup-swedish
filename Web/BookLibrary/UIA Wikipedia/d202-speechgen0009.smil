@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN" "http://www.w3.org/TR/REC-SMIL/SMIL10.dtd" []>
+<smil>
+   <head>
+      <meta name="ncc:generator" content="DMFC z3986-2005 to Daisy 2.02 (smil2smil v0.2)" />
+      <meta name="dc:format" content="Daisy 2.02" />
+      <meta name="dc:identifier" content="AUTO-UID-4990946756517120292" />
+      <meta name="title" content="  UI Automation Control Types&#xa;" />
+      <meta name="dc:title" content="Microsoft UI Automation" />
+      <meta name="ncc:totalElapsedTime" content="0:07:43" />
+      <meta name="ncc:timeInThisSmil" content="0:00:39" />
+      <layout>
+         <region id="txtView" />
+      </layout>
+   </head>
+   <body>
+      <seq dur="39.180s">
+         <par endsync="last" id="tcp96">
+            <text id="text96" src="content.html#dtb96" />
+            <audio src="speechgen0009.mp3" id="audd145e10" clip-begin="npt=0.000s" clip-end="npt=6.080s" />
+         </par>
+         <par endsync="last" id="tcp97">
+            <text id="text97" src="content.html#dtb97" />
+            <audio src="speechgen0009.mp3" id="audd145e13" clip-begin="npt=6.080s" clip-end="npt=16.400s" />
+         </par>
+         <par endsync="last" id="tcp98">
+            <text id="text98" src="content.html#dtb98" />
+            <audio src="speechgen0009.mp3" id="audd145e16" clip-begin="npt=16.400s" clip-end="npt=28.040s" />
+         </par>
+         <par endsync="last" id="tcp99">
+            <text id="text99" src="content.html#dtb99" />
+            <audio src="speechgen0009.mp3" id="audd145e19" clip-begin="npt=28.040s" clip-end="npt=39.180s" />
+         </par>
+      </seq>
+   </body>
+</smil>

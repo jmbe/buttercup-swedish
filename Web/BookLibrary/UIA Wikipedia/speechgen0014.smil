@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil
+  PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+	  <head>
+		    <meta content="AUTO-UID-4990946756517120292" name="dtb:uid"/>
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0:11:35.520" name="dtb:totalElapsedTime"/>
+		
+	  </head>
+	  <body>
+		    <seq dur="0:01:14" fill="remove" id="mseq">
+		       <par id="tcp140">
+            <text id="text140" src="UIA-Wikipedia_for_Daisy.xml#dtb140"/>
+            <audio clipBegin="0:00:00" clipEnd="0:00:06.280" src="speechgen0014.mp3"/>
+         </par>
+         <par id="tcp141">
+            <text id="text141" src="UIA-Wikipedia_for_Daisy.xml#dtb141"/>
+            <audio clipBegin="0:00:06.280" clipEnd="0:00:13.140" src="speechgen0014.mp3"/>
+         </par>
+         <par id="tcp142">
+            <text id="text142" src="UIA-Wikipedia_for_Daisy.xml#dtb142"/>
+            <audio clipBegin="0:00:13.140" clipEnd="0:00:22.920" src="speechgen0014.mp3"/>
+         </par>
+         <par id="tcp143">
+            <text id="text143" src="UIA-Wikipedia_for_Daisy.xml#dtb143"/>
+            <audio clipBegin="0:00:22.920" clipEnd="0:00:31.680" src="speechgen0014.mp3"/>
+         </par>
+         <par id="tcp144">
+            <text id="text144" src="UIA-Wikipedia_for_Daisy.xml#dtb144"/>
+            <audio clipBegin="0:00:31.680" clipEnd="0:00:36.260" src="speechgen0014.mp3"/>
+         </par>
+         <seq class="list" end="DTBuserEscape;tcp149.end" fill="remove" id="tcs2">
+            <par id="tcp145">
+               <text id="text145" src="UIA-Wikipedia_for_Daisy.xml#dtb146"/>
+               <audio clipBegin="0:00:36.260" clipEnd="0:00:43.880" src="speechgen0014.mp3"/>
+            </par>
+            <par id="tcp146">
+               <text id="text146" src="UIA-Wikipedia_for_Daisy.xml#dtb147"/>
+               <audio clipBegin="0:00:43.880" clipEnd="0:00:48.820" src="speechgen0014.mp3"/>
+            </par>
+            <par id="tcp147">
+               <text id="text147" src="UIA-Wikipedia_for_Daisy.xml#dtb148"/>
+               <audio clipBegin="0:00:48.820" clipEnd="0:00:55.560" src="speechgen0014.mp3"/>
+            </par>
+            <par id="tcp148">
+               <text id="text148" src="UIA-Wikipedia_for_Daisy.xml#dtb149"/>
+               <audio clipBegin="0:00:55.560" clipEnd="0:01:07.080" src="speechgen0014.mp3"/>
+            </par>
+            <par id="tcp149">
+               <text id="text149" src="UIA-Wikipedia_for_Daisy.xml#dtb150"/>
+               <audio clipBegin="0:01:07.080" clipEnd="0:01:14" src="speechgen0014.mp3"/>
+            </par>
+         </seq>
+      </seq>
+	  </body>
+</smil>

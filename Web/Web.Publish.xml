@@ -1,0 +1,947 @@
+<publishData>
+  <publishTarget publishUrl="E:\Work\Projects\Microsoft\Daisy\Deployments\Release_0_2_0_0\Web\">
+    <file relUrl="blog/Archives.aspx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="Images/iconBlogWhite.png" publishTime="03/25/2009 08:19:52" />
+    <file relUrl="ClientBin/ButtercupControl.ashx" publishTime="12/23/2008 11:17:04" />
+    <file relUrl="blog/themes/Project84Grass/style.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="Images/internetOptions.png" publishTime="03/23/2009 11:41:21" />
+    <file relUrl="blog/images/itemLink.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/bin/newtelligence.DasBlog.Web.Core.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="blog/themes/essence/skyline.gif" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/Chimps/img/page08a.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/UserView.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page31.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/ftb/Languages/ko-kr.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/06.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="blog/themes/orangeCream/images/feed-icon-16x16.png" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/scripts/LiveCommentPreview.js" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/themes/Voidclass2/img/cdfButton.gif" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="BookLibrary/New Zealand/img/Page15b.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="Images/tr.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="blog/themes/directionalredux/images/xmlButton.png" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/DatePicker/BasicDatePicker.js" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/directionalredux/images/bg_right.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/content/2009-03-23.dayentry.xml" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/smilies/tongue.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/ftb/Utility/image.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/directionalredux/images/show_df_empty.jpg" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/orangeCream/images/contentbg.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/ftb/Utility/spacer.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/essence/dasBlog.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/nautica022/images/menu.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/TimeLine.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/03.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="blog/bin/newtelligence.DasBlog.Runtime.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/Chimps/resources.res" publishTime="02/04/2009 11:30:07" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0011.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/justhtml/calendar.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/images/deletebutton-list.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/SiteConfig/CrossPostServerInfo.xml" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/ErrorBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_007c_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="BookLibrary/UIA Wikipedia/UIA-Wikipedia_for_Daisy-Picture_22.png" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/blogxp/webpart-corner-left.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/08.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0010.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/themes/justhtml/colors.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/themes/Portal/style-compass/theme.css" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/Voidclass2/img/rssButton.gif" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0004.mp3" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0003.mp3" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/dasblueblog/dayLink.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/ftb/Utility/folder.big.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/Chimps/img/page13a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/nautica022/images/bg02-right.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/images/addbutton-list.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="Images/iconFeedbackYellow.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="blog/ftb/Languages/pt-pt.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page01.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="blog/themes/buttercup/img/icon_search_highlight.png" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/nautica022/item_title_background.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/elegante/base.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="Styles/styleWhite.css" publishTime="03/14/2009 08:59:28" />
+    <file relUrl="blog/images/rssButton.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/themes/orangeCream/images/blogdigger.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/nautica022/images/menuleft.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/dasBlog/calendar.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="Images/iconGuideBlack.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="BookLibrary/New Zealand/img/Page12a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0008.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/useit/useit_style.css" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="BookLibrary/CodeTalkers/Code_Talkers.opf" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/themes/orangeCream/images/be.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/directionalredux/css/base.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/nautica022/page_bottom_bg.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="Images/bl.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="BookLibrary/Peter Rabbit/dtbook.2005.basic.css" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="blog/themes/orangeCream/images/skypebutton.png" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/Chimps/audio/Page03.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/themes/Portal/style-compass/background_compass.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/bin/JA/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0010.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/slate/calendar.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/ftb/CodeHighlightDefinitions.xml" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="blog/smilies/evil.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page20.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="Scripts/IE.js" publishTime="03/06/2009 15:37:52" />
+    <file relUrl="BookLibrary/MSAA/speechgen0015.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_003b_fmt1.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/MonthViewBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="bin/Buttercup.Web.dll" publishTime="05/15/2009 09:45:10" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_001a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/SearchViewBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/nautica022/admin.css" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/business/images/feed-icon-16x16.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/nautica022/images/bg.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0013.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/essence/calendar.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/MSAA/speechgen0016.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="BookLibrary/New Zealand/New_Zealand.smil" publishTime="03/03/2009 15:45:37" />
+    <file relUrl="blog/Referrers.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="bin/zh-Hans/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page30.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0009.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/Portal/images/LOGO.GIF" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/Chimps/img/bamboo_long.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="BookLibrary/MSAA/speechgen0009.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="BookLibrary/Chimps/audio/Page01.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/bin/DA/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/UIA Wikipedia/ncc.html" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_003a.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="userGuide.html" publishTime="05/13/2009 15:56:26" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0006.mp3" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="Images/iconPlayYellow.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="blog/content/binary/4.png" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/Project84/style.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/dasBlog/base.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0008.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/bin/AR/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="blog/ClickThroughs.aspx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/MSAA/default.css" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/7.png" publishTime="03/12/2009 07:45:37" />
+    <file relUrl="BookLibrary/MSAA/speechgen0010.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="Images/iconBlogHover.png" publishTime="03/25/2009 08:19:52" />
+    <file relUrl="blog/themes/Voidclass2/img/header-bg.jpg" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="blog/ftb/CodeHighlightDefinitions_Old.xml" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="blog/themes/movableRadioBlue/admin.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/Chimps/Chimpanzees.opf" publishTime="02/04/2009 11:30:07" />
+    <file relUrl="blog/ArchivesControl.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_007a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/content/2009-03-23.dayfeedback.xml" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/calmblue/base.css" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0004.smil" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="blog/images/feed-icon-24x24.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="Images/iconPlayWhite.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="blog/themes/directionalredux/images/right_flag_largecomment_sof.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/Portal/images/xmlButton.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/bin/IT/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/New Zealand/img/Page25.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/ftb/Languages/ro-RO.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/Chimps/img/page05a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/scripts/md5.js" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/themes/dasBlog/dayLink.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/directionalredux/images/background_comment2.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/ReferrersBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/blogxp/calendar.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="Images/iconAboutYellow.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="blog/UserClickThroughs.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/blogxp/webparts.js" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/New Zealand/img/Page36.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page10.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="BookLibrary/Chimps/audio/Page02.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/bin/VI/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/directionalredux/images/rssButton.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/Project84Grass/images/rssButton.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/bin/DA/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="blog/themes/blogxp/pageLayout.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/bin/Lesnikowski.Pawel.Mail.Pop3.dll" publishTime="03/25/2009 15:49:38" />
+    <file relUrl="BookLibrary/Chimps/audio/Page16.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/questions.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="BookLibrary/Chimps/img/page10a.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/Portal/style-deepblue/theme.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/directionalredux/images/df_logo.jpg" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/Portal/readme.txt" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/content/binary/WindowsLiveWriter/TestPost_B067/buttercup_yetanotherblogscreen_2.jpg" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="blog/themes/blogxp/webparts.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/Peter Rabbit/tpbnarrator_res.mp3" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/03.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="blog/DatePicker/button.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/directionalredux/images/editButton.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/bin/NL/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/ftb/Utility/locked.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/New Zealand/img/Page06.alt.jpg" publishTime="03/03/2009 15:47:14" />
+    <file relUrl="Images/bgPageBlue.gif" publishTime="03/14/2009 08:59:23" />
+    <file relUrl="blog/bin/WebControlCaptcha.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page03.alt.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="blog/themes/directionalredux/images/mailTo_pointy.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/nautica022/editbutton.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/EditEntryBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/New Zealand/New_Zealand.opf" publishTime="03/03/2009 15:45:37" />
+    <file relUrl="blog/smilies/wink.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0005.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/SiteConfig/robots.config" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/SyndicationServiceExperimental.asmx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/elegante/rightSide.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/business/images/BlogHeader.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/VerySimple/d202-speechgen0004.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/AdminNavBar.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="Images/iconGuideWhite.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="blog/themes/blogxp/readme.txt" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/directionalredux/images/searchbox_button.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/DatePicker/arrow_right.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/images/feed-icon-16x16.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/ftb/Languages/nb-NO.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/elegante/Header.jpg" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_008a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/05.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="BookLibrary/New Zealand/img/Page21.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/ActivityBox.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/9.png" publishTime="03/12/2009 07:45:37" />
+    <file relUrl="blog/themes/business/images/sidegradient.jpg" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/New Zealand/img/Page01a.jpg" publishTime="03/03/2009 15:47:14" />
+    <file relUrl="blog/themes/elegante/readme.txt" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/Chimps/Chimpanzees.xml" publishTime="03/02/2009 11:49:54" />
+    <file relUrl="blog/themes/dasblogger/itemLink.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/dasEmerald/images/content.png" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/images/editbutton-list.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="aboutUs.html" publishTime="05/13/2009 15:56:26" />
+    <file relUrl="blog/DatePicker/TimePicker.js" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="blog/bin/FreeTextBox.dll" publishTime="03/25/2009 15:49:39" />
+    <file relUrl="blog/images/outlinearrow.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/bin/TR/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/ftb/Languages/de-de.xml" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="blog/themes/dasEmerald/style.css" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="BookLibrary/MSAA/speechgen0006.mp3" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="blog/Search.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0001.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/Project84Grass/images/atomButton.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/Peter Rabbit/tpbnarrator.res" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/themes/dasblueblog/logo.gif" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="Images/iconHomeHover.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="BookLibrary/VerySimple/d202-speechgen0002.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="Images/iconHomeBlack.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="blog/ftb/designmode.css" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="notavailable.jpg" publishTime="01/30/2009 13:16:37" />
+    <file relUrl="blog/themes/nautica022/images/banner.jpg" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/bin/newtelligence.DasBlog.Web.Services.dll" publishTime="03/25/2009 15:49:39" />
+    <file relUrl="blog/themes/dasEmerald/images/dayLink.gif" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/themes/orangeCream/admin.css" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/bin/DE/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/New Zealand/audio/land.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="Images/iconGuideHover.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="blog/DatePicker/arrow_up.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="Images/br.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/01.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="Images/logoButterCupBlack.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="blog/bin/DotNetOpenId.dll" publishTime="03/25/2009 15:49:39" />
+    <file relUrl="BookLibrary/Chimps/audio/Page15.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/ftb/Languages/ja-JP.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/MSAA/speechgen0004.mp3" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="blog/themes/business/images/blockshadowlarge.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/New Zealand/img/Page09a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/VerySimple/speechgen.ncx" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page35.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0004.mp3" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/CodeTalkers/Code_Talkers.xml" publishTime="02/19/2009 09:27:24" />
+    <file relUrl="blog/DatePicker/button_small.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="BookLibrary/New Zealand/resources.res" publishTime="03/03/2009 15:45:37" />
+    <file relUrl="BookLibrary/Chimps/audio/Page08.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/themes/justhtml/pageLayout.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/Chimps/img/page19a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/Voidclass2/img/dayLink.gif" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="BookLibrary/Chimps/Chimpanzees.idx" publishTime="02/04/2009 11:30:07" />
+    <file relUrl="blog/themes/dasEmerald/images/button.gif" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/themes/slate/pageLayout.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/Portal/images/MAGNIFY.GIF" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/dasEmerald/images/footer.png" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/SiteConfig/siteSecurity.config" publishTime="05/13/2009 15:56:26" />
+    <file relUrl="blog/SiteConfig/site.config" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/SiteConfig/blockedips.config" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="dtbook2xhtml.xsl" publishTime="02/06/2009 21:03:47" />
+    <file relUrl="blog/DatePicker/ReadMe.txt" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="blog/themes/nautica022/page_container_bg.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/images/okbutton-list.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="Images/iconHomeWhite.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="blog/Login.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/slate/tile-title.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/elegante/itemLink.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/3.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="blog/themes/dasblueblog/dasblueblog.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/smilies/openmouth.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/elegante/page_container_bg.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0002.mp3" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="blog/SiteConfig/navigatorLinks.xml" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/themes/dasblogger/dayLink.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/elegante/flickr.txt" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0002.mp3" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/UIA Wikipedia/tpbnarrator_res.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/directionalredux/pngfix.js" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/DatePicker/arrow_left.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0003.mp3" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page15.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/ThemeBar.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="Images/iconAboutWhite.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="BookLibrary/UIA Wikipedia/default.css" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page09.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/themes/elegante/calendar.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/nautica022/pngfix.js" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/EventlogBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/DatePicker/star.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="Styles/styleBlack.css" publishTime="03/14/2009 08:59:28" />
+    <file relUrl="Images/iconAboutBlack.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="blog/themes/dasEmerald/images/spacer.gif" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/10.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="blog/themes/slate/admin.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="Scripts/jquery-1.3.2.min.js" publishTime="03/14/2009 08:59:28" />
+    <file relUrl="BookLibrary/Chimps/img/page15a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/Voidclass2/img/body-bg.jpg" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/6.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="blog/themes/directionalredux/css/colors.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/ftb/Languages/en-US.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/images/editbutton.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/essence/xml.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/themes/essence/admin.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/content/profiles/tokes.format.html" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/essence/essence.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/directionalredux/images/ohslash.png" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/discreetBlogBlue/admin.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/bin/FR/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="blog/bin/AylarSolutions.Highlight.dll" publishTime="03/25/2009 15:49:38" />
+    <file relUrl="BookLibrary/New Zealand/img/Page14a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="Scripts/Silverlight.js" publishTime="01/29/2009 13:49:31" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_021a_fmt.jpg" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="Web.config" publishTime="02/05/2009 14:49:13" />
+    <file relUrl="blog/themes/Portal/images/generic.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/SiteConfig/pageerror.format.html" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/bin/PT-PT/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_CVR1a_fmt.jpg" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/CommentViewBox.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="Images/logoButterCupYellow.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="BookLibrary/New Zealand/img/Page23a.png" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0002.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/SyndicationService.asmx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/Voidclass2/img/itemLink.gif" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="blog/themes/nautica022/deletebutton.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="Images/iconOpenBlack.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="dtbook2xaml.xsl" publishTime="05/14/2009 09:15:18" />
+    <file relUrl="blog/MonthView.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/nautica022/dayLink.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/LogDateBar.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/UserClickThroughsBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/dasblueblog/menuright.gif" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="ClientBin/ButtercupControl.xap" publishTime="05/15/2009 09:45:10" />
+    <file relUrl="BookLibrary/UIA Wikipedia/UIA-Wikipedia_for_Daisy.xml" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="BookLibrary/New Zealand/img/Page11a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/TimeLineControl.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/elegante/deletebutton.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/New Zealand/New_Zealand.xml" publishTime="03/03/2009 16:39:45" />
+    <file relUrl="blog/content/binary/WindowsLiveWriter/TestPost_B067/buttercup_yetanotherblogscreen_thumb.jpg" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/bin/NL/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/Chimps/img/page24a.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="BookLibrary/MSAA/MSAA-Wikipedia_for_Daisy.xml" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/5.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="blog/themes/blogxp/dasBlog.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/blogxp/xml.css" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/candidblue/feedButton.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/elegante/pngfix.js" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/soundWaves/images/ciblueHeaderTitleBG.gif" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="BookLibrary/Chimps/audio/Page17.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/images/reportspambutton.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/themes/dasBlog/dasBlog.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/MSAA/ncc.html" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="blog/PermaLink.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/01.mp3" publishTime="02/04/2009 11:31:24" />
+    <file relUrl="blog/themes/dasblogger/dasblogger.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/smilies/speechless.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/Project84Grass/images/bg.jpg" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0001.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/SearchView.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/mads_simple/mads.png" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/Peter Rabbit/06-speechgen.opf" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="BookLibrary/Chimps/img/page01a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="bin/ko/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Styles/structure.css" publishTime="03/25/2009 15:49:19" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/02.mp3" publishTime="02/04/2009 11:31:24" />
+    <file relUrl="blog/EditBlogRollItem.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/images/movedown-list.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0004.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/ftb/Languages/ca-CA.xml" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/New Zealand/img/Page37.jpg" publishTime="03/03/2009 15:47:16" />
+    <file relUrl="Scripts/jquery.custom.js" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="blog/themes/elegante/page_bottom_bg.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/Chimps/Chimpanzees.smil" publishTime="02/04/2009 11:30:07" />
+    <file relUrl="blog/ftb/htmlmode.css" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="blog/images/feed-icon-32x32.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/content/binary/9.png" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/slate/dayLink.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/8.png" publishTime="03/12/2009 07:45:37" />
+    <file relUrl="blog/themes/Portal/images/itemlink.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="Images/iconFeedbackBlack.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="blog/EditBlogRoll.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/EditUserBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="bin/Buttercup.Web.pdb" publishTime="05/15/2009 09:45:10" />
+    <file relUrl="Styles/styleDefault.css" publishTime="03/23/2009 12:09:36" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0005.mp3" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/images/feedButton.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/ftb/Languages/en-GB.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/blogxp/admin.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/04.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="BookLibrary/Chimps/img/page17a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0005.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="Images/iconHomeYellow.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="BookLibrary/New Zealand/img/Page15c.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/VerySimple/d202-speechgen0003.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/Chimps/audio/Page11.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/images/xmlCoffeeMug.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page29.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/bin/Subtext.Akismet.dll" publishTime="03/25/2009 15:49:39" />
+    <file relUrl="blog/EditEntry.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0002.mp3" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/images/yahoo.png" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/ConfigEditingService.asmx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="blog/themes/mobile/pageLayout.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/themes/nautica022/images/bg02-blue-left.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/Portal/images/editbutton.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/ftb/ftb.insertcode.aspx" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/VerySimple/default.css" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/themes/slate/dasBlog.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/buttercup/img/icon_rss_mini.png" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/Voidclass2/img/xmlButton.png" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="blog/themes/blogxp/sharkfin-background.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/CodeTalkers/Code_Talkers.ncx" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/ftb/Languages/es-ES.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page40.mp3" publishTime="03/03/2009 15:46:11" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page17.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/bin/RU/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/directionalredux/images/background_comment.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page40.index.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0012.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/images/openid-icon-small.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/bin/NO/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/dasblueblog/buttonbg.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/directionalredux/images/twoooh_header_logo_right.jpg" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page07.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/CrosspostReferrers.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/CategoryView.aspx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="blog/themes/dasBlog/admin.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_011a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/BlogRollControl.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page37.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/MSAA/speechgen0019.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/themes/nautica022/items.css" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/orangeCream/images/feedButton.png" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/Portal/style-default/theme.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/DatePicker/BDPLite.js" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page27.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/New Zealand/img/Page33.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/themes/directionalredux/css/pageLayout.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/discreetBlogBlue/images/bryanbell/discreetBlogBlue/blueBG.jpg" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/dasblueblog/bgwhite.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/Global.asax" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/MSAA/speechgen0001.mp3" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="BookLibrary/Chimps/audio/Page09.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/ftb/Languages/fa-IR.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/blogxp/photoalbum.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/images/opmlButton.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/smilies/happy.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0005.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0014.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/DatePicker/arrow_down.gif" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/directionalredux/images/deleteButton.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/Logout.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page11.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/themes/soundWaves/images/ciblueCurve2.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/nautica022/nautica022.css" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/2.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="blog/themes/orangeCream/images/topbg.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/directionalredux/images/right_flag_smallcomment.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="Images/iconFeedbackWhite.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="blog/themes/orangeCream/images/gmailme.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="BookLibrary/VerySimple/VerySimpleDoc.xml" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="Styles/navigation.css" publishTime="03/14/2009 08:59:28" />
+    <file relUrl="blog/themes/dasblueblog/bg.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/Project84Grass/images/dayLink.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="Default.htm" publishTime="05/15/2009 09:48:31" />
+    <file relUrl="blog/ftb/Languages/cs-CZ.xml" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0014.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/SiteConfig/accessdenied.format.html" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/SiteConfig/PingServices.xml" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/VerySimple/ncc.html" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/images/deletebutton.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/New Zealand/img/Page17a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0013.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="BookLibrary/New Zealand/img/Page15a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/bin/newtelligence.DasBlog.Runtime.Proxies.dll" publishTime="03/25/2009 15:49:39" />
+    <file relUrl="blog/images/nogravatar.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/ClickThroughsBox.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0001.mp3" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0016.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0001.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0010.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0003.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/themes/slate/base.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="ClientBin/ImageDisplayer.xap" publishTime="02/18/2009 16:24:40" />
+    <file relUrl="blog/themes/business/images/blockshadow.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0016.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/directionalredux/images/rssButton_pointy.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="Images/tl.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="blog/DatePicker/BDPLite.css" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/Portal/images/b.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/Project84Grass/images/headerbg.jpg" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="Images/iconPlayBlack.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="BookLibrary/Chimps/audio/Page05.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_004b_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/themes/buttercup/img/icon_rss_highlight.png" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/UIA Wikipedia/content.html" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/themes/dasEmerald/images/header.png" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/ftb/ftb.inserttable.aspx" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/MSAA/MSAA-Wikipedia_for_Daisy-Picture_2.png" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="blog/themes/business/images/headerrepeat.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="03/25/2009 15:48:53" />
+    <file relUrl="blog/themes/dasblueblog/you.jpg" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/FormatControl.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/Portal/style-default/gosearch.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/dasEmerald/images/bg.png" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/directionalredux/images/feed-icon-16x16_pointy.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/mobile/colors.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/UIA Wikipedia/dtbookbasic.css" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/dasblogger/editbutton.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/1.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="Images/iconSwitchWhite.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="BookLibrary/New Zealand/img/Page23b.png" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/Chimps/img/page11b.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/directionalredux/css/calendar.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0004.mp3" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0003.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0012.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="BookLibrary/VerySimple/tpbnarrator.res" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/ftb/ftb.imagegallery.aspx" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/New Zealand/img/Page29.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/scripts/AjaxDelegate.js" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/bin/DotNetOpenId.pdb" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/New Zealand/img/Page06a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/themes/directionalredux/css/ie6.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="BookLibrary/VerySimple/speechgen0002.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/themes/elegante/HeaderClean.jpg" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/bin/JA/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/orangeCream/images/mailto.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/Chimps/audio/Page18.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/themes/slate/colors.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/06.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="blog/SiteConfig/disclaimer.format.html" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/themes/dasblogger/deletebutton.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/New Zealand/New_Zealand.ncx" publishTime="03/03/2009 15:45:37" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page06.alt.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="blog/ftb/Languages/ar-SA.xml" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0002.smil" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="blog/ftb/images/csharp.gif" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="blog/ftb/Languages/it-IT.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_018a_fmt.jpg" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/themes/buttercup/img/icon_search.png" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/EditConfigBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/themes/dasEmerald/images/menuhvr.png" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/themes/mobile/base.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="Images/securitySettings.png" publishTime="03/17/2009 13:43:05" />
+    <file relUrl="BookLibrary/Chimps/audio/Page13.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/scripts/timelinecontrols.js" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/EditBlogRollBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/ftb/Languages/he-IL.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/buttercup/style.css" publishTime="05/13/2009 15:56:26" />
+    <file relUrl="BookLibrary/VerySimple/content.html" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/themes/nautica022/calendar.css" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="BookLibrary/Chimps/img/page21a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/Portal/style-journal/partgrad.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/img/Page05a.jpg" publishTime="03/03/2009 15:47:14" />
+    <file relUrl="blog/themes/business/images/deletebutton.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/movableRadioHeat/admin.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/Chimps/img/bamboo_short.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="Scripts/SAPI.js" publishTime="03/14/2009 08:58:41" />
+    <file relUrl="blog/EditNavigatorLinks.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/4.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/08.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="blog/themes/soundWaves/images/ciblueHeaderBG001.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="Images/logoButterCupWhite.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="BookLibrary/Chimps/audio/Page24.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="BookLibrary/Chimps/img/page22a.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="BookLibrary/CodeTalkers/resources.res" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/FormatPage.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/VerySimple/dtbookbasic.css" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0005.mp3" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/dasEmerald/images/imagesample.png" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="BookLibrary/New Zealand/img/Page18a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/themes/mobile/dasBlog.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/AggBugsBox.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="blog/bin/blowery.Web.HttpCompress.dll" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/mads_simple/style.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0015.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/ftb/Languages/sv-se.xml" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/directionalredux/images/right_flag_largecomment.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/themes/nautica022/images/bg02-white-left.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/dasblueblog/bbg.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/dasblueblog/about.html" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/blogxp/base.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/elegante/title_background.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/themes/blogxp/webpart-down.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0015.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="bin/zh-Hant/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="blog/themes/tricoleur/style.css" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="blog/themes/elegante/dayLink.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="Images/iconOpenYellow.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page25.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/themes/nautica022/images/bg02-left.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="bin/it/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="blog/bin/TR/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/Chimps/img/page23a.png" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/ftb/Languages/pl-PL.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/MSAA/speechgen0003.mp3" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="blog/images/dayLink.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/soundWaves/images/ciblueBG.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/business/images/feedButton.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0008.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="bin/fr/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="blog/themes/directionalredux/css/fonts.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/10.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="BookLibrary/MSAA/speechgen0013.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/bin/AR/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/Chimps/audio/Page22.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0011.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/Activity.aspx" publishTime="03/25/2009 15:49:34" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page13.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="Images/iconOpenWhite.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="blog/Email.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/bin/SV/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/elegante/item_title_background.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/bin/newtelligence.DasBlog.Web.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/Chimps/audio/Page04.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="blog/content/binary/6.png" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/elegante/admin.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/bin/NL-BE/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page19.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_015a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="BookLibrary/Peter Rabbit/07-dtbook.xml" publishTime="03/14/2009 22:19:36" />
+    <file relUrl="blog/themes/justhtml/base.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/themes/dasblueblog/menuleft.gif" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="BookLibrary/Chimps/audio/Page07.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_022a_fmt.jpg" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/smilies/veryhappy.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page28.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page33.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/smilies/unhappy.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/blogxp/sharkfin-corner-left.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/New Zealand/img/Page15.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/bin/NO/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/themes/mono/dayLink.gif" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="bin/ja/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="blog/ftb/Utility/unlocked.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page23.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/07.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="blog/bin/RU/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="Scripts/ButtercupOperations.js" publishTime="05/14/2009 12:02:40" />
+    <file relUrl="blog/themes/Portal/images/BLANK.GIF" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_003b_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="BookLibrary/MSAA/speechgen0005.mp3" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="blog/themes/justhtml/dasBlog.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0006.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="blog/themes/soundWaves/images/ciblueHeader2.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page05.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="blog/EditContentFilters.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/New Zealand/img/Page28.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen.ncx" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/images/moveup-list.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/VerySimple/speechgen.opf" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_018b_fmt.jpg" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page06.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="blog/bin/SV/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/EmailBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/New Zealand/img/Page35.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/themes/orangeCream/images/technorati.png" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/Error.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/EditUser.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/05.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen.opf" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0016.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/CrosspostReferrersBox.ascx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/MSAA/speechgen0018.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/themes/business/images/editbutton.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/blogxp/sharkfin-corner-right.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/SiteConfig/blacklist.txt" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page26.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/bin/PT-PT/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="Images/iconOpenHover.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page16.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0007.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/New Zealand/img/Page06c.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="Images/dot.gif" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="blog/SiteConfig/opml.xslt" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/themes/Project84Grass/images/xmlButton.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/questions.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page08.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/ftb/Languages/da-DK.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/New Zealand/img/Page26.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/MSAA/speechgen0008.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_004a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/both.alt.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="blog/ftb/Languages/hu-HU.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page36.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="Images/iconFeedbackHover.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_009a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="Scripts/xslt.js" publishTime="05/14/2009 12:37:02" />
+    <file relUrl="bin/es/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="BookLibrary/Chimps/img/page09b.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/ftb/Languages/nl-nl.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/Portal/style-deepblue/background_deepblue.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/bin/IT/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/EditContentFiltersBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/AggBugs.aspx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page18.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/images/feed-icon-12x12.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/Profile.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/nautica022/images/menuright.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/content/profiles/admin.format.html" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/ftb/Utility/folder.small.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/wlwmanifest.xml" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0003.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/nautica022/images/bg02-white-right.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/nautica022/images/bg02-blue-right.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="bin/System.Web.Silverlight.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="BookLibrary/Peter Rabbit/images/0.png" publishTime="03/12/2009 07:45:36" />
+    <file relUrl="blog/bin/BG/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="blog/images/outlinedown.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="blog/images/cdfbutton.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/images/dasbloglogo-16x16.png" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/orangeCream/images/bg.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/bin/NL-BE/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/bin/newtelligence.DasBlog.Util.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="blog/smilies/frown.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/images/undobutton-list.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0005.mp3" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="BookLibrary/New Zealand/img/Page31.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/themes/directionalredux/images/feed-icon-16x16.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/ftb/Languages/zh-TW.xml" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/MSAA/speechgen0014.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_017a_fmt.jpg" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/02.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="BookLibrary/Chimps/audio/Page06.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="Images/iconSwitchBlack.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="blog/themes/dasBlog/colors.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/Web.config" publishTime="03/25/2009 15:49:38" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0004.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/UIA Wikipedia/tpbnarrator.res" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/bin/FR/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="blog/LoginBox.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/images/feedButton_old.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/SingleCommentView.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/Portal/images/deletebutton.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/09.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page38.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/New Zealand/img/Page19a.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="blog/themes/buttercup/img/icon_rss.png" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="BookLibrary/New Zealand/img/Page22.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/Chimps/img/page07a.jpg" publishTime="02/04/2009 11:30:39" />
+    <file relUrl="blog/themes/orangeCream/images/weblogs.png" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/04.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="BookLibrary/Chimps/audio/Page20.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/ftb/ftb.colorpicker.aspx" publishTime="03/25/2009 15:49:43" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0009.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/Chimps/Chimpanzees.ncx" publishTime="02/04/2009 11:30:07" />
+    <file relUrl="BookLibrary/MSAA/tpbnarrator_res.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="BookLibrary/MSAA/content.html" publishTime="03/06/2009 15:38:06" />
+    <file relUrl="blog/themes/blogxp/webpart-up.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0003.mp3" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page07.alt.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/Blogroll.aspx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="blog/themes/Voidclass2/style.css" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="blog/themes/directionalredux/images/background_comment2_soft.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0001.mp3" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/ThemeCombo.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/CodeTalkers/Code_Talkers.smil" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/themes/Portal/images/TOOLGRAD.GIF" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/Portal/style-default/SRCHCRNR.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/ftb/Languages/fr-FR.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/mads_simple/xmlButton.gif" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0011.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/ftb/Languages/el-GR.xml" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/both.alt.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="blog/themes/directionalredux/css/admin.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/bin/BG/newtelligence.DasBlog.Web.Core.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/Chimps/audio/Page19.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/themes/Portal/style-default/TOPGRAD.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page21.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/themes/Portal/images/daylink.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/Peter Rabbit/06-speechgen.ncx" publishTime="03/14/2009 08:58:41" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0007.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/Portal/images/TOPGRAD.GIF" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/New Zealand/img/Page27.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/New Zealand/audio/questions/09.mp3" publishTime="03/03/2009 15:46:32" />
+    <file relUrl="BookLibrary/MSAA/speechgen0007.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/ftb/Utility/folder.up.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/dcd7a5f2-a24c-4e30-959e-2e120bf4ab05openidConsumerTrace.txt" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/Chimps/audio/Page10.mp3" publishTime="02/04/2009 11:30:58" />
+    <file relUrl="Images/iconPlayHover.png" publishTime="03/14/2009 08:59:26" />
+    <file relUrl="BookLibrary/MSAA/speechgen0017.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/themes/Portal/style-deepblue/partgrad.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/images/dasblogactivity-24x24.png" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/nautica022/itemLink.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/EditNavigatorLinksBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/images/mailto.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/orangeCream/images/blogs.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/ftb/Languages/zh-cn.xml" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/Project84Grass/xmlButton.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="blog/themes/dasblueblog/button.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/ftb/Languages/ca-ES.xml" publishTime="03/25/2009 15:49:44" />
+    <file relUrl="BookLibrary/MSAA/dtbookbasic.css" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="Buttercup.htm" publishTime="03/25/2009 15:49:18" />
+    <file relUrl="blog/themes/orangeCream/images/crbg.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/themes/elegante/editbutton.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="BookLibrary/VerySimple/d202-speechgen0001.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="blog/themes/dasblueblog/footerbg.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/ftb/Languages/Languages.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0014.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/openidConsumerTrace.txt" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/content/2009-03-24.dayentry.xml" publishTime="03/25/2009 15:49:41" />
+    <file relUrl="Images/favicon.ico" publishTime="03/16/2009 16:41:38" />
+    <file relUrl="blog/smilies/mad.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="Images/iconAboutHover.png" publishTime="03/14/2009 08:59:24" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page24.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/DatePicker/BasicDatePicker.css" publishTime="03/25/2009 15:49:42" />
+    <file relUrl="blog/themes/Portal/style-journal/theme.css" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page39.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/CommentView.aspx" publishTime="03/25/2009 15:49:35" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0003.smil" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="BookLibrary/MSAA/speechgen0011.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/themes/dasblogger/DasBlogReflection50x56Gray_thumb.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/VerySimple/tpbnarrator_res.mp3" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="Images/ff.png" publishTime="03/25/2009 08:19:44" />
+    <file relUrl="blog/themes/mono/style.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_007b_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/themes/dasEmerald/images/bottom.png" publishTime="03/25/2009 15:49:51" />
+    <file relUrl="blog/themes/soundWaves/images/shim.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page39.alt.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="blog/bin/CookComputing.XmlRpc.NoSN.dll" publishTime="03/25/2009 15:49:38" />
+    <file relUrl="BookLibrary/MSAA/speechgen0012.mp3" publishTime="03/06/2009 15:38:08" />
+    <file relUrl="blog/bin/BasicFrame.WebControls.BasicDatePicker.dll" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="BookLibrary/Chimps/audio/Page23.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/themes/essence/readme.txt" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page34.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/New Zealand/img/Page06b.jpg" publishTime="03/03/2009 15:47:15" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0004.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/themes/orangeCream/images/linksbg.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="blog/themes/nautica022/title_background.gif" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="blog/ftb/Languages/nl-BE.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="BookLibrary/VerySimple/d202-speechgen0005.smil" publishTime="02/05/2009 13:54:12" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page02.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_013a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="blog/EditCrosspostSites.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/themes/directionalredux/css/dasBlog.css" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="blog/images/xmlButton.gif" publishTime="03/25/2009 15:49:47" />
+    <file relUrl="BookLibrary/UIA Wikipedia/d202-speechgen0007.smil" publishTime="03/10/2009 16:35:51" />
+    <file relUrl="BookLibrary/MSAA/speechgen0002.mp3" publishTime="03/06/2009 15:38:07" />
+    <file relUrl="BookLibrary/New Zealand/New_Zealand.idx" publishTime="03/03/2009 15:45:37" />
+    <file relUrl="blog/themes/blogxp/webpart-background.gif" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0012.mp3" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/Eventlog.aspx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="blog/themes/blogxp/colors.css" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0005.smil" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="blog/SiteConfig/setuperror.html" publishTime="03/25/2009 15:49:48" />
+    <file relUrl="blog/ftb/Languages/ru-ru.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/EditBlogRollEditItem.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page22.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page12.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/themes/directionalredux/images/xmlCoffeeMug.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/EditCrosspostSitesBox.ascx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="Styles/print.css" publishTime="03/16/2009 16:41:38" />
+    <file relUrl="blog/themes/discreetBlogBlue/images/bryanbell/discreetBlogBlue/bluePermaLink.gif" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/ProfileCombo.ascx" publishTime="03/25/2009 15:49:37" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page04.mp3" publishTime="03/03/2009 15:46:08" />
+    <file relUrl="BookLibrary/CodeTalkers/images/13468_010a_fmt.jpg" publishTime="02/05/2009 13:54:11" />
+    <file relUrl="Images/iconSwitchBlue.png" publishTime="03/14/2009 08:59:27" />
+    <file relUrl="Styles/styleBlue.css" publishTime="03/25/2009 08:19:44" />
+    <file relUrl="blog/themes/directionalredux/images/searchbox_bg.gif" publishTime="03/25/2009 15:49:52" />
+    <file relUrl="Images/bgPageWhite.gif" publishTime="03/14/2009 08:59:23" />
+    <file relUrl="blog/themes/business/images/blank.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/images/dasblogwatermark-84x84.png" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0006.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page32.mp3" publishTime="03/03/2009 15:46:10" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0009.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="blog/themes/elegante/items.css" publishTime="03/25/2009 15:49:53" />
+    <file relUrl="blog/default.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0013.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="BookLibrary/New Zealand/audio/Page14.mp3" publishTime="03/03/2009 15:46:09" />
+    <file relUrl="blog/themes/dasblogger/headerbg.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/business/theme.css" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/bin/DE/newtelligence.DasBlog.Web.resources.dll" publishTime="03/25/2009 15:49:40" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0001.smil" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="blog/themes/Voidclass2/img/atomButton.gif" publishTime="03/25/2009 15:49:58" />
+    <file relUrl="blog/ftb/Utility/restore.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/mads_simple/background.gif" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="blog/themes/dasBlog/pageLayout.css" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="blog/themes/business/images/itemlink.gif" publishTime="03/25/2009 15:49:49" />
+    <file relUrl="blog/themes/Portal/style-compass/partgrad.gif" publishTime="03/25/2009 15:49:56" />
+    <file relUrl="BookLibrary/Chimps/audio/Page12.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/themes/dasblueblog/arrow.gif" publishTime="03/25/2009 15:49:50" />
+    <file relUrl="Images/iconGuideYellow.png" publishTime="03/14/2009 08:59:25" />
+    <file relUrl="BookLibrary/Chimps/audio/Page21.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/EditService.asmx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/EditConfig.aspx" publishTime="03/25/2009 15:49:36" />
+    <file relUrl="blog/themes/mobile/calendar.css" publishTime="03/25/2009 15:49:54" />
+    <file relUrl="Styles/buttercup.css" publishTime="02/23/2009 13:06:59" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0002.smil" publishTime="03/10/2009 16:35:52" />
+    <file relUrl="blog/ftb/Languages/en-UK.xml" publishTime="03/25/2009 15:49:45" />
+    <file relUrl="blog/themes/nautica022/images/logo.png" publishTime="03/25/2009 15:49:55" />
+    <file relUrl="BookLibrary/Peter Rabbit/speechgen0001.mp3" publishTime="03/10/2009 16:35:50" />
+    <file relUrl="BookLibrary/Chimps/audio/questions/07.mp3" publishTime="02/04/2009 11:31:25" />
+    <file relUrl="bin/de/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="blog/images/feed.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/images/atomButton.gif" publishTime="03/25/2009 15:49:46" />
+    <file relUrl="blog/themes/Portal/style-default/PARTGRAD.gif" publishTime="03/25/2009 15:49:57" />
+    <file relUrl="BookLibrary/UIA Wikipedia/speechgen0015.smil" publishTime="03/10/2009 16:35:53" />
+    <file relUrl="BookLibrary/Chimps/audio/Page14.mp3" publishTime="02/04/2009 11:30:59" />
+    <file relUrl="blog/themes/Project84/background.gif" publishTime="03/25/2009 15:49:57" />
+  </publishTarget>
+  <publishTarget publishUrl="E:\Work\Projects\Microsoft\Daisy\Deployments\Release_0_1_0_0\Web\">
+    <file relUrl="bin/Buttercup.Web.pdb" publishTime="01/30/2009 09:48:03" />
+    <file relUrl="dtbook2xhtml.xsl" publishTime="01/29/2009 15:41:28" />
+    <file relUrl="bin/zh-Hans/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/de/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/ja/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Styles/buttercup.css" publishTime="01/30/2009 09:32:51" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="12/23/2008 11:17:04" />
+    <file relUrl="bin/it/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Scripts/HtmlSurfaceOperations.js" publishTime="01/21/2009 15:14:16" />
+    <file relUrl="Default.htm" publishTime="01/29/2009 13:51:54" />
+    <file relUrl="Scripts/Silverlight.js" publishTime="01/29/2009 13:49:31" />
+    <file relUrl="bin/fr/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/Buttercup.Web.dll" publishTime="01/30/2009 09:48:03" />
+    <file relUrl="bin/zh-Hant/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Web.config" publishTime="12/16/2008 08:57:36" />
+    <file relUrl="bin/ko/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="ClientBin/ButtercupControl.ashx" publishTime="12/23/2008 11:17:04" />
+    <file relUrl="Scripts/xslt.js" publishTime="01/21/2009 07:49:50" />
+    <file relUrl="ClientBin/ButtercupControl.xap" publishTime="01/30/2009 10:37:28" />
+    <file relUrl="bin/System.Web.Silverlight.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/es/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+  </publishTarget>
+  <publishTarget publishUrl="E:\Work\Projects\Microsoft\Daisy\Deployments\Release_0_1_0_0\">
+    <file relUrl="bin/Buttercup.Web.pdb" publishTime="01/30/2009 09:48:03" />
+    <file relUrl="dtbook2xhtml.xsl" publishTime="01/29/2009 15:41:28" />
+    <file relUrl="bin/zh-Hans/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/de/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/ja/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Styles/buttercup.css" publishTime="01/30/2009 09:32:51" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="12/23/2008 11:17:04" />
+    <file relUrl="bin/it/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Scripts/HtmlSurfaceOperations.js" publishTime="01/21/2009 15:14:16" />
+    <file relUrl="Default.htm" publishTime="01/29/2009 13:51:54" />
+    <file relUrl="Scripts/Silverlight.js" publishTime="01/29/2009 13:49:31" />
+    <file relUrl="bin/fr/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/Buttercup.Web.dll" publishTime="01/30/2009 09:48:03" />
+    <file relUrl="bin/zh-Hant/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Web.config" publishTime="12/16/2008 08:57:36" />
+    <file relUrl="bin/ko/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="ClientBin/ButtercupControl.ashx" publishTime="12/23/2008 11:17:04" />
+    <file relUrl="Scripts/xslt.js" publishTime="01/21/2009 07:49:50" />
+    <file relUrl="ClientBin/ButtercupControl.xap" publishTime="01/30/2009 08:33:58" />
+    <file relUrl="bin/System.Web.Silverlight.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/es/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+  </publishTarget>
+</publishData>

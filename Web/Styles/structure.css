@@ -1,0 +1,310 @@
+﻿body
+{
+	margin: 0px;
+	padding: 0px;
+	background: transparent none;
+}
+p
+{
+	margin: 0px;
+	margin-top: 20px;
+	padding: 0px;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+a
+{
+	font-size: 1.1em;
+}
+p.nonSpacing
+{
+	display: block;
+	margin: -20px, 0,0,0;
+}
+
+ul, li
+{
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+.subTitle
+{
+	display: block;
+	padding: 0px;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+h1
+{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	font-size: 220%;
+}
+h2
+{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	font-size: 130%;
+	clear: both;
+}
+h3
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+
+/*
+Should precede all h1
+*/
+hr.mainHeadingDivider
+{
+	color: #ffbf00;
+	background-color: #ffbf00;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	height: 2px;
+	border: 0px;
+}
+
+/*
+Should precede all h2, h3...
+*/
+hr.subHeadingDivider
+{
+	color: white;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	height: 1px;
+	border: 0px;
+}
+
+.padded
+{
+	padding: 10px;
+}
+
+/*YELLOW BORDERED*/
+
+.yellowBorderOne
+{
+	margin: 40px 0px;
+	border: 2px #ffd200 solid;
+	padding: 10px 20px 10px 20px;
+}
+.yellowBorderTwo
+{
+	padding-top: 2px;
+	padding-left: 2px;
+	background: url(../images/bl.png) left bottom no-repeat;
+}
+.yellowBorderThree
+{
+	background: url(../images/ff.png) right bottom no-repeat;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.yellowBorderFour
+{
+	position: relative;
+	left: -4px;
+	top: -4px;
+	background: url(../images/ff.png) left top no-repeat;
+}
+.yellowBorderFive
+{
+	position: relative;
+	left: 1px;
+	top: 1px;
+	padding: 20px;
+}
+
+/*QUICKLIST STRUCTURE*/
+ul.quickList
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+ul.quickList li
+{
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+ul.quickList li a
+{
+	text-decoration: none;
+	display: block;
+	height: 39px;
+	line-height: 37px;
+	padding-left: 60px;
+	font-size: 1.1em;
+}
+ul.quickList li.quickListOpen a, ul.quickList li.quickListOpen a:visited
+{
+	height: 45px;
+	line-height: 40px;
+	font-size: 160%;
+}
+
+/*PAGE WRAPPER*/
+#pageWrapper
+{
+	max-width: 1280px;
+	min-width: 800px;
+	/*overflow: auto;*/
+	position: relative;
+}
+
+/*NAVBAR WRAPPER*/
+#navbarWrapper
+{
+	width: 200px;
+	float: left;
+}
+
+/*CONTENT WRAPPER*/
+#contentWrapper
+{
+	max-width: 836px; /*min-width: 400px;*/ /*float: left;*/
+	margin-left: 200px;
+	margin-right: 100px; /*margin-right: 200px; */
+	padding-left: 44px;
+}
+
+/*SIDEBAR WRAPPER*/
+#sidebarWrapper
+{
+	width: 200px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#footer
+{
+	margin-top: 30px;
+	margin-left: 245px;
+	margin-bottom: 50px;
+}
+
+/* The basic elements: */
+/*36body {
+37 font: small Arial, Helvetica, sans-serif;
+38 background-color: White;
+39 color: Black;
+40}
+41
+42
+43
+44a {
+45 color: #336699;
+46}
+47img {
+48 border: none;
+49}
+50
+51p a:visited {
+52 color: Purple;
+53}
+54p a:active {
+55 color: Red;
+56}
+57
+58
+59hr {
+60 color: #6699cc;
+61
+62}
+63
+64
+65h1, h2, h3, h4, h5, h6 {
+66 color: Black;
+67 font-family: Arial, Helvetica, sans-serif;
+68 font-size: 100%;
+69}
+70
+71
+72
+73h1 {
+74 font-size: xx-large;
+75 font-weight: bold;
+76}
+77
+78h2 {
+79 font-size: xx-large;
+80}
+81
+82h3 {
+83 font-size: x-large;
+84 border-bottom: none;
+85}
+86
+87h4 {
+88 font-size: large;
+89 border-bottom: none;
+90}
+91
+92h5 {
+93 font-size: medium;
+94 border-bottom: none;
+95}
+96
+97h6 {
+98 font-size: small;
+99 border-bottom: none;
+100}
+101
+102fieldset {
+103 border: 1px solid #6699cc;
+104}
+105textarea {
+106 font: medium "Courier New", Courier, monospace;
+107 border: 1px solid #6699cc;
+108}
+109input {
+110 font-family: Arial, Helvetica, sans-serif;
+111 border: 1px solid #6699cc;
+112 color: Black;
+113}
+114select {
+115 border: 1px solid #6699cc;
+116 color: Black;
+117}
+118abbr, acronym, .explain {
+119 border-bottom: 1px dotted Black;
+120 color: Black;
+121}
+122q {
+123 font-family: Times, "Times New Roman", serif;
+124 font-style: italic;
+125 font-size: medium;
+126}
+127blockquote {
+128 font-family: Times, "Times New Roman", serif;
+129 font-style: italic;
+130 font-size: medium;
+131}
+132code {
+133 font-family: "Courier New", Courier, monospace;
+134 font-size: medium;
+135 color: Black;
+136 background-color: #dd8800;
+137 border: 1px dashed #6699cc;
+138}
+139pre {
+140 font-family: "Courier New", Courier, monospace;
+141 font-size: medium;
+142 border: 1px dashed #6699cc;
+143 color: Black;
+144 background-color: #dd8800;
+145}
+146*/

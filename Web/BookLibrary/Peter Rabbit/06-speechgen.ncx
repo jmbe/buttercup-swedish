@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd" []>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+	  <head>
+		    <meta content="dd33a3b8-9573-4f5e-be71-14d5ad9c1f54" name="dtb:uid" />
+		    <meta content="2" name="dtb:depth" />
+		
+		    <meta content="TPB Narrator" name="dtb:generator" />
+		    <meta content="9" name="dtb:totalPageCount" />
+		    <meta content="10" name="dtb:maxPageNumber" />
+	     <smilCustomTest bookStruct="PAGE_NUMBER" defaultState="false" id="pagenum" override="visible" />
+   </head>
+  
+	  <docTitle>
+	     <text>The Tale of Peter Rabbit</text>
+      <audio clipBegin="0:00:00" clipEnd="0:00:02.966" src="speechgen0001.mp3" />
+   </docTitle>
+  
+	  <docAuthor>
+	     <text>Beatrix Potter</text>
+      <audio clipBegin="0:00:02.966" clipEnd="0:00:08.067" src="speechgen0001.mp3" />
+   </docAuthor>
+	
+	  <navMap id="navMap">
+      <navPoint class="h1" id="ncx-1" playOrder="1">
+         <navLabel>
+            <text>The Tale of Peter Rabbit</text>
+            <audio clipBegin="0:00:00" clipEnd="0:00:02.966" src="speechgen0002.mp3" />
+         </navLabel>
+         <content src="speechgen0002.smil#tcp3" />
+         <navPoint class="h2" id="ncx-2" playOrder="2">
+            <navLabel>
+               <text>Navigation note</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:02.654" src="speechgen0003.mp3" />
+            </navLabel>
+            <content src="speechgen0003.smil#tcp7" />
+         </navPoint>
+         <navPoint class="h2" id="ncx-3" playOrder="3">
+            <navLabel>
+               <text>Production note</text>
+               <audio clipBegin="0:00:00" clipEnd="0:00:02.473" src="speechgen0004.mp3" />
+            </navLabel>
+            <content src="speechgen0004.smil#tcp9" />
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-5" playOrder="5">
+         <navLabel>
+            <text>The Tale of Peter Rabbit</text>
+            <audio clipBegin="0:00:00" clipEnd="0:00:02.966" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp13" />
+      </navPoint>
+   </navMap>
+	
+	  <pageList id="page">
+      <pageTarget class="pagenum" id="ncx-999" playOrder="3" type="normal" value="1">
+        <navLabel>
+          <text>1</text>
+        </navLabel>
+        <content src="speechgen0004.smil#tcp999" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-4" playOrder="4" type="normal" value="2">
+         <navLabel>
+            <text>2</text>
+            <audio clipBegin="0:00:14.386" clipEnd="0:00:17.516" src="speechgen0004.mp3" />
+         </navLabel>
+         <content src="speechgen0004.smil#tcp12" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-6" playOrder="6" type="normal" value="3">
+         <navLabel>
+            <text>3</text>
+            <audio clipBegin="0:00:26.594" clipEnd="0:00:27.788" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp21" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-7" playOrder="7" type="normal" value="4">
+         <navLabel>
+            <text>4</text>
+            <audio clipBegin="0:01:09.970" clipEnd="0:01:11.168" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp35" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-8" playOrder="8" type="normal" value="5">
+         <navLabel>
+            <text>5</text>
+            <audio clipBegin="0:01:46.952" clipEnd="0:01:48.265" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp45" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-9" playOrder="9" type="normal" value="6">
+         <navLabel>
+            <text>6</text>
+            <audio clipBegin="0:02:22.707" clipEnd="0:02:23.903" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp54" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-10" playOrder="10" type="normal" value="7">
+         <navLabel>
+            <text>7</text>
+            <audio clipBegin="0:02:58.549" clipEnd="0:02:59.811" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp65" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-11" playOrder="11" type="normal" value="8">
+         <navLabel>
+            <text>8</text>
+            <audio clipBegin="0:03:51.521" clipEnd="0:03:52.630" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp76" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-12" playOrder="12" type="normal" value="9">
+         <navLabel>
+            <text>9</text>
+            <audio clipBegin="0:04:47.893" clipEnd="0:04:49.162" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp90" />
+      </pageTarget>
+      <pageTarget class="pagenum" id="ncx-13" playOrder="13" type="normal" value="10">
+         <navLabel>
+            <text>10</text>
+            <audio clipBegin="0:05:19.294" clipEnd="0:05:20.434" src="speechgen0005.mp3" />
+         </navLabel>
+         <content src="speechgen0005.smil#tcp98" />
+      </pageTarget>
+   </pageList>
+  
+</ncx>

@@ -1,0 +1,93 @@
+﻿body.white {
+    background: #ffffff url(../images/bgPageWhite.gif) repeat-x top left;
+    color: black;
+}
+
+body.white a, a:visited {
+    color: #000000;
+}
+body.white a:hover {
+    color: #ffd200;
+}
+
+body.white a.logo {
+    background: transparent url(../images/logoButterCupBlack.png) no-repeat;
+}
+
+body.white div.switcherWrapper {
+    border-top: 2px black solid;
+}
+
+
+
+/*SIDE NAV*/
+body.white ul.navbarList li a {
+    color: #000000;
+}
+body.white ul.navbarList li a.current,
+body.white ul.navbarList li a:hover {
+    color: #000000;
+}
+
+body.white li.navbarItemHome a, 
+body.white li.navbarItemHome a:visited {
+    background: transparent url(../images/iconHomeBlack.png) no-repeat;
+}body.white li.navbarItemHome a.current, 
+body.white li.navbarItemHome a:hover {
+    background: transparent url(../images/iconHomeHover.png) no-repeat;
+} 
+
+body.white li.navbarItemAbout a, 
+body.white li.navbarItemAbout a:visited {
+    background: transparent url(../images/iconAboutBlack.png) no-repeat;
+}body.white li.navbarItemAbout a.current, 
+body.white li.navbarItemAbout a:hover {
+    background: transparent url(../images/iconAboutHover.png) no-repeat;
+} 
+
+body.white li.navbarItemUserGuide a, 
+body.white li.navbarItemUserGuide a:visited {
+    background: transparent url(../images/iconGuideBlack.png) no-repeat;
+}body.white li.navbarItemUserGuide a.current, 
+body.white li.navbarItemUserGuide a:hover {
+    background: transparent url(../images/iconGuideHover.png) no-repeat;
+} 
+
+body.white li.navbarItemFeedback a, 
+body.white li.navbarItemFeedback a:visited {
+    background: transparent url(../images/iconFeedbackBlack.png) no-repeat;
+}body.white li.navbarItemFeedback a.current, 
+body.white li.navbarItemFeedback a:hover {
+    background: transparent url(../images/iconFeedbackHover.png) no-repeat;
+} 
+
+/*QUICKLIST STRUCTURE*/
+body.white ul.quickList li a {
+    color: black;
+}
+body.white ul.quickList li a.current,
+body.white ul.quickList li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+body.white ul.quickList li.quickListUserGuide a,
+body.white ul.quickList li.quickListUserGuide a:visited {
+    background: transparent url(../images/iconAboutBlack.png) no-repeat 5px;
+}body.white ul.quickList li.quickListUserGuide a.current, 
+body.white ul.quickList li.quickListUserGuide a:hover {
+    background: transparent url(../images/iconAboutHover.png) no-repeat 5px;
+} 
+body.white ul.quickList li.quickListOpen a,
+body.white ul.quickList li.quickListOpen a:visited {
+    background: transparent url(../images/iconOpenBlack.png) no-repeat;
+}body.white ul.quickList li.quickListOpen a.current, 
+body.white ul.quickList li.quickListOpen a:hover {
+    background: transparent url(../images/iconOpenHover.png) no-repeat;
+}
+body.white ul.quickList li.quickListReadBook a,
+body.white ul.quickList li.quickListReadBook a:visited {
+    background: transparent url(../images/iconPlayBlack.png) no-repeat 5px;
+}body.white ul.quickList li.quickListReadBook a.current, 
+body.white ul.quickList li.quickListReadBook a:hover {
+    background: transparent url(../images/iconPlayHover.png) no-repeat 5px;
+}

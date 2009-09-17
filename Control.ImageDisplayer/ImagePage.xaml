@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="Control.ImageDisplayer.ImagePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    >
+    <Grid x:Name="LayoutRoot" Background="White">
+        <StackPanel Orientation="Vertical">
+            <Image x:Name="mainImage" Stretch="None" />
+            <TextBlock x:Name="caption" ></TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>

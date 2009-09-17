@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd"><?xml-stylesheet href="dtbookbasic.css" type="text/css"?><dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" xml:lang="en-US" version="2005-3">
+	<head>
+		<meta name="dtb:uid" content="AUTO-UID-4990946756517120292" />
+		<meta name="dt:version" content="2.0.0.0 Beta" />
+		<meta content="Microsoft UI Automation" name="dc:Title" />
+		<meta name="dc:Creator" content="Wikipedia" />
+		<meta name="dc:Date" content="2009-03-10" />
+		<meta content="Wikipedia" name="dc:Publisher" />
+		<meta name="dc:Identifier" content="AUTO-UID-4990946756517120292" />
+		<meta content="en-US" name="dc:Language" />
+		<meta name="dc:Language" content="en-NZ" />
+		<meta name="dc:Language" content="en-GB" />
+	</head>
+	<book showin="blp">
+		<frontmatter>
+			<doctitle smilref="speechgen0001.smil#tcp1" id="dtb1">Microsoft UI Automation</doctitle>
+			<docauthor smilref="speechgen0001.smil#tcp2" id="dtb2">Wikipedia</docauthor>
+		</frontmatter>
+		<bodymatter id="bodymatter_0001">
+			<level1>
+				<h1 id="dtb3" smilref="speechgen0002.smil#tcp3">  Microsoft UI Automation
+</h1>
+				<p smilref="speechgen0002.smil#tcp4" id="dtb4">From Wikipedia, the free encyclopedia</p>
+				<p><sent><a smilref="speechgen0002.smil#tcp5" id="dtb5" external="true" href="http://en.wikipedia.org/wiki/Microsoft">Microsoft</a> <span id="dtb6" class="normalized" smilref="speechgen0002.smil#tcp6">UI Automation (UIA) is an </span><a id="dtb7" smilref="speechgen0002.smil#tcp7" external="true" href="http://en.wikipedia.org/wiki/Application_Programming_Interface">Application Programming Interface</a> <span smilref="speechgen0002.smil#tcp8" class="normalized" id="dtb8">(API) for </span><a id="dtb9" smilref="speechgen0002.smil#tcp9" href="http://en.wikipedia.org/wiki/User_Interface" external="true">User Interface</a> <span id="dtb10" class="normalized" smilref="speechgen0002.smil#tcp10">(UI) accessibility that is designed to help </span><a smilref="speechgen0002.smil#tcp11" id="dtb11" href="http://en.wikipedia.org/wiki/Assistive_technology" external="true">Assistive Technology</a> <span class="normalized" id="dtb12" smilref="speechgen0002.smil#tcp12">(AT) products interact with standard and custom UI elements of an </span><a href="http://en.wikipedia.org/wiki/Application_software" id="dtb13" external="true" smilref="speechgen0002.smil#tcp13">application</a> <span smilref="speechgen0002.smil#tcp14" class="normalized" id="dtb14">(or the </span><a external="true" smilref="speechgen0002.smil#tcp15" href="http://en.wikipedia.org/wiki/Operating_system" id="dtb15">operating system</a><span id="dtb16" smilref="speechgen0002.smil#tcp16" class="normalized">) as well as to access, identify, and manipulate an application's UI elements. </span></sent><sent id="dtb17" smilref="speechgen0002.smil#tcp17">AT products work with applications in order to provide better access for individuals who have physical or cognitive difficulties, impairments, or disabilities. </sent><sent smilref="speechgen0002.smil#tcp18" id="dtb18">Some examples of this are screen readers for users with limited sight, on screen keyboards for users with limited physical access, or captions for users with limited hearing. </sent></p>
+				<p><sent><span id="dtb19" class="normalized" smilref="speechgen0002.smil#tcp19">UIA is similar to </span><a external="true" href="http://en.wikipedia.org/wiki/Microsoft_Active_Accessibility" smilref="speechgen0002.smil#tcp20" id="dtb20">Microsoft Active Accessibility</a> <span smilref="speechgen0002.smil#tcp21" class="normalized" id="dtb21">(MSAA) in that it provides a means for exposing and collecting information about user interface elements and controls to support user interface accessibility and software test automation. </span></sent><sent><span smilref="speechgen0002.smil#tcp22" class="normalized" id="dtb22">However, UIA is a newer technology that provides a much richer object model than MSAA, and is compatible with both </span><a external="true" href="http://en.wikipedia.org/wiki/Win32" smilref="speechgen0002.smil#tcp23" id="dtb23">Win32</a><span id="dtb24" smilref="speechgen0002.smil#tcp24" class="normalized">® and the .NET Framework. </span></sent><sent><span id="dtb25" class="normalized" smilref="speechgen0002.smil#tcp25">UIA is designed so that it can be supported across platforms other than </span><a id="dtb26" external="true" smilref="speechgen0002.smil#tcp26" href="http://en.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows</a>. </sent><sent smilref="speechgen0002.smil#tcp27" id="dtb27">For controls and frameworks written from scratch, UIA is recommended today. </sent><sent smilref="speechgen0002.smil#tcp28" id="dtb28">While MSAA is handy for relatively simple controls, the technology doesn’t support the complexity of modern user interfaces. </sent></p>
+				<p><span id="dtb29" class="normalized" smilref="speechgen0002.smil#tcp29">The current and latest specification of UIA is found as part of the Microsoft UI Automation </span><a smilref="speechgen0002.smil#tcp30" href="http://en.wikipedia.org/wiki/Microsoft_Open_Specification_Promise" external="true" id="dtb30">Community Promise Specification</a>. </p>
+				<level2>
+					<h2 smilref="speechgen0003.smil#tcp31" id="dtb31">  History
+</h2>
+					<p id="dtb32" smilref="speechgen0003.smil#tcp32">In 2005, Microsoft released UIA as a successor to the older Microsoft Active Accessibility (MSAA) framework. </p>
+					<p><sent><span smilref="speechgen0003.smil#tcp33" id="dtb33" class="normalized">UIA has been supported by in </span><a id="dtb34" smilref="speechgen0003.smil#tcp34" external="true" href="http://en.wikipedia.org/wiki/Windows_XP">Windows XP</a><span smilref="speechgen0003.smil#tcp35" id="dtb35" class="normalized">, </span><a smilref="speechgen0003.smil#tcp36" href="http://en.wikipedia.org/wiki/Windows_Vista" id="dtb36" external="true">Windows Vista</a><span id="dtb37" class="normalized" smilref="speechgen0003.smil#tcp37">, </span><a id="dtb38" smilref="speechgen0003.smil#tcp38" href="http://en.wikipedia.org/wiki/Windows_Server_2003" external="true">Windows Server 2003</a><span class="normalized" smilref="speechgen0003.smil#tcp39" id="dtb39">, and </span><a external="true" smilref="speechgen0003.smil#tcp40" id="dtb40" href="http://en.wikipedia.org/wiki/Windows_Server_2008">Windows Server 2008</a>. </sent><sent><span class="normalized" smilref="speechgen0003.smil#tcp41" id="dtb41">UIA will be released in </span><a smilref="speechgen0003.smil#tcp42" external="true" id="dtb42" href="http://en.wikipedia.org/wiki/Windows_7">Windows 7</a> <span id="dtb43" class="normalized" smilref="speechgen0003.smil#tcp43">as part of the new Windows Automation API framework, where UIA is a subset of that framework.</span></sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0004.smil#tcp44" id="dtb44">  Version History
+</h2>
+					<p><span id="dtb45" smilref="speechgen0004.smil#tcp45" class="normalized">Developers can utilize either the </span><a href="http://en.wikipedia.org/wiki/Managed_code" smilref="speechgen0004.smil#tcp46" id="dtb46" external="true">managed</a> <span smilref="speechgen0004.smil#tcp47" id="dtb47" class="normalized">UI Automation API or the native UI Automation API; the </span><a external="true" smilref="speechgen0004.smil#tcp48" href="http://en.wikipedia.org/wiki/Native_code" id="dtb48">native</a> <span smilref="speechgen0004.smil#tcp49" class="normalized" id="dtb49">API is prominent between the two.</span></p>
+					<p><sent id="dtb50" smilref="speechgen0004.smil#tcp50">The managed UI Automation API is a part of the overall .NET Framework. </sent><sent smilref="speechgen0004.smil#tcp51" id="dtb51">It was included starting in version 3.0 of the .NET Framework.</sent></p>
+					<p><sent><span id="dtb52" class="normalized" smilref="speechgen0004.smil#tcp52">The native UI Automation API (provider) is included as part of the Windows Vista and Windows Server 2008 </span><a href="http://en.wikipedia.org/wiki/Software_development_kit" external="true" id="dtb53" smilref="speechgen0004.smil#tcp53">SDK</a>. </sent><sent smilref="speechgen0004.smil#tcp54" id="dtb54">The native UI Automation API is also distributed with the .NET Framework. </sent><sent id="dtb55" smilref="speechgen0004.smil#tcp55">The native UI Automation client API is currently being developed, and will be available for the Windows platform in the future.</sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0005.smil#tcp56" id="dtb56">  Motivation and Goals
+</h2>
+					<p smilref="speechgen0005.smil#tcp57" id="dtb57">In order to improve on Microsoft Active Accessibility (MSAA), UIA aims to address the following group of goals:</p>
+					<list id="dtb58" smilref="speechgen0005.smil#tcs1" type="ul">
+						<li><p smilref="speechgen0005.smil#tcp58" id="dtb59">★  Enable efficient client performance without forcing clients to hook into a target application’s process.</p></li>
+						<li><p smilref="speechgen0005.smil#tcp59" id="dtb60">★  Expose more information about the UI.</p></li>
+						<li><p id="dtb61" smilref="speechgen0005.smil#tcp60">★  Co-exist with and use MSAA, but do not inherit problems that exist in MSAA.</p></li>
+						<li><p id="dtb62" smilref="speechgen0005.smil#tcp61">★  Provide an alternative to MSAA that is simple to implement.</p></li>
+					</list>
+					<p><sent><span id="dtb63" smilref="speechgen0005.smil#tcp62" class="normalized">The Microsoft Windows implementation of UIA features </span><a id="dtb64" smilref="speechgen0005.smil#tcp63" external="true" href="http://en.wikipedia.org/wiki/Component_Object_Model">COM</a><span id="dtb65" smilref="speechgen0005.smil#tcp64" class="normalized">-based interfaces and managed interfaces that are introduced with Microsoft .NET Framework. </span></sent><sent><span class="normalized" smilref="speechgen0005.smil#tcp65" id="dtb66">An API reference is available for both managed and </span><a smilref="speechgen0005.smil#tcp66" external="true" id="dtb67" href="http://en.wikipedia.org/wiki/Native_code">unmanaged</a> <span smilref="speechgen0005.smil#tcp67" id="dtb68" class="normalized">code.</span></sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb69" smilref="speechgen0006.smil#tcp68">  Technical Overview
+</h2>
+					<p><sent id="dtb70" smilref="speechgen0006.smil#tcp69">Figure 1 below shows the architecture of UIA. </sent><sent id="dtb71" smilref="speechgen0006.smil#tcp70">Applications such as word processing programs are called <em>servers</em> in Microsoft Active Accessibility (MSAA) and <em>providers</em> in UIA because they serve or provide information about their user interfaces (UI). </sent><sent id="dtb72" smilref="speechgen0006.smil#tcp71">Accessibility tools such as screen readers are called <em>clients</em> in both MSAA and UIA because they consume and interact with application UI information. </sent></p>
+					<p><sent><span id="dtb73" class="normalized" smilref="speechgen0006.smil#tcp72">With UIA, the UIA Core component (UIAutomationCore.dll) is loaded into the processes of both the </span><a id="dtb74" smilref="speechgen0006.smil#tcp73" href="http://en.wikipedia.org/wiki/Accessibility" external="true">accessibility</a> <span smilref="speechgen0006.smil#tcp74" class="normalized" id="dtb75">tools and applications. </span></sent><sent smilref="speechgen0006.smil#tcp75" id="dtb76">This component manages cross-process communication, and it also provides higher-level services, such as searching for elements by property values. </sent></p>
+					<p xml:lang="en-NZ"><imggroup><img alt="" smilref="speechgen0006.smil#tcp76" src="UIA-Wikipedia_for_Daisy-Picture_22.png" id="rId271" /></imggroup>
+					</p>
+					<p><sent smilref="speechgen0006.smil#tcp77" id="dtb77">Figure 1. </sent><sent smilref="speechgen0006.smil#tcp78" id="dtb78">UI Automation</sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb79" smilref="speechgen0007.smil#tcp79">  UI Automation Elements
+</h2>
+					<p><sent><span class="normalized" id="dtb80" smilref="speechgen0007.smil#tcp80">UIA exposes every piece of the UI to client applications as an </span><a smilref="speechgen0007.smil#tcp81" href="http://msdn.microsoft.com/en-us/library/system.windows.automation.automationelement.aspx" id="dtb81" external="true">Automation Element</a>. </sent><sent smilref="speechgen0007.smil#tcp82" id="dtb82">Elements are contained in a tree structure, with the desktop as the root element. </sent><sent id="dtb83" smilref="speechgen0007.smil#tcp83">Clients can filter the raw view of the tree as a control view or a content view. </sent><sent id="dtb84" smilref="speechgen0007.smil#tcp84">Applications can also create custom views. </sent></p>
+					<p><sent><a smilref="speechgen0007.smil#tcp85" id="dtb85" href="http://msdn.microsoft.com/en-us/library/system.windows.automation.automationelement.aspx" external="true">Automation Element</a> <span class="normalized" id="dtb86" smilref="speechgen0007.smil#tcp86">objects expose common properties of the UI elements they represent. </span></sent><sent id="dtb87" smilref="speechgen0007.smil#tcp87">One of these properties is the control type, which defines its basic appearance and functionality as a single recognizable entity (<abbr title="for example">e.g.</abbr>, a button or check box). </sent></p>
+					<p><sent id="dtb88" smilref="speechgen0007.smil#tcp88">In addition, elements expose control patterns that provide properties specific to their control types. </sent><sent smilref="speechgen0007.smil#tcp89" id="dtb89">Control patterns also expose methods that enable clients to get further information about the element and to provide input. </sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb90" smilref="speechgen0008.smil#tcp90">  UI Automation Tree
+</h2>
+					<p><sent id="dtb91" smilref="speechgen0008.smil#tcp91">Within the UIA tree there is a root element (RootElement) that represents the current desktop and whose child elements represent application windows. </sent><sent smilref="speechgen0008.smil#tcp92" id="dtb92">Each of these child elements may contain elements representing pieces of UI such as menus, buttons, toolbars, and list boxes. </sent><sent smilref="speechgen0008.smil#tcp93" id="dtb93">These elements, in turn, can contain other elements, such as list items. </sent></p>
+					<p><sent id="dtb94" smilref="speechgen0008.smil#tcp94">The UIA tree is not a fixed structure and is seldom seen in its totality because it might contain thousands of elements. </sent><sent smilref="speechgen0008.smil#tcp95" id="dtb95">Parts of the tree are built as they are needed, and the tree can undergo changes as elements are added, moved, or removed.</sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb96" smilref="speechgen0009.smil#tcp96">  UI Automation Control Types
+</h2>
+					<p id="dtb97" smilref="speechgen0009.smil#tcp97">UIA control types are well-known identifiers that can be used to indicate what kind of control a particular element represents, such as a combo box or a button. </p>
+					<p><sent id="dtb98" smilref="speechgen0009.smil#tcp98">Having a well-known identifier allows assistive technology (AT) devices to more easily determine what types of controls are available in the user interface (UI) and how to interact with the controls. </sent><sent id="dtb99" smilref="speechgen0009.smil#tcp99">A human-readable representation of the UIA control type information is available as a LocalizedControlType property, which can be customizable by control or application developers.</sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb100" smilref="speechgen0010.smil#tcp100">  UI Automation Control Patterns
+</h2>
+					<p id="dtb101" smilref="speechgen0010.smil#tcp101">Control patterns provide a way to categorize and expose a control's functionality independent of the control type or the appearance of the control. </p>
+					<p><sent smilref="speechgen0010.smil#tcp102" id="dtb102">UIA uses control patterns to represent common control behaviors. </sent><sent><span class="normalized" id="dtb103" smilref="speechgen0010.smil#tcp103">For example, the Invoke control pattern is used for controls that can be invoked (such as buttons) and the Scroll control pattern is used for controls that are scrollable </span><a smilref="speechgen0010.smil#tcp104" href="http://en.wikipedia.org/wiki/Viewport" id="dtb104" external="true">viewports</a> <span class="normalized" id="dtb105" smilref="speechgen0010.smil#tcp105">(such as list boxes, list views, or combo boxes). </span></sent><sent id="dtb106" smilref="speechgen0010.smil#tcp106">Because each control pattern represents a separate functionality, they can be combined to describe the full set of functionality supported by a particular control. </sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0011.smil#tcp107" id="dtb107">  UI Automation Properties
+</h2>
+					<p><sent id="dtb108" smilref="speechgen0011.smil#tcp108">UIA providers expose properties on UIA elements and the control patterns. </sent><sent smilref="speechgen0011.smil#tcp109" id="dtb109">These properties enable UIA client applications to discover information about pieces of the user interface (UI), especially controls, including both static and dynamic data.</sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb110" smilref="speechgen0012.smil#tcp110">  UI Automation Events
+</h2>
+					<p><sent id="dtb111" smilref="speechgen0012.smil#tcp111">UIA event notification is a key feature for assistive technologies (AT) such as screen readers and screen magnifiers. </sent><sent id="dtb112" smilref="speechgen0012.smil#tcp112">These UIA clients track events that are raised by UIA providers that occur within the UIA, and use the information to notify end users. </sent></p>
+					<p smilref="speechgen0012.smil#tcp113" id="dtb113">Efficiency is improved by allowing provider applications to raise events selectively, depending on whether any clients are subscribed to those events, or not at all, if no clients are listening for any events. </p>
+				</level2>
+				<level2>
+					<h2 id="dtb114" smilref="speechgen0013.smil#tcp114">  UI Automation TextPattern
+</h2>
+					<p><sent id="dtb115" smilref="speechgen0013.smil#tcp115">UIA exposes the textual content, including format and style attributes, of text controls in UIA-supported platforms. </sent><sent><span id="dtb116" smilref="speechgen0013.smil#tcp116" class="normalized">These controls include, but are not limited to, the Microsoft .NET Framework TextBox and </span><a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.richtextbox.aspx" smilref="speechgen0013.smil#tcp117" id="dtb117" external="true">RichTextBox</a> <span smilref="speechgen0013.smil#tcp118" id="dtb118" class="normalized">as well as their Win32 equivalents. </span></sent></p>
+					<p><sent><span class="normalized" id="dtb119" smilref="speechgen0013.smil#tcp119">Exposing the textual content of a control is accomplished through the use of the </span><a href="http://msdn.microsoft.com/en-us/library/system.windows.automation.textpattern.aspx" id="dtb120" smilref="speechgen0013.smil#tcp120" external="true">TextPattern</a> <span class="normalized" smilref="speechgen0013.smil#tcp121" id="dtb121">control pattern, which represents the contents of a text container as a text stream. </span></sent><sent><span id="dtb122" class="normalized" smilref="speechgen0013.smil#tcp122">In turn, </span><a smilref="speechgen0013.smil#tcp123" id="dtb123" external="true" href="http://msdn.microsoft.com/en-us/library/system.windows.automation.textpattern.aspx">TextPattern</a> <span id="dtb124" class="normalized" smilref="speechgen0013.smil#tcp124">requires the support of the </span><a href="http://msdn.microsoft.com/en-us/library/system.windows.automation.text.textpatternrange.aspx" smilref="speechgen0013.smil#tcp125" id="dtb125" external="true">TextPatternRange</a> <span id="dtb126" smilref="speechgen0013.smil#tcp126" class="normalized">class to expose format and style attributes. </span></sent><sent><a id="dtb127" external="true" href="http://msdn.microsoft.com/en-us/library/system.windows.automation.text.textpatternrange.aspx" smilref="speechgen0013.smil#tcp127">TextPatternRange</a> <span class="normalized" id="dtb128" smilref="speechgen0013.smil#tcp128">supports </span><a href="http://msdn.microsoft.com/en-us/library/system.windows.automation.textpattern.aspx" smilref="speechgen0013.smil#tcp129" external="true" id="dtb129">TextPattern</a> <span id="dtb130" smilref="speechgen0013.smil#tcp130" class="normalized">by representing a contiguous text span in a text container with the </span><a href="http://msdn.microsoft.com/en-us/library/system.windows.automation.text.textpatternrangeendpoint.start.aspx" id="dtb131" external="true" smilref="speechgen0013.smil#tcp131">Start</a> <span class="normalized" smilref="speechgen0013.smil#tcp132" id="dtb132">and </span><a href="http://msdn.microsoft.com/en-us/library/system.windows.automation.text.textpatternrangeendpoint.end.aspx" smilref="speechgen0013.smil#tcp133" id="dtb133" external="true">End</a> <span class="normalized" smilref="speechgen0013.smil#tcp134" id="dtb134">endpoints. </span></sent><sent><span smilref="speechgen0013.smil#tcp135" id="dtb135" class="normalized">Multiple or disjoint text spans can be represented by more than one </span><a external="true" id="dtb136" href="http://msdn.microsoft.com/en-us/library/system.windows.automation.text.textpatternrange.aspx" smilref="speechgen0013.smil#tcp136">TextPatternRange</a> <span smilref="speechgen0013.smil#tcp137" class="normalized" id="dtb137">objects. </span></sent><sent><a smilref="speechgen0013.smil#tcp138" href="http://msdn.microsoft.com/en-us/library/system.windows.automation.text.textpatternrange.aspx" external="true" id="dtb138">TextPatternRange</a> <span smilref="speechgen0013.smil#tcp139" id="dtb139" class="normalized">supports functionality such as clone, selection, comparison, retrieval and traversal. </span></sent></p>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0014.smil#tcp140" id="dtb140">  UI Automation for Automated Testing
+</h2>
+					<p><sent smilref="speechgen0014.smil#tcp141" id="dtb141">UIA can also be useful as a framework for programmatic access in automated testing scenarios. </sent><sent smilref="speechgen0014.smil#tcp142" id="dtb142">In addition to providing more refined solutions for accessibility, it is also specifically designed to provide robust functionality for automated testing. </sent></p>
+					<p><sent id="dtb143" smilref="speechgen0014.smil#tcp143">Programmatic access provides the ability to imitate, through code, any interaction and experience exposed by traditional user interactions. </sent><sent id="dtb144" smilref="speechgen0014.smil#tcp144">UIA enables programmatic access through five components: </sent></p>
+					<list type="ul" smilref="speechgen0014.smil#tcs2" id="dtb145">
+						<li><p smilref="speechgen0014.smil#tcp145" id="dtb146">★  The UIA tree facilitates navigation through the logical structure of the UI for accessibility and automation.</p></li>
+						<li><p smilref="speechgen0014.smil#tcp146" id="dtb147">★  UI Automation Elements are individual components in the UI.</p></li>
+						<li><p smilref="speechgen0014.smil#tcp147" id="dtb148">★  UI Automation Properties provide specific information about UI elements or the Control Pattern. </p></li>
+						<li><p id="dtb149" smilref="speechgen0014.smil#tcp148">★  UI Automation Control Patterns define a particular aspect of a control's functionality or feature; they can consist of property, method, event, and structure information. </p></li>
+						<li><p id="dtb150" smilref="speechgen0014.smil#tcp149">★  UI Automation Events provide a trigger to respond to changes and notifications in UIA information.</p></li>
+					</list>
+				</level2>
+				<level2>
+					<h2 smilref="speechgen0015.smil#tcp150" id="dtb151">  Availability
+</h2>
+					<p><sent id="dtb152" smilref="speechgen0015.smil#tcp151">UIA was initially available on Windows Vista and Windows Server 2008, and it was also made available to Windows XP and Windows Server 2003 as part of .NET Framework 3.0. </sent><sent><span class="normalized" smilref="speechgen0015.smil#tcp152" id="dtb153">It has been integrated with all subsequent Windows versions, up to and including the yet to be released </span><a smilref="speechgen0015.smil#tcp153" external="true" id="dtb154" href="http://en.wikipedia.org/wiki/Windows_7">Windows 7</a>. </sent></p>
+					<p smilref="speechgen0015.smil#tcp154" id="dtb155">Besides Windows platforms, the Olive project (which is a set of add-on libraries for the Mono core aiming for the .NET Framework support) includes a subset of WPF (PresentationFramework and WindowsBase) and UI Automation. </p>
+					<p><sent id="dtb156" smilref="speechgen0015.smil#tcp155">Novell's Mono Accessibility project is an implementation of the UIA Provider and Client specifications targeted for the Mono framework. </sent><sent id="dtb157" smilref="speechgen0015.smil#tcp156">Additionally, the project provides a bridge to the Accessibility Toolkit (ATK) for Linux assistive technologies (ATs). </sent><sent id="dtb158" smilref="speechgen0015.smil#tcp157">Novell is also working on a bridge for UIA-based ATs to interact with applications that implement ATK. </sent></p>
+				</level2>
+				<level2>
+					<h2 id="dtb159" smilref="speechgen0016.smil#tcp158">  Related Technology and Interoperability
+</h2>
+					<list smilref="speechgen0016.smil#tcs3" id="dtb160" type="ul">
+						<li>
+							<p><sent smilref="speechgen0016.smil#tcp159" id="dtb161"><strong>★  Microsoft Active Accessibility (MSAA</strong><strong>)</strong>: UIA is the successor to MSAA. </sent><sent smilref="speechgen0016.smil#tcp160" id="dtb162">However, since there are still MSAA based applications in existence, bridges are used to allow communication between UIA and MSAA applications. </sent><sent id="dtb163" smilref="speechgen0016.smil#tcp161">So information can be shared between the two APIs, an MSAA-to-UIA Proxy and UIA-to-MSAA Bridge were developed. </sent><sent id="dtb164" smilref="speechgen0016.smil#tcp162">The former is a component that consumes MSAA information and makes it available through the UIA client API. </sent><sent smilref="speechgen0016.smil#tcp163" id="dtb165">The latter enables client applications using MSAA access applications that implement UIA. </sent></p>
+						</li>
+						<li>
+							<p><sent><a href="http://en.wikipedia.org/wiki/Accessible_Rich_Internet_Applications" external="true"><strong id="dtb166" smilref="speechgen0016.smil#tcp164">Accessible Rich Internet Applications</strong></a><span id="dtb167" class="normalized" smilref="speechgen0016.smil#tcp165"><strong>★   (ARIA)</strong>: The UIA AriaRole and AriaProperties properties can provide access to the ARIA attribute values corresponding to an <acronym title="Hyper Text Markup Language" pronounce="no">HTML</acronym>element (which can be exposed as an automation element by web browsers). </span> </sent><sent id="dtb168" smilref="speechgen0016.smil#tcp166">General mapping from ARIA attributes to UIA is also available. </sent></p>
+						</li>
+						<li><p><sent id="dtb169" smilref="speechgen0016.smil#tcp167"><strong>★  Windows Automation API</strong>: Starting with Windows 7, Microsoft is packaging its accessibility technologies under a framework called Windows Automation API. </sent><sent id="dtb170" smilref="speechgen0016.smil#tcp168">Both MSAA and UIA will be part of this framework.</sent></p>
+						</li>
+						<li>
+							<p><sent><span class="normalized" smilref="speechgen0016.smil#tcp169" id="dtb171"><strong>★  Mono Accessibility Project</strong>: On November 7, 2007, Microsoft and </span><a href="http://en.wikipedia.org/wiki/Novell" external="true" smilref="speechgen0016.smil#tcp170" id="dtb172">Novell Inc.</a><span class="normalized" smilref="speechgen0016.smil#tcp171" id="dtb173">, after completion of a year of their interoperability agreement, announced that they would be extending their agreement to include accessibility. </span></sent><sent><span smilref="speechgen0016.smil#tcp172" class="normalized" id="dtb174">Specifically, it was announced that Novell would develop an open source adapter allowing the UIA framework to work with existing </span><a href="http://en.wikipedia.org/wiki/Linux" external="true" smilref="speechgen0016.smil#tcp173" id="dtb175">Linux</a> <span id="dtb176" smilref="speechgen0016.smil#tcp174" class="normalized">accessibility projects such as the </span><a external="true" href="http://en.wikipedia.org/wiki/Accessibility_Toolkit" smilref="speechgen0016.smil#tcp175" id="dtb177">Linux Accessibility Toolkit</a> <span class="normalized" smilref="speechgen0016.smil#tcp176" id="dtb178">(ATK), which ships with </span><a smilref="speechgen0016.smil#tcp177" id="dtb179" external="true" href="http://en.wikipedia.org/wiki/SUSE">SUSE</a> <a external="true" id="dtb180" href="http://en.wikipedia.org/wiki/SUSE_Linux_Enterprise_Desktop" smilref="speechgen0016.smil#tcp178">Linux Enterprise Desktop</a><span id="dtb181" class="normalized" smilref="speechgen0016.smil#tcp179">, </span><a id="dtb182" external="true" smilref="speechgen0016.smil#tcp180" href="http://en.wikipedia.org/wiki/Red_Hat">Red Hat</a> <a href="http://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux" external="true" smilref="speechgen0016.smil#tcp181" id="dtb183">Enterprise Linux</a> <span smilref="speechgen0016.smil#tcp182" class="normalized" id="dtb184">and </span><a href="http://en.wikipedia.org/wiki/Ubuntu" smilref="speechgen0016.smil#tcp183" id="dtb185" external="true">Ubuntu Linux</a>. </sent><sent id="dtb186" smilref="speechgen0016.smil#tcp184">This would eventually make UIA cross-platform.</sent></p>
+						</li>
+					</list>
+					<p id="dtb187" smilref="speechgen0016.smil#tcp185">References</p>
+					<list smilref="speechgen0016.smil#tcs4" id="dtb188" type="ol">
+						<li>
+							<p><sent id="dtb189" smilref="speechgen0016.smil#tcp186">1. </sent><sent id="dtb190" smilref="speechgen0016.smil#tcp187">Darryl K. </sent><sent><span smilref="speechgen0016.smil#tcp188" class="normalized" id="dtb191">Taft, </span><a id="dtb192" href="http://www.eweek.com/article2/0,1895,1892089,00.asp" smilref="speechgen0016.smil#tcp189" external="true">Microsoft Promotes Cross-Platform Accessibility Tech</a><span class="normalized" id="dtb193" smilref="speechgen0016.smil#tcp190">, EWeek (2005-11-28), accessed 2007-02-07; Microsoft, </span><a href="http://www.microsoft.com/enable/at/uia.aspx" smilref="speechgen0016.smil#tcp191" id="dtb194" external="true">"Microsoft's New Accessibility Model To Be Offered as Cross-Platform Solution for Industry"</a><span id="dtb195" smilref="speechgen0016.smil#tcp192" class="normalized">, accessed 2007-02-06.</span></sent></p>
+						</li>
+						<li><p><sent id="dtb196" smilref="speechgen0016.smil#tcp193">2. </sent><sent><span id="dtb197" smilref="speechgen0016.smil#tcp194" class="normalized">Microsoft, </span><a smilref="speechgen0016.smil#tcp195" id="dtb198" external="true" href="http://msdn2.microsoft.com/en-US/library/ms788733.aspx">UI Automation and Microsoft Active Accessibility</a><span smilref="speechgen0016.smil#tcp196" id="dtb199" class="normalized">, accessed 2007-02-07.</span></sent></p>
+						</li>
+						<li><p><sent smilref="speechgen0016.smil#tcp197" id="dtb200">3. </sent><sent><span id="dtb201" class="normalized" smilref="speechgen0016.smil#tcp198">Microsoft, </span><a external="true" id="dtb202" smilref="speechgen0016.smil#tcp199" href="http://msdn2.microsoft.com/en-US/library/ms747327.aspx">UI Automation Overview</a><span id="dtb203" smilref="speechgen0016.smil#tcp200" class="normalized">, accessed 2007-02-07.</span></sent></p>
+						</li>
+						<li><p><sent id="dtb204" smilref="speechgen0016.smil#tcp201">4. </sent><sent><span id="dtb205" class="normalized" smilref="speechgen0016.smil#tcp202">Miguel de Icaza and Philippe Cohen, </span><a href="http://opensource.sys-con.com/read/318852.htm" id="dtb206" smilref="speechgen0016.smil#tcp203" external="true">"Mono, Mainsoft and Cross-Platform Enterprise Development"</a><span id="dtb207" class="normalized" smilref="speechgen0016.smil#tcp204">, Enterprise Open Source Magazine (2007-01-14), accessed 2007-02-07.</span></sent></p>
+						</li>
+						<li><p><a id="dtb208" href="http://www.mono-project.com/Olive" smilref="speechgen0016.smil#tcp205" external="true">The Olive project</a></p>
+						</li>
+						<li><p><a smilref="speechgen0016.smil#tcp206" href="http://www.microsoft.com/presspass/press/2007/nov07/11-07MSNovell1YearPR.mspx" external="true" id="dtb209">Microsoft and Novell Celebrate Year of Interoperability, Expand Collaboration Agreement</a></p>
+						</li>
+						<li><p><a smilref="speechgen0016.smil#tcp207" id="dtb210" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=a1fe1066-bf4f-44fc-834b-676b311e83a2&amp;DisplayLang=en" external="true">UI Automation Open Specification Promise</a></p>
+						</li>
+						<li><p><a smilref="speechgen0016.smil#tcp208" external="true" href="http://www.microsoft.com/enable/microsoft/history.aspx" id="dtb211">History of Microsoft's Commitment to Accessibility</a></p>
+						</li>
+						<li><p><a smilref="speechgen0016.smil#tcp209" href="http://msdn.microsoft.com/en-us/accessibility/bb892136.aspx" external="true" id="dtb212">UI Automation Community Promise</a></p>
+						</li>
+					</list>
+					<p id="dtb213" smilref="speechgen0016.smil#tcp210">External links</p>
+					<list smilref="speechgen0016.smil#tcs5" type="ul" id="dtb214">
+						<li><p><a external="true" href="http://www.codeplex.com/UIAutomationVerify" smilref="speechgen0016.smil#tcp211" id="dtb215">UI Automation Verify (UIA Verify) Test Automation Framework</a></p>
+						</li>
+					</list>
+				</level2>
+			</level1>
+		</bodymatter>
+	</book>
+</dtbook>

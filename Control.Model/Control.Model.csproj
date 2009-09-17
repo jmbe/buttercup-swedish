@@ -1,0 +1,193 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC64E251-4682-4483-A950-6B59F9FA14E9}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Buttercup.Control.Model</RootNamespace>
+    <AssemblyName>Buttercup.Control.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>false</ThrowErrorsInValidation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SharpZipLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookCreateEventArgs.cs" />
+    <Compile Include="ApplicationState.cs" />
+    <Compile Include="BookNavigator.cs" />
+    <Compile Include="ContrastLevel.cs" />
+    <Compile Include="DataContext.cs" />
+    <Compile Include="Entities\IPackage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\Package202.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\Package300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IPackageInspector.cs" />
+    <Compile Include="NavigationState.cs" />
+    <Compile Include="PackageInspector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhraseConstructionKit.cs" />
+    <Compile Include="SearchState.cs" />
+    <Compile Include="DisplaySettingsState.cs" />
+    <Compile Include="Entities\Audio.cs" />
+    <Compile Include="Entities\Book.cs" />
+    <Compile Include="Entities\Bookmark.cs" />
+    <Compile Include="Entities\Heading.cs" />
+    <Compile Include="Entities\PageList.cs" />
+    <Compile Include="Entities\PageReference.cs" />
+    <Compile Include="Entities\PageType.cs" />
+    <Compile Include="Entities\SmilDocument.cs" />
+    <Compile Include="Exceptions\InvalidPackageException.cs" />
+    <Compile Include="Helpers\ValueConversionHelper.cs" />
+    <Compile Include="IObservableProgress.cs" />
+    <Compile Include="ISpeakable.cs" />
+    <Compile Include="Entities\Phrase.cs" />
+    <Compile Include="PlayerMode.cs" />
+    <Compile Include="PlayerState.cs" />
+    <Compile Include="ProgressNotificationEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serialize\bookmark-2005-1.cs" />
+    <Compile Include="Serialize\DesignerCategoryAttribute.cs" />
+    <Compile Include="Serialize\distInfo-2005-1.cs" />
+    <Compile Include="Serialize\dtbook-2005-3.cs" />
+    <Compile Include="Serialize\dtbsmil-2005-2.cs" />
+    <Compile Include="Serialize\ncx-2005-1.cs" />
+    <Compile Include="Serialize\resource-2005-1.cs" />
+    <Compile Include="Serialize\SerializableAttribute.cs" />
+    <Compile Include="Entities\TableOfContents.cs" />
+    <Compile Include="Helpers\XmlHelper.cs" />
+    <Compile Include="Entities\SidePanelDisplayMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Domain.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Control.Common\Control.Common.csproj">
+      <Project>{DD57430D-11D8-4683-8B50-A8DA0298AA1F}</Project>
+      <Name>Control.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Control.Compression\Control.Compression.csproj">
+      <Project>{1573636B-F562-4C50-947A-D77684514FD6}</Project>
+      <Name>Control.Compression</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" Condition="" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,77 @@
+﻿body.blue {
+    background: #000f4f url(../images/bgPageBlue.gif) repeat-x top left;
+    color: White;
+}
+
+body.blue a, a:visited {
+    color: #ffd200;
+}
+body.blue a:hover {
+    color: #ffffff;
+}
+
+body.blue a.logo {
+    background: transparent url(../images/logoButterCupWhite.png) no-repeat;
+}
+
+body.blue div.switcherWrapper {
+    border-top: 2px white solid;
+}
+
+
+/*SIDE NAV*/
+body.blue ul.navbarList li a {
+    color: White;
+}
+body.blue ul.navbarList li a.current,
+body.blue ul.navbarList li a:hover {
+    color: #ffd200;
+}
+
+body.blue li.navbarItemHome a, 
+body.blue li.navbarItemHome a:visited {
+    background: transparent url(../images/iconHomeWhite.png) no-repeat;
+}body.blue li.navbarItemHome a.current, 
+body.blue li.navbarItemHome a:hover {
+    background: transparent url(../images/iconHomeHover.png) no-repeat;
+} 
+
+body.blue li.navbarItemAbout a, 
+body.blue li.navbarItemAbout a:visited {
+    background: transparent url(../images/iconAboutWhite.png) no-repeat;
+}body.blue li.navbarItemAbout a.current, 
+body.blue li.navbarItemAbout a:hover {
+    background: transparent url(../images/iconAboutHover.png) no-repeat;
+} 
+
+body.blue li.navbarItemUserGuide a, 
+body.blue li.navbarItemUserGuide a:visited {
+    background: transparent url(../images/iconGuideWhite.png) no-repeat;
+}body.blue li.navbarItemUserGuide a.current, 
+body.blue li.navbarItemUserGuide a:hover {
+    background: transparent url(../images/iconGuideHover.png) no-repeat;
+} 
+
+body.blue li.navbarItemFeedback a, 
+body.blue li.navbarItemFeedback a:visited {
+    background: transparent url(../images/iconFeedbackWhite.png) no-repeat;
+}body.blue li.navbarItemFeedback a.current, 
+body.blue li.navbarItemFeedback a:hover {
+    background: transparent url(../images/iconFeedbackHover.png) no-repeat;
+} 
+
+body.blue li.navbarItemBlog a, 
+body.blue li.navbarItemBlog a:visited {
+    background: transparent url(../images/iconBlogWhite.png) no-repeat;
+}body.blue li.navbarItemBlog a.current, 
+body.blue li.navbarItemBlog a:hover {
+    background: transparent url(../images/iconBlogHover.png) no-repeat;
+} 
+
+body.blue ul.quickList li.quickListReadBook a,
+body.blue ul.quickList li.quickListReadBook a:visited {
+    background: transparent url(../images/iconPlayWhite.png) no-repeat 5px;
+}body.blue ul.quickList li.quickListReadBook a.current, 
+body.blue ul.quickList li.quickListReadBook a:hover {
+    background: transparent url(../images/iconPlayHover.png) no-repeat 5px;
+}
