@@ -7,7 +7,7 @@
     <meta http-equiv="imagetoolbar" content="no" />
     <meta name="MSSmartTagsPreventParsing" content="true" />
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <meta name="description" content="Silverlight 2.0 Digital Talking Book Reader" />
+    <meta name="description" content="Silverlight 3.0 Digital Talking Book Reader" />
     <meta name="keywords" content="Silverlight,ButtercupReader,Accessibility,Talking Books,Daisy,Digital Talking Books,DTB" />
     <meta name="author" content="Intergen" />
     <link rel="Stylesheet" type="text/css" href="styles/structure.css" media="screen" />
@@ -37,9 +37,13 @@
                     User Guide</a> </li>
                 <li class="navbarItemFeedback"><a href="mailto:feedback@buttercupreader.net?subject=ButtercupReader%20Feedback"
                     accesskey="F" title="Feedback">Feedback </a></li>
+
+				<!-- No blog is included in this code sample
+
 				<li class="navbarItemBlog">
 					<a href="/blog" accesskey="B" title="Blog">Blog</a>
 				</li>
+				-->
             </ul>
             <!-- NEEDS TO BE DISABLED FOR DEMO div class="switcherWrapper">
                 <a id="switchBlue" accesskey="B" title="Change site colour scheme to Blue">
@@ -91,7 +95,7 @@
                 </p>
                 <ul>
                     <li>First you need to install <a href="http://www.microsoft.com/silverlight/install.aspx"
-                        accesskey="S" title="Microsoft Silverlight">Microsoft Silverlight <span class="external">
+                        accesskey="S" title="Microsoft Silverlight">Microsoft Silverlight 3 <span class="external">
                             ↗</span> </a></li>
                     <li>And, if you're using Internet Explorer (on Windows), and want Buttercup to
                         self-voice (or you're playing a book without embedded audio), then you'll 
@@ -116,7 +120,7 @@
     </div>
 
     <script type="text/javascript">
-        if (Silverlight.isInstalled("2.0")) {
+        if (Silverlight.isInstalled("3.0")) {
             document.getElementById('SilverlightDetected').style.display = 'block';
             document.getElementById('NoSilverlight').style.display = 'none';
         }
