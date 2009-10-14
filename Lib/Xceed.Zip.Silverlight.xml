@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc>
+    <assembly>
+        <name>Xceed.Zip.Silverlight</name>
+    </assembly>
+    <members>
+        <member name="N:Xceed.Zip">
+            <summary> The Xceed.Zip namespace defines specialized classes for handling files and folders contained within zip files.</summary>
+        </member>
+        <member name="T:Xceed.Zip.EncryptionMethod">
+            <summary> Encryption method to use to encrypt a file when an encryption password is provided, or encryption method detected when reading an encrypted file.</summary>
+        </member>
+        <member name="F:Xceed.Zip.EncryptionMethod.Compatible">
+            <summary> The traditional ZIP encryption. This is a weak encryption method.</summary>
+        </member>
+        <member name="F:Xceed.Zip.EncryptionMethod.WinZipAes">
+            <summary> The WinZip AES encryption method. This is a strong encryption method.</summary>
+        </member>
+        <member name="T:Xceed.Zip.InvalidDecryptionPasswordException">
+            <summary> Exception that is thrown when the data could not be decrypted with the supplied decryption password.</summary>
+            <remarks> The supplied password does not match the one that was used to originally encrypt the data.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.InvalidDecryptionPasswordException.#ctor">
+            <summary> Initializes a new instance of the InvalidDecryptionPasswordException class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.InvalidDecryptionPasswordException.#ctor">
+            <summary> Initializes a new instance of the InvalidDecryptionPasswordException class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.InvalidDecryptionPasswordException.#ctor(System.String)">
+            <summary> Initializes a new instance of the InvalidDecryptionPasswordException class with the specified message text.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="T:Xceed.Zip.ZipException">
+            <summary> Exception that is thrown when an error occurs in the Xceed.Zip namespace.</summary>
+            <remarks> This exception serves as the base class for all custom exceptions defined in the Xceed.Zip namespace.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ZipException.#ctor(System.String)">
+            <summary> Initializes a new instance of the ZipException class with the specified message text.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="T:Xceed.Zip.ZipIOException">
+            <summary> Exception that is thrown when an IO exception occurs while reading from or writing to the ZIP file.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ZipIOException.#ctor">
+            <summary> Initializes a new instance of the ZipIOException class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ZipIOException.#ctor">
+            <summary> Initializes a new instance of the ZipIOException class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ZipIOException.#ctor(System.String)">
+            <summary> Initializes a new instance of the ZipIOException class with the specified message text.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="N:Xceed.Zip.ReaderWriter">
+            <summary> The Xceed.Zip.ReaderWriter namespace defines specialized classes for reading and writing data sequentially using the Zip format.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.Licenser">
+            <summary> Class which is used to register the classes located in the Xceed.Zip.ReaderWriter namespace.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.Licenser.LicenseKey">
+            <summary> Gets or sets the license key used to license this product.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.PipeStream">
+            <summary>Utility stream class that "pipes" data written into the stream out to the data that is read.</summary>
+            <remarks>    The class is intended to be used in a multi-threaded     context. As such, the class does not contain any internal     buffers. When you call Write, the method will block until     another thread calls Read and empties the buffer given to     Write.     Conversely, when Read is called, it will block until     another thread calls Write. The data specified there be given     to Read, which will then return.     This class is especially useful when you want to bridge     between the Xceed Real-Time Zip for Silverlight and the Xceed     Upload for Silverlight products in order to zip data and then     upload it.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.#ctor">
+            <summary>Initializes a new instance of the PipeStream class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Close">
+            <summary>Closes the current stream and releases any resources (such as sockets and file handles) associated with the current stream.</summary>
+            <remarks>    This method calls Dispose, specifying     true to release all resources.     The SignalEndOfData method is     not called as part of the stream-closing     process. If you have a thread waiting for Read     to complete, you need to call SignalEndOfData     before closing the stream.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Dispose">
+            <summary>    Releases all resources used by the     PipeStream object.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Dispose(System.Boolean)">
+            <summary>    Releases the unmanaged resources used by the     PipeStream and optionally releases the managed     resources.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Flush">
+            <summary>Clears all buffers for this stream and causes any buffered data to be written to the underlying device.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.</summary>
+            <returns>    The total number of bytes read into the buffer. This can     be less than the number of bytes requested if that many bytes     are not currently available, or zero (0) if the end of the     stream has been reached.</returns>
+            <param name="buffer">An array of bytes. When this method returns, the buffer contains the specified byte array with the values between offset and (offset + count - 1) replaced by the bytes read from the current source.</param>
+            <param name="offset">The zero-based byte offset in buffer at which to begin storing the data read from the current stream.</param>
+            <param name="count">The maximum number of bytes to be read from the current stream.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>Sets the position within the current stream.</summary>
+            <returns>The new position within the current stream.</returns>
+            <param name="offset">A byte offset relative to the origin parameter.</param>
+            <param name="origin">A value of type SeekOrigin indicating the reference point used to obtain the new position.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.SetLength(System.Int64)">
+            <summary>Sets the length of the current stream.</summary>
+            <param name="value">The desired length of the current stream in bytes.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.SignalEndOfData">
+            <summary>Simulates an "end of stream" condition, which makes the Read method return 0 as the number of bytes read.</summary>
+            <remarks>    This method simulates the end of the stream. Because this     class implements a "pipe" the stream doesn't have a real "end".     As such, you are free to continue using the class instance     after calling this method. You can continue simulating "end of     streams" indefinitely.     This method only simulates an end of stream, the stream     is still valid. Close() is not called as part of the     implementation of this method.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.PipeStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.</summary>
+            <param name="buffer">An array of bytes. This method copies count bytes from buffer to the current stream.</param>
+            <param name="offset">The zero-based byte offset in buffer at which to begin copying bytes to the current stream.</param>
+            <param name="count">    The number of bytes to be written to the current     stream.</param>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.PipeStream.CanRead">
+            <summary>Gets a value indicating whether the current stream supports reading.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.PipeStream.CanSeek">
+            <summary>Gets a value indicating whether the current stream supports seeking.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.PipeStream.Length">
+            <summary>Gets a value indicating whether the current stream supports writing.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.PipeStream.Position">
+            <summary>Gets or sets the position within the current stream.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipEndHeader">
+            <summary>Class that represents the "Ending Header" of a Zip file. This header allows you to specify a comment for the zip file.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipEndHeader.#ctor">
+            <summary>Initializes a new instance of the ZipEndHeader class.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipEndHeader.ZipComment">
+            <summary>Gets or sets the zip file's comment.</summary>
+            <remarks>The zip comment can only contain ANSI characters and cannot exceed 65535 characters.</remarks>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipItemLocalHeader">
+            <summary>Represents the local header of a zip file.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.#ctor">
+            <summary> Initializes a new instance of the ZipItemLocalHeader class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.#ctor(System.String)">
+            <summary> Initializes a new instance of the  ZipItemLocalHeader class, using the provided file name.</summary>
+            <param name="fileName"> A string representing the file name of the item in the Zip file.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.#ctor(System.String,Xceed.Compression.CompressionMethod,Xceed.Compression.CompressionLevel)">
+            <summary> Initializes a new instance of the  ZipItemLocalHeader class, using the provided file name and the compression method and level.</summary>
+            <param name="fileName"> A string representing the file name of the item in the Zip file.</param>
+            <param name="compressionMethod"> A  CompressionMethod value indicating the compression method used on the file.</param>
+            <param name="compressionLevel"> A  CompressionLevel value indicating the compression level used on the file.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.#ctor(System.String,Xceed.Compression.CompressionMethod,Xceed.Compression.CompressionLevel,Xceed.Zip.EncryptionMethod,System.String)">
+            <summary> Initializes a new instance of the  ZipItemLocalHeader class, using the provided file name, the compression method and level, and the encryption method and password.</summary>
+            <param name="fileName"> A string representing the file name of the item in the Zip file.</param>
+            <param name="compressionMethod"> A  CompressionMethod value indicating the compression method used on the file.</param>
+            <param name="compressionLevel"> A  CompressionLevel value indicating the compression level used on the file.</param>
+            <param name="encryptionMethod"> An EncryptionMethod value indicating the encryption method used on the item in the Zip file.</param>
+            <param name="encryptionPassword"> A string representing the password to use to encrypt or decrypt the iem in the Zip file.</param>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.CompressionLevel">
+            <summary> Gets or sets the compression level used to compress the file.</summary>
+            <remarks> The  compression level only applies to the Deflated and Deflated64  compression methods. It does not apply to the BZip2 or BWTcompression methods. When  EncryptionMethod is set to WinZipAes, the compression level cannot be read with this property.</remarks>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.CompressionMethod">
+            <summary> Gets or sets the compression method used to compress the file.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.EncryptionMethod">
+            <summary> Gets or sets the encryption method used on the item in the Zip file.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.EncryptionPassword">
+            <summary> An EncryptionMethod value indicating the encryption method used on the item in the Zip file.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipItemLocalHeader.FileName">
+            <summary> Gets or sets the name of the item in the Zip file.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipReader">
+            <summary> Represents an object used to read a Zip file passed to it as a stream.</summary>
+            <remarks>         Regardless of the compression method that is used, it is not     possible to read 0-byte files.          Calling this method is optional. You only need to call this     method if you want to access the     ZipEndHeader.          With the returned ZipEndHeader object, you can     access the zip comment.          It is only valid to call this method once all the files have     been read from the stream (i.e., when     ReadItemLocalHeader) returns $$NULL$$.     Otherwise, the method will throw a     InvalidOperationException     exception.          The method will only return a ZipEndHeader     object the first time it is called. After that the stream will     have been read past the "Ending www.xceed.comHeader" and the     method will return $$NULL$$.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReader.#ctor">
+            <summary> Initializes a new instance of the ZipReader class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReader.#ctor(System.IO.Stream)">
+            <summary> Initializes a new instance of the ZipReader class, using the provided stream.</summary>
+            <param name="innerStream"> A Stream object representing a Zip file.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReader.#ctor(System.IO.Stream,System.String)">
+            <summary> Initializes a new instance of the ZipReader class, using the provided stream and password.</summary>
+            <param name="innerStream"> A Stream object representing a Zip file.</param>
+            <param name="encryptionPassword"> The password used to encrypt the Zip file.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReader.ReadEndHeader">
+            <summary>Reads the "Ending Header" in the zip stream and returns a ZipEndHeader object.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReader.ReadItemData(System.Byte[],System.Int32,System.Int32)">
+            <summary> Reads a sequence of bytes from the ZipReader's stream and advances the position within by the number of bytes read.</summary>
+            <returns> The total number of bytes read into buffer. This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.</returns>
+            <remarks> Regardless of the compression method that is used, it is not possible to read 0-byte files.</remarks>
+            <param name="buffer"> An array of bytes. When this method returns, buffer contains the specified byte array with the values between offset and (offset + count - 1) replaced by the bytes read from the current item in the Zip archive.</param>
+            <param name="offset"> The zero-based byte offset in buffer at which to begin storing the data read from the ZipReader's stream .</param>
+            <param name="count"> The maximum number of bytes to be read from the ZipReader's stream.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReader.ReadItemLocalHeader">
+            <summary> Reads the local header of the current item from the Zip file.</summary>
+            <returns> A  ZipItemLocalHeader object representing the local header of the current item.</returns>
+            <remarks> Regardless of the compression method that is used, it is not possible to read 0-byte files.</remarks>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReader.EncryptionPassword">
+            <summary>Gets or sets the encryption password that will be used to decrypt the files that are read from the zip stream.</summary>
+        </member>
+        <member name="E:Xceed.Zip.ReaderWriter.ZipReader.ByteProgression">
+            <summary> Raised when  ReadItemData has been called.</summary>
+        </member>
+        <member name="E:Xceed.Zip.ReaderWriter.ZipReader.InvalidPassword">
+            <summary> Raised when the supplied password is invalid.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs">
+            <summary> Provides byte progression information.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.#ctor">
+            <summary> Initializes a new instance of the  ZipReaderByteProgressionEventArgs argument class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.#ctor(Xceed.Zip.ReaderWriter.ZipItemLocalHeader,System.Int64)">
+            <summary> Initializes a new instance of the  ZipReaderByteProgressionEventArgs argument class.</summary>
+            <param name="zipItemLocalHeader"> A  ZipItemLocalHeader object representing the item currently being processed.</param>
+            <param name="bytesProcessed"> A value representing the numer of items processed so far.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.#ctor(Xceed.Zip.ReaderWriter.ZipItemLocalHeader,System.Int64,System.Int64)">
+            <summary> Initializes a new instance of the  ZipReaderByteProgressionEventArgs argument class.</summary>
+            <param name="zipItemLocalHeader"> A  ZipItemLocalHeader object representing the item currently being processed.</param>
+            <param name="bytesProcessed"> A value representing the numer of items processed so far.</param>
+            <param name="totalBytesCount"> A value representing the total number of bytes currently processed.</param>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.BytesProcessed">
+            <summary> Gets the number of bytes processed of the current file.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.Percent">
+            <summary> Gets the percentage of the current file that has been processed.</summary>
+            <remarks> Because Xceed Real-Time Zip for .NET cannot perform a backwards seek, the compressed/uncompressed sizes cannot be written to the Zip archive it creates. As a result, when reading archives created by this product (or whenever the compressed/uncompressed sizes are otherwise unavailable),  UncompressedSize returns -1 and Percent returns 0.</remarks>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.UncompressedSize">
+            <summary> Gets the uncompressed size of the current file.</summary>
+            <remarks> Because Xceed Real-Time Zip for .NET cannot perform a backwards seek, the compressed/uncompressed sizes cannot be written to the Zip archive it creates. As a result, when reading archives created by this product (or whenever the compressed/uncompressed sizes are otherwise unavailable), UncompressedSize returns -1 and  Percent returns 0.</remarks>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderByteProgressionEventArgs.ZipItemLocalHeader">
+            <summary> Gets the local header of the item currently being processed.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipReaderException">
+            <summary> Exception that is thrown when an exception occurs while reading from the Zip file.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderException.#ctor">
+            <summary>Initializes a new instance of the ZipReaderException class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderException.#ctor(System.String)">
+            <summary> Initializes a new instance of the ZipReaderException class with the specified message text.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderException.#ctor(System.String,System.Exception)">
+            <summary> Initializes a new instance of the ZipReaderException class with the specified message text and inner exception.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+            <param name="innerException">The inner exception.</param>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipReaderInvalidPasswordEventArgs">
+            <summary> Provides information for use when an invalid password has been supplied.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipReaderInvalidPasswordEventArgs.#ctor(Xceed.Zip.ReaderWriter.ZipItemLocalHeader)">
+            <summary> Initializes a new instances of the  ZipReaderInvalidPasswordEventArgs class.</summary>
+            <param name="zipItemLocalHeader"> A  ZipItemLocalHeader object.</param>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderInvalidPasswordEventArgs.Abort">
+            <summary> Gets or sets a boolean value indicating whether the Zip read operation should be aborted.</summary>
+            <remarks> The entire Zip read process is aborted. That is, the current file being read is not simply skipped.</remarks>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderInvalidPasswordEventArgs.NewPassword">
+            <summary> Gets or sets the new password to be used during the Zip read operation.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderInvalidPasswordEventArgs.OldPassword">
+            <summary> Gets the current password.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipReaderInvalidPasswordEventArgs.ZipItemLocalHeader">
+            <summary> Gets the local header of the item currently being read.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipWriter">
+            <summary> Represents an object used to create and write to a Zip file passed to it as a stream.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.#ctor(System.IO.Stream)">
+            <summary> Initializes a new instance of the ZipWriter class.</summary>
+            <param name="innerStream"> A Stream object representing a Zip file.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.CloseZipFile">
+            <summary> Closes the Zip file by writing the data descriptor for the last item and then writing the central header, the end header locator (optionally, for Zip64), and the end header.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.CloseZipFile">
+            <summary> Closes the Zip file by writing the data descriptor for the last item and then writing the central header, the end header locator (optionally, for Zip64), and the end header.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.CloseZipFile(Xceed.Zip.ReaderWriter.ZipEndHeader)">
+            <summary>Closes the Zip file by writing the data descriptor for the last item and then writing the central header, the end header locator, and the specified end header.</summary>
+            <remarks>The specified end header contains the ZipComment property which allows you to set a comment for the zip file.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.WriteItemData">
+            <summary> Writes a sequence of bytes to the ZipWriter object's stream and advances the position within the stream by the number of bytes written.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.WriteItemData(System.Byte[],System.Int32,System.Int32)">
+            <summary> Writes a sequence of bytes to the ZipWriter object's stream and advances the position within the stream by the number of bytes written.</summary>
+            <param name="buffer"> An array of bytes. This method copies count bytes from buffer to the ZipWriter object's stream.</param>
+            <param name="offset"> The zero-based byte offset in buffer at which to begin copying bytes to the ZipWriter object's stream.</param>
+            <param name="count"> The number of bytes to be written to the ZipWriter object's stream.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.WriteItemData(System.IO.Stream)">
+            <summary>Writes the entire contents of a stream to the ZipWriter object's stream.</summary>
+            <remarks>The specified stream must support reading. It is not necessary for the stream to support seeking or writing. The specified stream is read using a 8kb buffer until the end of the stream is reached. The method does not close specified stream.</remarks>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriter.WriteItemLocalHeader(Xceed.Zip.ReaderWriter.ZipItemLocalHeader)">
+            <summary> Writes a local header to the Zip file.</summary>
+            <param name="zipItemLocalHeader"> A  ZipItemLocalHeader object representing a local header to write to the Zip file.</param>
+        </member>
+        <member name="E:Xceed.Zip.ReaderWriter.ZipWriter.ByteProgression">
+            <summary> Raised when  WriteItemData has been called.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipWriterByteProgressionEventArgs">
+            <summary> Provides byte progression information.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriterByteProgressionEventArgs.#ctor(Xceed.Zip.ReaderWriter.ZipItemLocalHeader,System.Int64)">
+            <summary> Initializes a new instance of the  ZipWriterByteProgressionEventArgs class.</summary>
+            <param name="zipItemLocalHeader"> A  ZipItemLocalHeader object representing the item currently being processed.</param>
+            <param name="bytesProcessed"> A value representing the numer of items processed so far.</param>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipWriterByteProgressionEventArgs.BytesProcessed">
+            <summary> Gets the number of bytes processed of the current file.</summary>
+        </member>
+        <member name="P:Xceed.Zip.ReaderWriter.ZipWriterByteProgressionEventArgs.ZipItemLocalHeader">
+            <summary> Gets the local header of the item currently being processed.</summary>
+        </member>
+        <member name="T:Xceed.Zip.ReaderWriter.ZipWriterException">
+            <summary> Exception that is thrown when an exception occurs while writing to the Zip file.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriterException.#ctor">
+            <summary>Initializes a new instance of the ZipWriterException class.</summary>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriterException.#ctor(System.String)">
+            <summary> Initializes a new instance of the ZipWriterException class with the specified message text.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="M:Xceed.Zip.ReaderWriter.ZipWriterException.#ctor(System.String,System.Exception)">
+            <summary> Initializes a new instance of the ZipWriterException class with the specified message text and inner exception.</summary>
+            <param name="message"> The error message that explains the reason for the exception.</param>
+            <param name="innerException">The inner exception.</param>
+        </member>
+    </members>
+</doc>
