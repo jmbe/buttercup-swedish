@@ -2,3 +2,5 @@ ClientBin
 obj
 Bin
 bin
+*.suo
+*.csproj.user
