@@ -1,0 +1,21 @@
+ButtercupReader Swedish
+------------------------
+This is NOT the official ButtercupReader. The official version created by Andrew Tokeley and team can be found at http://www.buttercupreader.net/.
+
+This version intends to adapt ButtercupReader for Bliss users, and provide a Swedish localized version.
+
+
+Dependencies
+------------
+
+For Visual Studio 2008
+======================
+Microsoft Visual Studio 2008 Service Pack 1
+http://www.microsoft.com/downloads/en/details.aspx?FamilyId=FBEE1648-7106-44A7-9649-6D9F6D58056E&displaylang=en
+
+Microsoft Silverlight 3 Tools for Visual Studio 2008 SP1
+http://www.microsoft.com/downloads/en/details.aspx?familyid=9442b0f2-7465-417a-88f3-5e7b5409e9dd&displaylang=en
+
+Silverlight 3 Toolkit November 2009
+http://silverlight.codeplex.com/releases/view/36060
+
