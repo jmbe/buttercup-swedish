@@ -25,17 +25,6 @@
                     AutomationProperties.Name="Contrast Scheme"
 					BorderBrush="{Binding Path=DefaultForeground}"
 					Background="{x:Null}">
-                <bc:ExtendedListBoxItem x:Name="contrastWhiteonBlue" Style="{StaticResource tickListItem}" Tag="WhiteTextOnBlue"
-						Background="{Binding Path=DefaultBackground}"
-						Foreground="{Binding Path=DefaultForeground}"
-                        AutomationProperties.Name="Contrast: White Text on Blue Background"
-                        AutomationProperties.HelpText="Change the buttercup contrast scheme using the Up and Down arrow keys."
-						GotFocus="SpeakContrastSchemesOnFocus">
-                    <Border Background="#000f5f" Padding="4,2,4,2">
-						<TextBlock TextWrapping="Wrap" Text="White Text on Blue Background"
-								Foreground="#ffffff"/>
-                    </Border>
-                </bc:ExtendedListBoxItem>
                 <bc:ExtendedListBoxItem x:Name="contrastBlackonWhite" Style="{StaticResource tickListItem}" Tag="BlackTextOnWhite"
 						Background="{Binding Path=DefaultBackground}"
 						Foreground="{Binding Path=DefaultForeground}"
@@ -46,6 +35,17 @@
 						<TextBlock TextWrapping="Wrap" Text="Black Text on White Background"
 								Foreground="#000000" />
 					</Border>
+                </bc:ExtendedListBoxItem>
+                <bc:ExtendedListBoxItem x:Name="contrastWhiteonBlue" Style="{StaticResource tickListItem}" Tag="WhiteTextOnBlue"
+						Background="{Binding Path=DefaultBackground}"
+						Foreground="{Binding Path=DefaultForeground}"
+                        AutomationProperties.Name="Contrast: White Text on Blue Background"
+                        AutomationProperties.HelpText="Change the buttercup contrast scheme using the Up and Down arrow keys."
+						GotFocus="SpeakContrastSchemesOnFocus">
+                    <Border Background="#000f5f" Padding="4,2,4,2">
+                        <TextBlock TextWrapping="Wrap" Text="White Text on Blue Background"
+								Foreground="#ffffff"/>
+                    </Border>
                 </bc:ExtendedListBoxItem>
                 <bc:ExtendedListBoxItem x:Name="contrastYellowonBlack" Style="{StaticResource tickListItem}" Tag="YellowTextOnBlack"
 						Background="{Binding Path=DefaultBackground}"

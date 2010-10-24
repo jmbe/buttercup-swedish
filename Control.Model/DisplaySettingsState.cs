@@ -23,7 +23,7 @@ namespace Buttercup.Control.Model
         public DisplaySettingsState()
         {
             InterfaceSize = 12;
-            ContrastScheme = ContrastLevel.WhiteTextOnBlue;
+            ContrastScheme = ContrastLevel.BlackTextOnWhite;
 
             //On PCs that run Windows, the HighContrast property is true when the user has enabled High Contrast in Control Panel. 
             //On Macintosh computers, HighContrast is true when the user has selected the White on Blackoption in Universal Access.

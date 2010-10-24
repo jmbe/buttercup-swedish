@@ -6,13 +6,14 @@
     public enum ContrastLevel
     {
         /// <summary>
-        /// Default contrast scheme - White text on dark blue background
-        /// </summary>
-        WhiteTextOnBlue,
-        /// <summary>
-        /// Black text on white background
+        /// Default contrast scheme - Black text on white background
         /// </summary>
         BlackTextOnWhite,
+        /// <summary>
+        /// White text on dark blue background
+        /// </summary>
+        
+        WhiteTextOnBlue,
         /// <summary>
         /// Yellow text on black background
         /// </summary>
