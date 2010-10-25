@@ -19,3 +19,9 @@ http://www.microsoft.com/downloads/en/details.aspx?familyid=9442b0f2-7465-417a-8
 Silverlight 3 Toolkit November 2009
 http://silverlight.codeplex.com/releases/view/36060
 
+
+Logging
+=======
+Turn on logging in Buttercup.htm by appending &log=true to the url
+Look at the log file by the name buttercup.log in a subdirectory of 
+%AppData%/LocalLow/Microsoft/Silverlight
