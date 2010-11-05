@@ -80,7 +80,7 @@ namespace Control.MVP.Presenters
             _state.PresentPhrase = PlayPhrase;
             
             _timer = new DispatcherTimer();
-            _timer.Interval = new TimeSpan(0, 0, 10);
+            _timer.Interval = new TimeSpan(0, 0, 0);
             _timer.Tick += new EventHandler(MoveNextEvent);
         }
 
