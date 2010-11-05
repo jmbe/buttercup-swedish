@@ -1,8 +1,7 @@
 ﻿<UserControl x:Class="Buttercup.Control.Player"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-    xmlns:bc="clr-namespace:Buttercup.Control"
-    >
+    xmlns:bc="clr-namespace:Buttercup.Control">
     
     <Grid x:Name="LayoutRoot" ShowGridLines="False">
         <Grid.ColumnDefinitions>
@@ -10,6 +9,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -112,6 +112,8 @@
                 <bc:ExtendedToolTip Content="Slide to Adjust Volume (J to decrease, K to increase)"></bc:ExtendedToolTip>
             </ToolTipService.ToolTip>
         </bc:MediaVolumeSlider>
+        
+        <TextBox Name="PlayerSpeed" Grid.Row="4" Grid.ColumnSpan="2" />
         
         <MediaElement x:Name="AudioPlayer" AutoPlay="False" />
     </Grid>
