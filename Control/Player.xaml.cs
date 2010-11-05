@@ -80,6 +80,8 @@ namespace Buttercup.Control
 			VolumeSlider.ThumbDragCompleted += VolumeSlider_ThumbDragCompleted;
 			ApplicationVoice.MainInstance.PhraseFinished += MainInstance_PhraseFinished;
 
+            PlayerSpeed.ValueChanged += PlayerSpeed_SpeedChanged;
+           
 			_appVoiceSpeaking = false; //initially false
 			_selfVoicingEnabled = true;
 			_isVoicePlaying = false;
@@ -917,6 +919,11 @@ namespace Buttercup.Control
 			ChangeVolume(VolumeSlider.Value);
 		}
 
-		#endregion Methods 
+        private void PlayerSpeed_SpeedChanged(object sender, EventArgs e)
+        {
+            _presenter.SpeedChanged(System.Convert.ToInt32(PlayerSpeed.Value));
+        }
+
+        #endregion Methods 
 	}
 }

@@ -8,6 +8,7 @@ using Buttercup.Control.UI;
 using Control.MVP.Views;
 using Control.UI;
 using Control.UI.Gestures;
+using System.Windows.Threading;
 
 namespace Control.MVP.Presenters
 {
@@ -18,6 +19,8 @@ namespace Control.MVP.Presenters
         private readonly ApplicationPresenter _mainPresenter;
         private const string _SMIL_REF_ATTR_NAME = "smilref";
         private readonly PlayerState _state;
+
+        private DispatcherTimer _timer;
 
 		#endregion Fields 
 
@@ -75,6 +78,10 @@ namespace Control.MVP.Presenters
             base.MainState = mainState;
             _state = MainState.PlayerState;
             _state.PresentPhrase = PlayPhrase;
+            
+            _timer = new DispatcherTimer();
+            _timer.Interval = new TimeSpan(0, 0, 0);
+            _timer.Tick += new EventHandler(MoveNextEvent);
         }
 
 		#endregion Constructors 
@@ -255,7 +262,9 @@ namespace Control.MVP.Presenters
         {
             if (_state.Navigator != null)
             {
-                _state.Navigator.MoveNext();
+                _timer.Start();
+
+                /*_state.Navigator.MoveNext();
 
                 SetCurrentSectionHeading();
 
@@ -264,7 +273,21 @@ namespace Control.MVP.Presenters
                     // 1. Set the highlight on the Surface to the CurrentPosition
                     HighlightCurrentPosition();
                     TryPlay();
-                }
+                }*/
+            }
+        }
+
+        private void MoveNextEvent(object sender, EventArgs e)
+        {
+            _state.Navigator.MoveNext();
+
+            SetCurrentSectionHeading();
+
+            if (_state.IsPlaying)
+            {
+                // 1. Set the highlight on the Surface to the CurrentPosition
+                HighlightCurrentPosition();
+                TryPlay();
             }
         }
 
@@ -673,6 +696,7 @@ namespace Control.MVP.Presenters
         /// </summary>
         internal void TryPlay()
         {
+            _timer.Stop();
             //Abort playing if at the end of the book.
             if (_state.Navigator != null && _state.Navigator.AtEndOfBook)
             {
@@ -700,6 +724,13 @@ namespace Control.MVP.Presenters
             }
         }
 
+        public void SpeedChanged(int speed)
+        {
+            _timer.Interval = new TimeSpan(0, 0, speed);            
+        }
+
 		#endregion Methods 
     }
+
+ 
 }
