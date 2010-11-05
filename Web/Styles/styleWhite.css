@@ -1,5 +1,5 @@
 ﻿body.white {
-    background: #ffffff url(../images/bgPageWhite.gif) repeat-x top left;
+    background: #ffffff url(../Images/bgPageWhite.gif) repeat-x top left;
     color: black;
 }
 
@@ -11,7 +11,7 @@ body.white a:hover {
 }
 
 body.white a.logo {
-    background: transparent url(../images/logoButterCupBlack.png) no-repeat;
+    background: transparent url(../Images/logoButterCupBlack.png) no-repeat;
 }
 
 body.white div.switcherWrapper {
@@ -31,34 +31,34 @@ body.white ul.navbarList li a:hover {
 
 body.white li.navbarItemHome a, 
 body.white li.navbarItemHome a:visited {
-    background: transparent url(../images/iconHomeBlack.png) no-repeat;
+    background: transparent url(../Images/iconHomeBlack.png) no-repeat;
 }body.white li.navbarItemHome a.current, 
 body.white li.navbarItemHome a:hover {
-    background: transparent url(../images/iconHomeHover.png) no-repeat;
+    background: transparent url(../Images/iconHomeHover.png) no-repeat;
 } 
 
 body.white li.navbarItemAbout a, 
 body.white li.navbarItemAbout a:visited {
-    background: transparent url(../images/iconAboutBlack.png) no-repeat;
+    background: transparent url(../Images/iconAboutBlack.png) no-repeat;
 }body.white li.navbarItemAbout a.current, 
 body.white li.navbarItemAbout a:hover {
-    background: transparent url(../images/iconAboutHover.png) no-repeat;
+    background: transparent url(../Images/iconAboutHover.png) no-repeat;
 } 
 
 body.white li.navbarItemUserGuide a, 
 body.white li.navbarItemUserGuide a:visited {
-    background: transparent url(../images/iconGuideBlack.png) no-repeat;
+    background: transparent url(../Images/iconGuideBlack.png) no-repeat;
 }body.white li.navbarItemUserGuide a.current, 
 body.white li.navbarItemUserGuide a:hover {
-    background: transparent url(../images/iconGuideHover.png) no-repeat;
+    background: transparent url(../Images/iconGuideHover.png) no-repeat;
 } 
 
 body.white li.navbarItemFeedback a, 
 body.white li.navbarItemFeedback a:visited {
-    background: transparent url(../images/iconFeedbackBlack.png) no-repeat;
+    background: transparent url(../Images/iconFeedbackBlack.png) no-repeat;
 }body.white li.navbarItemFeedback a.current, 
 body.white li.navbarItemFeedback a:hover {
-    background: transparent url(../images/iconFeedbackHover.png) no-repeat;
+    background: transparent url(../Images/iconFeedbackHover.png) no-repeat;
 } 
 
 /*QUICKLIST STRUCTURE*/
@@ -72,22 +72,22 @@ body.white ul.quickList li a:hover {
 }
 body.white ul.quickList li.quickListUserGuide a,
 body.white ul.quickList li.quickListUserGuide a:visited {
-    background: transparent url(../images/iconAboutBlack.png) no-repeat 5px;
+    background: transparent url(../Images/iconAboutBlack.png) no-repeat 5px;
 }body.white ul.quickList li.quickListUserGuide a.current, 
 body.white ul.quickList li.quickListUserGuide a:hover {
-    background: transparent url(../images/iconAboutHover.png) no-repeat 5px;
+    background: transparent url(../Images/iconAboutHover.png) no-repeat 5px;
 } 
 body.white ul.quickList li.quickListOpen a,
 body.white ul.quickList li.quickListOpen a:visited {
-    background: transparent url(../images/iconOpenBlack.png) no-repeat;
+    background: transparent url(../Images/iconOpenBlack.png) no-repeat;
 }body.white ul.quickList li.quickListOpen a.current, 
 body.white ul.quickList li.quickListOpen a:hover {
-    background: transparent url(../images/iconOpenHover.png) no-repeat;
+    background: transparent url(../Images/iconOpenHover.png) no-repeat;
 }
 body.white ul.quickList li.quickListReadBook a,
 body.white ul.quickList li.quickListReadBook a:visited {
-    background: transparent url(../images/iconPlayBlack.png) no-repeat 5px;
+    background: transparent url(../Images/iconPlayBlack.png) no-repeat 5px;
 }body.white ul.quickList li.quickListReadBook a.current, 
 body.white ul.quickList li.quickListReadBook a:hover {
-    background: transparent url(../images/iconPlayHover.png) no-repeat 5px;
+    background: transparent url(../Images/iconPlayHover.png) no-repeat 5px;
 }

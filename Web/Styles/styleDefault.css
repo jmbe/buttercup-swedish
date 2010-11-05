@@ -48,28 +48,28 @@ li.navbarItemHome a,
 li.navbarItemHome a:visited {
 }li.navbarItemHome a.current, 
 li.navbarItemHome a:hover {
-    background: transparent url(../images/iconHomeHover.png) no-repeat;
+    background: transparent url(../Images/iconHomeHover.png) no-repeat;
 } 
 
 li.navbarItemAbout a, 
 li.navbarItemAbout a:visited {
 }li.navbarItemAbout a.current, 
 li.navbarItemAbout a:hover {
-    background: transparent url(../images/iconAboutHover.png) no-repeat;
+    background: transparent url(../Images/iconAboutHover.png) no-repeat;
 } 
 
 li.navbarItemUserGuide a, 
 li.navbarItemUserGuide a:visited {
 }li.navbarItemUserGuide a.current, 
 li.navbarItemUserGuide a:hover {
-    background: transparent url(../images/iconGuideHover.png) no-repeat;
+    background: transparent url(../Images/iconGuideHover.png) no-repeat;
 } 
 
 li.navbarItemFeedback a, 
 li.navbarItemFeedback a:visited {
 }li.navbarItemFeedback a.current, 
 li.navbarItemFeedback a:hover {
-    background: transparent url(../images/iconFeedbackHover.png) no-repeat;
+    background: transparent url(../Images/iconFeedbackHover.png) no-repeat;
 } 
 
 /*QUICKLIST STRUCTURE*/
@@ -83,24 +83,24 @@ ul.quickList li a:hover {
 }
 ul.quickList li.quickListUserGuide a,
 ul.quickList li.quickListUserGuide a:visited {
-    background: transparent url(../images/iconAboutWhite.png) no-repeat 5px;
+    background: transparent url(../Images/iconAboutWhite.png) no-repeat 5px;
 }ul.quickList li.quickListUserGuide a.current, 
 ul.quickList li.quickListUserGuide a:hover {
-    background: transparent url(../images/iconAboutHover.png) no-repeat 5px;
+    background: transparent url(../Images/iconAboutHover.png) no-repeat 5px;
 } 
 ul.quickList li.quickListOpen a,
 ul.quickList li.quickListOpen a:visited {
-    background: transparent url(../images/iconOpenWhite.png) no-repeat;
+    background: transparent url(../Images/iconOpenWhite.png) no-repeat;
 }ul.quickList li.quickListOpen a.current, 
 ul.quickList li.quickListOpen a:hover {
-    background: transparent url(../images/iconOpenHover.png) no-repeat;
+    background: transparent url(../Images/iconOpenHover.png) no-repeat;
 }
 ul.quickList li.quickListReadBook a,
 ul.quickList li.quickListReadBook a:visited {
-    background: transparent url(../images/iconHomeWhite.png) no-repeat 5px;
+    background: transparent url(../Images/iconHomeWhite.png) no-repeat 5px;
 }ul.quickList li.quickListReadBook a.current, 
 ul.quickList li.quickListReadBook a:hover {
-    background: transparent url(../images/iconHomeHover.png) no-repeat 5px;
+    background: transparent url(../Images/iconHomeHover.png) no-repeat 5px;
 }
 
 

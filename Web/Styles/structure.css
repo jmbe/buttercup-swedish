@@ -102,11 +102,11 @@ hr.subHeadingDivider
 {
 	padding-top: 2px;
 	padding-left: 2px;
-	background: url(../images/bl.png) left bottom no-repeat;
+	background: url(../Images/bl.png) left bottom no-repeat;
 }
 .yellowBorderThree
 {
-	background: url(../images/ff.png) right bottom no-repeat;
+	background: url(../Images/ff.png) right bottom no-repeat;
 	padding-bottom: 2px;
 	padding-right: 2px;
 	margin-left: 2px;
@@ -117,7 +117,7 @@ hr.subHeadingDivider
 	position: relative;
 	left: -4px;
 	top: -4px;
-	background: url(../images/ff.png) left top no-repeat;
+	background: url(../Images/ff.png) left top no-repeat;
 }
 .yellowBorderFive
 {
