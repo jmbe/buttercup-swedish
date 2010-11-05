@@ -113,7 +113,7 @@
             </ToolTipService.ToolTip>
         </bc:MediaVolumeSlider>
         
-        <TextBox Name="PlayerSpeed" Grid.Row="4" Grid.ColumnSpan="2" />
+        <Slider Name="PlayerSpeed" Grid.Row="4" Grid.ColumnSpan="2" Minimum="0" Maximum="5" />
         
         <MediaElement x:Name="AudioPlayer" AutoPlay="False" />
     </Grid>
